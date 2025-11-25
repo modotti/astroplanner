@@ -1,0 +1,7 @@
+{
+  "name": "astroplanner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
