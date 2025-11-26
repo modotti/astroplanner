@@ -35,3 +35,52 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import '@ionic/angular/css/palettes/dark.system.css';
+
+/* Fonts */
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/../assets/fonts/ZillaSlab-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/../assets/fonts/ZillaSlab-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/../assets/fonts/ZillaSlab-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/../assets/fonts/ZillaSlab-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/../assets/fonts/ZillaSlab-Bold.ttf') format('truetype');
+}
+
+* {
+  font-family: 'Zilla Slab', serif;
+}
+
+/* fontawesme */
+@import 'assets/fontawesome/css/all.min.css';

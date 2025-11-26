@@ -1,2 +1,65 @@
 // For information on how to create your own theme, please refer to:
 // https://ionicframework.com/docs/theming/
+
+/* Dark Theme */
+/* Dark Theme – AstroPlanner */
+
+body.dark {
+  /* Cor primária (botões, destaques, etc.) */
+  --ion-color-primary: #E80E4F;
+  --ion-color-primary-rgb: 232, 14, 79;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #cc0c46;
+  --ion-color-primary-tint: #ec356a;
+
+  /* Mantive as outras mais neutras, mas já harmonizando um pouco */
+  --ion-color-secondary: #50c8ff;
+  --ion-color-secondary-rgb: 80, 200, 255;
+
+  --ion-color-tertiary: #a64dff;
+  --ion-color-tertiary-rgb: 166, 77, 255;
+
+  --ion-color-success: #2fdf75;
+  --ion-color-success-rgb: 47, 223, 117;
+
+  --ion-color-warning: #ffc409;
+  --ion-color-warning-rgb: 255, 196, 9;
+
+  --ion-color-danger: #eb445a;
+  --ion-color-danger-rgb: 235, 68, 90;
+
+  --ion-color-medium: #989aa2;
+  --ion-color-medium-rgb: 152, 154, 162;
+
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244, 245, 248;
+
+  /* Fundo e texto – dark mesmo, estilo app de observação */
+  --ion-background-color: #121212;
+  --ion-background-color-rgb: 18, 18, 18;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255, 255, 255;
+
+  /* Steps – usados em bordas, listas, etc. */
+  --ion-color-step-50: #1e1e1e;
+  --ion-color-step-100: #2a2a2a;
+  --ion-color-step-150: #363636;
+  --ion-color-step-200: #424242;
+  --ion-color-step-250: #4e4e4e;
+  --ion-color-step-300: #5a5a5a;
+  --ion-color-step-350: #666666;
+  --ion-color-step-400: #727272;
+  --ion-color-step-450: #7e7e7e;
+  --ion-color-step-500: #8a8a8a;
+  --ion-color-step-550: #969696;
+  --ion-color-step-600: #a2a2a2;
+  --ion-color-step-650: #aeaeae;
+  --ion-color-step-700: #bababa;
+  --ion-color-step-750: #c6c6c6;
+  --ion-color-step-800: #d2d2d2;
+  --ion-color-step-850: #dedede;
+  --ion-color-step-900: #eaeaea;
+  --ion-color-step-950: #f6f6f6;
+}
