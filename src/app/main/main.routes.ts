@@ -9,17 +9,17 @@ export const routes: Routes = [
       {
         path: 'home',
         loadComponent: () =>
-          import('../home/home.page').then((m) => m.HomePage),
+          import('../main/home/home.page').then((m) => m.HomePage),
       },
       {
         path: 'targets',
         loadComponent: () =>
-          import('../targets/targets.page').then((m) => m.TargetsPage),
+          import('../main/targets/targets.page').then((m) => m.TargetsPage),
       },
       {
         path: 'tab3',
         loadComponent: () =>
-          import('../tab3/tab3.page').then((m) => m.Tab3Page),
+          import('../main/tab3/tab3.page').then((m) => m.Tab3Page),
       },
       {
         path: '',
