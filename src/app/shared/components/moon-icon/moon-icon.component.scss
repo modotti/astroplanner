@@ -1,0 +1,13 @@
+.moon-icon {
+  display: block;
+}
+
+/* parte iluminada - usa tua cor de destaque */
+.moon-light {
+  fill: #e80e4f; // tua “cor da lua”
+}
+
+/* sombra - usa o mesmo tom do background do card */
+.moon-shadow {
+  fill: #111111; // ou o bg do widget
+}

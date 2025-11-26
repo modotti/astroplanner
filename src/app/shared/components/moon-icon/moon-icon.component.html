@@ -1,0 +1,33 @@
+<svg
+  class="moon-icon"
+  [attr.viewBox]="'0 0 ' + (radius * 2) + ' ' + (radius * 2)"
+  [attr.width]="size"
+  [attr.height]="size"
+  style="transform: rotate(-30deg);"
+>
+  <defs>
+    <!-- disco da lua -->
+    <clipPath [attr.id]="clipId">
+      <circle [attr.cx]="radius" [attr.cy]="radius" [attr.r]="radius" />
+    </clipPath>
+  </defs>
+
+  <!-- tudo que é lua fica cortado por esse disco -->
+  <g [attr.clip-path]="'url(#' + clipId + ')'">
+    <!-- lua cheia (parte iluminada) -->
+    <circle
+      class="moon-light"
+      [attr.cx]="radius"
+      [attr.cy]="radius"
+      [attr.r]="radius"
+    />
+
+    <!-- sombra (parte escura) -->
+    <circle
+      class="moon-shadow"
+      [attr.cx]="shadowCx"
+      [attr.cy]="radius"
+      [attr.r]="radius"
+    />
+  </g>
+</svg>

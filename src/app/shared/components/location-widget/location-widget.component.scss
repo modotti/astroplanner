@@ -1,0 +1,16 @@
+@import "src/theme/variables.scss";
+
+.location-widget {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+
+  .label {
+    color: gray;
+  }
+
+  .icon {
+    color: var(--ion-color-primary);
+    margin-left: 0.5rem;
+  }
+}

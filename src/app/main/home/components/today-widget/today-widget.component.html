@@ -1,0 +1,63 @@
+<div class="today-widget" *ngIf="date && moon && sun">
+
+  <div class="main-row">
+    <!-- Data -->
+    <div style="text-align: right;">
+      <div>
+        <span class="text-bold text-lg mr1">{{ date | date:'dd' }}</span>
+        <span class="text-md">{{ (date | date:'MMM') | lowercase }}</span>
+      </div>
+      <div>{{ (date | date:'EEEE') | lowercase }}</div>
+    </div>
+
+    <!-- Ícone da Lua -->
+    <div>
+      <app-moon-icon [illumination]="moonIllumination" [waxing]="isWaxingMoon" [size]="70">
+      </app-moon-icon>
+    </div>
+
+    <!-- Infos da Lua -->
+    <div>
+      <div class="text-bold text-md mr1">
+        {{ moonIlluminationPercent | number:'1.0-0' }}%
+      </div>
+      <div>
+        {{ moonPhaseName }}
+      </div>
+      <div>
+        <div *ngIf="moon.moonrise || moon.moonset">
+          <ng-container *ngIf="moon.moonrise">
+            <i class="fas fa-arrow-up fa-xs"></i>
+            {{ moon.moonrise | date:'HH:mm' }}
+          </ng-container>
+
+          <ng-container *ngIf="moon.moonrise && moon.moonset">
+            &nbsp;-&nbsp;
+          </ng-container>
+
+          <ng-container *ngIf="moon.moonset">
+            {{ moon.moonset | date:'HH:mm' }}
+            <i class="fas fa-arrow-down fa-xs"></i>
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Linha do Sol -->
+  <div class="sun-row">
+    <div *ngIf="sun.sunrise">
+      <i class="fas fa-arrow-up fa-xs"></i>
+      {{ sun.sunrise | date:'HH:mm' }}
+    </div>
+
+    <div>
+      <img src="assets/image/sunset.svg" style="width: 2rem; fill: white; color: white;" />
+    </div>
+
+    <div *ngIf="sun.sunset">
+      {{ sun.sunset | date:'HH:mm' }}
+      <i class="fas fa-arrow-down fa-xs"></i>
+    </div>
+  </div>
+</div>
