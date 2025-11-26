@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "source": "Telescopius export page 1/10",
+  "updatedAt": "2025-11-26",
+  "objects": [
+    {
+      "id": "m-42",
+      "catalogueEntry": "M 42",
+      "familiarName": "Orion Nebula",
+      "altNames": [
+        "NGC 1976",
+        "LBN 974",
+        "LBN 209.13-19.35",
+        "3C 145"
+      ],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 17",
+      "dec": "-05 23 24",
+      "magnitude": 4.0,
+      "size": "1.1º x 1.1º",
+      "surfaceBrightness": 22.0
+    },
+    {
+      "id": "ic-434",
+      "catalogueEntry": "IC 434",
+      "familiarName": "Horsehead Nebula",
+      "altNames": [],
+      "type": "Emission Nebula",
+      "constellation": "Orion",
+      "ra": "05 41 00",
+      "dec": "-02 30 00",
+      "magnitude": null,
+      "size": "1º x 10'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "c-49",
+      "catalogueEntry": "C 49",
+      "familiarName": "Rosette Nebula",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Monoceros",
+      "ra": "06 31 36",
+      "dec": "05 01 12",
+      "magnitude": 9.0,
+      "size": "1.3º",
+      "surfaceBrightness": 27.09
+    },
+    {
+      "id": "m-43",
+      "catalogueEntry": "M 43",
+      "familiarName": "De Mairan's Nebula",
+      "altNames": [
+        "NGC 1982"
+      ],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 31",
+      "dec": "-05 16 12",
+      "magnitude": 9.0,
+      "size": "20' x 15'",
+      "surfaceBrightness": 23.8
+    },
+    {
+      "id": "ngc-2239",
+      "catalogueEntry": "NGC 2239",
+      "familiarName": "Satellite Cluster",
+      "altNames": [
+        "NGC 2244",
+        "OCL 515",
+        "OCL 515.0",
+        "C 50",
+        "CL MELOTTE 47"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Monoceros",
+      "ra": "06 32 11",
+      "dec": "04 54 50",
+      "magnitude": 4.8,
+      "size": "28' x 28'",
+      "surfaceBrightness": 20.3
+    },
+    {
+      "id": "ngc-1977",
+      "catalogueEntry": "NGC 1977",
+      "familiarName": "Running Man Nebula",
+      "altNames": [
+        "NGC 1981",
+        "NGC 1973",
+        "LBN 978",
+        "LBN 209.30-19.62"
+      ],
+      "type": "Reflection Nebula",
+      "constellation": "Orion",
+      "ra": "05 35 16",
+      "dec": "-04 49 08",
+      "magnitude": null,
+      "size": "20'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc-2024",
+      "catalogueEntry": "NGC 2024",
+      "familiarName": "Flame Nebula",
+      "altNames": [
+        "SH 2-277",
+        "LBN 957",
+        "LBN 206.51-16.35"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Orion",
+      "ra": "05 41 42",
+      "dec": "-01 50 20",
+      "magnitude": 10.0,
+      "size": "30'",
+      "surfaceBrightness": 22.42
+    },
+    {
+      "id": "sh-2-279",
+      "catalogueEntry": "SH 2-279",
+      "familiarName": "Orion Loop",
+      "altNames": [],
+      "type": "Emission Nebula",
+      "constellation": "Orion",
+      "ra": "05 41 00",
+      "dec": "-02 27 00",
+      "magnitude": null,
+      "size": "2º x 2º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh-2-273",
+      "catalogueEntry": "SH 2-273",
+      "familiarName": "Rosette Nebula (Surrounding HII Region)",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Monoceros",
+      "ra": "06 33 00",
+      "dec": "04 59 00",
+      "magnitude": null,
+      "size": "2º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc-1893",
+      "catalogueEntry": "NGC 1893",
+      "familiarName": "",
+      "altNames": [
+        "OCL 438",
+        "C 31",
+        "CL MELLOTTE 35"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Auriga",
+      "ra": "05 22 42",
+      "dec": "33 24 18",
+      "magnitude": 7.5,
+      "size": "12'",
+      "surfaceBrightness": 20.09
+    },
+    {
+      "id": "ic-405",
+      "catalogueEntry": "IC 405",
+      "familiarName": "Flaming Star Nebula",
+      "altNames": [
+        "SH 2-229",
+        "LBN 795",
+        "LBN 172.16-02.02",
+        "CTB 16",
+        "C 31"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Auriga",
+      "ra": "05 17 24",
+      "dec": "34 23 00",
+      "magnitude": null,
+      "size": "30' x 20'",
+      "surfaceBrightness": null
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { TabsPage } from './tabs.page';
+import { MainPage } from './main.page';
 
 export const routes: Routes = [
   {
-    path: 'tabs',
-    component: TabsPage,
+    path: 'main',
+    component: MainPage,
     children: [
       {
         path: 'home',
@@ -23,14 +23,14 @@ export const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/tabs/home',
+        redirectTo: '/main/home',
         pathMatch: 'full',
       },
     ],
   },
   {
     path: '',
-    redirectTo: '/tabs/home',
+    redirectTo: '/main/home',
     pathMatch: 'full',
   },
 ];
