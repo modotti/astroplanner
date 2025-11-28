@@ -1754,6 +1754,19 @@
       "magnitude": 8.8,
       "size": "1.2' x 1.2'",
       "surfaceBrightness": 19.6
+    },
+    {
+      "id": "ngc6543",
+      "catalogueEntry": "NGC 6543",
+      "familiarName": "Cat Eye Nebula",
+      "altNames": [],
+      "type": "Planetary Nebula",
+      "constellation": "Draco",
+      "ra": "17 58 33",
+      "dec": "66 37 59",
+      "magnitude": 8.1,
+      "size": "37\" x 32\"",
+      "surfaceBrightness": 14.3
     }
   ]
 }
