@@ -1,0 +1,30 @@
+.target-title {
+
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+
+  .text-lg {
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .text-md {
+    font-size: 1.25rem;
+  }
+
+  .text-bold {
+    font-weight: 900;
+  }
+
+  .text-gray {
+    color: gray;
+  }
+
+  .icon {
+    height: 6rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -4px;
+  }
+}

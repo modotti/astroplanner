@@ -2,18 +2,19 @@ import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 import { TargetCatalogService } from './core/services/target-catalog/target-catalog.service';
 import { AstroCoreService } from './core/services/astro-core/astro-core-service';
+import { PlanningService } from './core/services/planning/planning-service';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   imports: [IonApp, IonRouterOutlet],
-  providers: [AstroCoreService]
+  providers: [AstroCoreService, PlanningService]
 })
 export class AppComponent {
-  constructor(targetCatalogService: TargetCatalogService, astroCoreService: AstroCoreService) {
+  constructor(targetCatalogService: TargetCatalogService, astroCoreService: AstroCoreService, planningService: PlanningService) {
     document.body.classList.add('dark');
 
-
+/*
     setTimeout(() => {
 
       //Busca de target
@@ -21,9 +22,8 @@ export class AppComponent {
       console.log('--------- BUSCA ----------------');
       console.log('--------------------------------');
 
-      const target = targetCatalogService.searchByName('1893')[0];
+      const target = targetCatalogService.searchByName('Rosette')[0];
       console.log(target);
-
 
       //Dados target
       console.log('--------------------------------');
@@ -57,27 +57,6 @@ export class AppComponent {
       console.log('Azimute:', position.azimuth);
       console.log('Direção:', position.direction);
 
-      //Curva target
-      console.log('--------------------------------');
-      console.log('--------- CURVA ----------------');
-      console.log('--------------------------------');
-
-      const start = new Date();
-      start.setHours(18, 0, 0, 0);
-
-      const end = new Date(start);
-      end.setHours(6 + 24, 0, 0, 0); // passa da meia-noite
-
-      const curve = astroCoreService.getTargetAltitudeCurve(
-        m42,
-        start,
-        end,
-        location,
-        { stepMinutes: 60 }
-      );
-
-      console.table(curve); // primeiros 5 pontos
-
       //Dados do dia
       console.log('--------------------------------');
       console.log('--------- DADOS DO DIA ---------');
@@ -96,7 +75,15 @@ export class AppComponent {
       console.log('Nascer:', sky.sun.sunrise?.toLocaleTimeString() ?? '—');
       console.log('Pôr:', sky.sun.sunset?.toLocaleTimeString() ?? '—');
 
-    }, 100);
+      //Planning
+      const plan = planningService.getCapturePlan(today, m42, location, {
+        minAltitudeDeg: 30,
+        stepMinutes: 30,
+      });
 
+      console.log(plan);
+
+    }, 100);
+*/
   }
 }

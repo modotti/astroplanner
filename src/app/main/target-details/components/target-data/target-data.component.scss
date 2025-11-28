@@ -1,0 +1,10 @@
+.target-data {
+  display: flex;
+  line-height: 1.15;
+
+  .text-sm {
+    font-size: 0.85rem;
+    color: gray;
+    margin-bottom: 0.25rem;
+  }
+}

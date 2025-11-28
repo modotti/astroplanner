@@ -1,0 +1,18 @@
+@import "src/theme/variables.scss";
+
+.date-location-widget {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  .label-location {
+    color: gray;
+  }
+
+  .icon {
+    color: var(--ion-color-primary);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

@@ -1,0 +1,9 @@
+@import "src/theme/variables.scss";
+
+.moon-impact {
+  .title {
+    color: var(--ion-color-primary);
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+}

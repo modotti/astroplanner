@@ -1,0 +1,29 @@
+<div class="visibility-window">
+  <div class="row">
+    <div>
+      <div>Above <b>{{ minAltitudeDeg }}º</b></div>
+      <div *ngIf="visibilityWindow?.start || visibilityWindow?.end">
+        <ng-container *ngIf="visibilityWindow?.start">
+          <i class="fas fa-arrow-up fa-xs"></i>
+          {{ visibilityWindow?.start | date:'HH:mm' }}
+        </ng-container>
+        &nbsp;&nbsp;
+        <ng-container *ngIf="visibilityWindow?.end">
+          {{ visibilityWindow?.end | date:'HH:mm' }}
+          <i class="fas fa-arrow-down fa-xs"></i>
+        </ng-container>
+      </div>
+    </div>
+    <div style="text-align: right;">
+      <div>Culmination at</div>
+      <div>{{ culmination?.time | date:'HH:mm' }} - {{ culmination?.direction }} {{ culmination?.altitude |
+        number:'1.0-0' }}º</div>
+    </div>
+  </div>
+  <div>
+    <app-altitude-chart [samples]="altitudeCurve" [minAltitude]="+minAltitudeDeg"></app-altitude-chart>
+  </div>
+  <div class="row small-gray">
+    Current position: {{ currentPosition?.direction }} {{ currentPosition?.altitude | number:'1.0-0' }}º
+  </div>
+</div>

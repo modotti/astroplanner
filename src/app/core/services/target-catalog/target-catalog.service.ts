@@ -31,7 +31,7 @@ export class TargetCatalogService {
     const lower = term.toLowerCase();
     return this.objects().filter((o) =>
       o.catalogueEntry.toLowerCase().includes(lower) ||
-      o.familiarName.toLowerCase().includes(lower) ||
+      o.familiarName?.toLowerCase().includes(lower) ||
       o.altNames.some((alt) => alt.toLowerCase().includes(lower))
     );
   }

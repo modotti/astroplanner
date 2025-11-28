@@ -1,0 +1,14 @@
+<div class="date-location-widget">
+  <div>
+    <i class="icon fas fa-calendar-alt fa-md"></i>
+    <span class="label">
+      <b>{{ targetDate | date:'dd' }} {{ (targetDate | date:'MMM') | lowercase }}</b>
+    </span>
+  </div>
+  <div>
+    <span class="label-location">
+      Your Location: <b>{{ latitude | number:'1.4-4' }}, {{ longitude | number:'1.4-4' }}</b>
+    </span>
+    <i class="icon fas fa-map-marker-alt fa-md"></i>
+  </div>
+</div>

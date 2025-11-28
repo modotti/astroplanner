@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "source": "Telescopius export page 1/10",
-  "updatedAt": "2025-11-26",
+  "source": "basic.csv",
+  "updatedAt": "2025-11-28",
   "objects": [
     {
-      "id": "m-42",
+      "id": "m42",
       "catalogueEntry": "M 42",
       "familiarName": "Orion Nebula",
       "altNames": [
@@ -22,7 +22,46 @@
       "surfaceBrightness": 22.0
     },
     {
-      "id": "ic-434",
+      "id": "m45",
+      "catalogueEntry": "M 45",
+      "familiarName": "Pleiades",
+      "altNames": [
+        "CL MELOTTE 22",
+        "H 0346+24",
+        "OCL 421.0"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Taurus",
+      "ra": "03 46 24",
+      "dec": "24 06 50",
+      "magnitude": 1.6,
+      "size": "1.3º x 1.3º",
+      "surfaceBrightness": 20.4
+    },
+    {
+      "id": "m33",
+      "catalogueEntry": "M 33",
+      "familiarName": "Triangulum Galaxy",
+      "altNames": [
+        "NGC 598",
+        "MCG +05-04-069",
+        "PGC 5818",
+        "UGC 1117",
+        "Z 502-110",
+        "Z 0131.0+3024",
+        "MCG +05-4-69",
+        "MCG +05-4-69"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Triangulum",
+      "ra": "01 33 51",
+      "dec": "30 39 37",
+      "magnitude": 5.7,
+      "size": "1º x 35'",
+      "surfaceBrightness": 22.7
+    },
+    {
+      "id": "ic434",
       "catalogueEntry": "IC 434",
       "familiarName": "Horsehead Nebula",
       "altNames": [],
@@ -35,7 +74,7 @@
       "surfaceBrightness": null
     },
     {
-      "id": "c-49",
+      "id": "c49",
       "catalogueEntry": "C 49",
       "familiarName": "Rosette Nebula",
       "altNames": [],
@@ -48,7 +87,7 @@
       "surfaceBrightness": 27.09
     },
     {
-      "id": "m-43",
+      "id": "m43",
       "catalogueEntry": "M 43",
       "familiarName": "De Mairan's Nebula",
       "altNames": [
@@ -63,7 +102,7 @@
       "surfaceBrightness": 23.8
     },
     {
-      "id": "ngc-2239",
+      "id": "ngc2239",
       "catalogueEntry": "NGC 2239",
       "familiarName": "Satellite Cluster",
       "altNames": [
@@ -82,15 +121,10 @@
       "surfaceBrightness": 20.3
     },
     {
-      "id": "ngc-1977",
+      "id": "ngc1977",
       "catalogueEntry": "NGC 1977",
-      "familiarName": "Running Man Nebula",
-      "altNames": [
-        "NGC 1981",
-        "NGC 1973",
-        "LBN 978",
-        "LBN 209.30-19.62"
-      ],
+      "familiarName": "Running Man",
+      "altNames": [],
       "type": "Reflection Nebula",
       "constellation": "Orion",
       "ra": "05 35 16",
@@ -100,71 +134,40 @@
       "surfaceBrightness": null
     },
     {
-      "id": "ngc-2024",
+      "id": "ngc1499",
+      "catalogueEntry": "NGC 1499",
+      "familiarName": "California Nebula",
+      "altNames": [
+        "SH 2-220",
+        "LBN 756",
+        "LBN 160.18-12.15"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Perseus",
+      "ra": "04 03 18",
+      "dec": "36 25 18",
+      "magnitude": null,
+      "size": "2º x 1º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc2024",
       "catalogueEntry": "NGC 2024",
       "familiarName": "Flame Nebula",
-      "altNames": [
-        "SH 2-277",
-        "LBN 957",
-        "LBN 206.51-16.35"
-      ],
-      "type": "Emission Nebula",
-      "constellation": "Orion",
-      "ra": "05 41 42",
-      "dec": "-01 50 20",
-      "magnitude": 10.0,
-      "size": "30'",
-      "surfaceBrightness": 22.42
-    },
-    {
-      "id": "sh-2-279",
-      "catalogueEntry": "SH 2-279",
-      "familiarName": "Orion Loop",
       "altNames": [],
       "type": "Emission Nebula",
       "constellation": "Orion",
-      "ra": "05 41 00",
-      "dec": "-02 27 00",
+      "ra": "05 41 43",
+      "dec": "-01 50 30",
       "magnitude": null,
-      "size": "2º x 2º",
+      "size": "30' x 30'",
       "surfaceBrightness": null
     },
     {
-      "id": "sh-2-273",
-      "catalogueEntry": "SH 2-273",
-      "familiarName": "Rosette Nebula (Surrounding HII Region)",
-      "altNames": [],
-      "type": "HII Region",
-      "constellation": "Monoceros",
-      "ra": "06 33 00",
-      "dec": "04 59 00",
-      "magnitude": null,
-      "size": "2º",
-      "surfaceBrightness": null
-    },
-    {
-      "id": "ngc-1893",
-      "catalogueEntry": "NGC 1893",
-      "familiarName": "",
-      "altNames": [
-        "OCL 438",
-        "C 31",
-        "CL MELLOTTE 35"
-      ],
-      "type": "Open Cluster",
-      "constellation": "Auriga",
-      "ra": "05 22 42",
-      "dec": "33 24 18",
-      "magnitude": 7.5,
-      "size": "12'",
-      "surfaceBrightness": 20.09
-    },
-    {
-      "id": "ic-405",
+      "id": "ic405",
       "catalogueEntry": "IC 405",
       "familiarName": "Flaming Star Nebula",
       "altNames": [
-        "SH 2-229",
         "LBN 795",
         "LBN 172.16-02.02",
         "CTB 16",
@@ -176,6 +179,1567 @@
       "dec": "34 23 00",
       "magnitude": null,
       "size": "30' x 20'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m1",
+      "catalogueEntry": "M 1",
+      "familiarName": "Crab Nebula",
+      "altNames": [
+        "NGC 1952",
+        "SH 2-244",
+        "LBN 833",
+        "LBN 184.62-05.65",
+        "SNR G184.6-05.8",
+        "CTB 18",
+        "AJG 1",
+        "3C 144",
+        "3C 144.0",
+        "H 0534+21",
+        "H 0531+219",
+        "IRAS 05314+2200"
+      ],
+      "type": "Supernova Remnant",
+      "constellation": "Taurus",
+      "ra": "05 34 31",
+      "dec": "22 00 53",
+      "magnitude": 8.4,
+      "size": "7' x 5'",
+      "surfaceBrightness": 20.8
+    },
+    {
+      "id": "ic410",
+      "catalogueEntry": "IC 410",
+      "familiarName": "Tadpole Nebula",
+      "altNames": [
+        "LBN 807",
+        "LBN 173.58-01.75",
+        "MIN 2-59",
+        "CTB 17",
+        "OCL 438.0"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Auriga",
+      "ra": "05 22 00",
+      "dec": "33 29 00",
+      "magnitude": null,
+      "size": "55' x 45'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ic443",
+      "catalogueEntry": "IC 443",
+      "familiarName": "Jellyfish Nebula",
+      "altNames": [
+        "SH 2-248",
+        "LBN 844",
+        "LBN 189.13+02.97",
+        "MIN 1-84",
+        "SNR G189.0+03.0",
+        "SNR G189.1-03.0",
+        "SNR G189.1+03.0",
+        "PGC 2817561",
+        "CTB 20",
+        "3C 157",
+        "H 0620+22"
+      ],
+      "type": "Supernova Remnant",
+      "constellation": "Gemini",
+      "ra": "06 17 35",
+      "dec": "22 28 03",
+      "magnitude": null,
+      "size": "45' x 25'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc7293",
+      "catalogueEntry": "NGC 7293",
+      "familiarName": "Helix Nebula",
+      "altNames": [
+        "PK 036-57 1",
+        "ESO 602-22",
+        "IRAS X2226-210",
+        "IRAS 22267-2102",
+        "C 63"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Aquarius",
+      "ra": "22 29 39",
+      "dec": "-20 50 14",
+      "magnitude": 7.3,
+      "size": "13' x 13'",
+      "surfaceBrightness": 22.2
+    },
+    {
+      "id": "ngc2264",
+      "catalogueEntry": "NGC 2264",
+      "familiarName": "Cone Nebula",
+      "altNames": [
+        "SH 2-273",
+        "LBN 911",
+        "LBN 202.92+02.18",
+        "OCL 495",
+        "OCL 495.0",
+        "CL MELOTTE 49"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Monoceros",
+      "ra": "06 40 52",
+      "dec": "09 52 37",
+      "magnitude": 4.1,
+      "size": "8.6' x 8.6'",
+      "surfaceBrightness": 20.7
+    },
+    {
+      "id": "ngc1432",
+      "catalogueEntry": "NGC 1432",
+      "familiarName": "Maia Nebula",
+      "altNames": [
+        "LBN 771"
+      ],
+      "type": "Reflection Nebula",
+      "constellation": "Taurus",
+      "ra": "03 46 00",
+      "dec": "24 12 00",
+      "magnitude": null,
+      "size": "26' x 26'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m104",
+      "catalogueEntry": "M 104",
+      "familiarName": "Sombrero Galaxy",
+      "altNames": [
+        "NGC 4594",
+        "MCG -02-32-020",
+        "PGC 42407",
+        "UGCA 293",
+        "HD 110124",
+        "IRAS 12373-1121",
+        "IRAS F12374-1120",
+        "MCG -2-32-20",
+        "MCG -2-32-20"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Virgo",
+      "ra": "12 39 59",
+      "dec": "-11 37 23",
+      "magnitude": 8.0,
+      "size": "8.5' x 5'",
+      "surfaceBrightness": 20.7
+    },
+    {
+      "id": "ngc1435",
+      "catalogueEntry": "NGC 1435",
+      "familiarName": "Merope Nebula",
+      "altNames": [],
+      "type": "Reflection Nebula",
+      "constellation": "Taurus",
+      "ra": "03 46 00",
+      "dec": "23 54 00",
+      "magnitude": null,
+      "size": "30' x 30'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc3628",
+      "catalogueEntry": "NGC 3628",
+      "familiarName": "Hamburger Galaxy",
+      "altNames": [
+        "APG 317C",
+        "VV 308B",
+        "MCG +02-29-020",
+        "PGC 34697",
+        "UGC 6350",
+        "Z 67-58",
+        "Z 1117.7+1352",
+        "IRAS 11176+1351",
+        "IRAS F11176+1351",
+        "MCG +02-29-20",
+        "MCG +02-29-20"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Leo",
+      "ra": "11 20 17",
+      "dec": "13 35 22",
+      "magnitude": 9.5,
+      "size": "13' x 3.4'",
+      "surfaceBrightness": 22.2
+    },
+    {
+      "id": "markarianchain",
+      "catalogueEntry": "Markarian Chain",
+      "familiarName": "Markarian Chain",
+      "altNames": [],
+      "type": "Group of Galaxies",
+      "constellation": "Virgo",
+      "ra": "12 28 04",
+      "dec": "13 10 34",
+      "magnitude": 10.4,
+      "size": "1.5º",
+      "surfaceBrightness": 28.8
+    },
+    {
+      "id": "ic349",
+      "catalogueEntry": "IC 349",
+      "familiarName": "Barnard's Merope Nebula",
+      "altNames": [
+        "CED 19I"
+      ],
+      "type": "Reflection Nebula",
+      "constellation": "Taurus",
+      "ra": "03 46 21",
+      "dec": "23 56 28",
+      "magnitude": null,
+      "size": "30\"\" x 30\"\"",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m74",
+      "catalogueEntry": "M 74",
+      "familiarName": "Phantom Galaxy",
+      "altNames": [
+        "NGC 628",
+        "MCG +03-05-011",
+        "PGC 5974",
+        "UGC 1149",
+        "Z 460-14",
+        "Z 0134.0+1532",
+        "IRAS 01340+1532",
+        "IRAS F01339+1532",
+        "MCG +03-5-11",
+        "MCG +03-5-11"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Pisces",
+      "ra": "01 36 42",
+      "dec": "15 47 01",
+      "magnitude": 9.5,
+      "size": "9.3' x 8.7'",
+      "surfaceBrightness": 22.9
+    },
+    {
+      "id": "m15",
+      "catalogueEntry": "M 15",
+      "familiarName": "Pegasus Cluster",
+      "altNames": [
+        "NGC 7078",
+        "CL MELOTTE 234"
+      ],
+      "type": "Globular Cluster",
+      "constellation": "Pegasus",
+      "ra": "21 29 58",
+      "dec": "12 10 01",
+      "magnitude": 6.2,
+      "size": "12' x 12'",
+      "surfaceBrightness": 21.1
+    },
+    {
+      "id": "ngc253",
+      "catalogueEntry": "NGC 253",
+      "familiarName": "Sculptor Galaxy",
+      "altNames": [
+        "MCG -04-03-009",
+        "PGC 2789",
+        "UGCA 13",
+        "ESO 474-29",
+        "ESO-LV 474-0290",
+        "IRAS 00450-2533",
+        "IRAS F00450-2533",
+        "C 65",
+        "MCG -4-3-09",
+        "MCG -4-3-9",
+        "MCG -4-3-09",
+        "MCG -4-3-9",
+        "MCG -4-3-9"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Sculptor",
+      "ra": "00 47 33",
+      "dec": "-25 17 20",
+      "magnitude": 7.2,
+      "size": "29' x 5.9'",
+      "surfaceBrightness": 21.6
+    },
+    {
+      "id": "ngc1909",
+      "catalogueEntry": "NGC 1909",
+      "familiarName": "Witch Head Nebula",
+      "altNames": [
+        "IC 2118",
+        "LBN 959",
+        "LBN 207.50-27.78",
+        "CED 41"
+      ],
+      "type": "Reflection Nebula",
+      "constellation": "Eridanus",
+      "ra": "05 02 00",
+      "dec": "-07 54 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc2359",
+      "catalogueEntry": "NGC 2359",
+      "familiarName": "Duck Nebula",
+      "altNames": [
+        "SH 2-298",
+        "LBN 1041",
+        "LBN 227.66-00.09",
+        "GUM 4",
+        "RCW 5"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Canis Major",
+      "ra": "07 18 30",
+      "dec": "-13 13 36",
+      "magnitude": 11.5,
+      "size": "6' x 4'",
+      "surfaceBrightness": 23.6
+    },
+    {
+      "id": "ngc3372",
+      "catalogueEntry": "NGC 3372",
+      "familiarName": "Eta Carinae Nebula",
+      "altNames": [
+        "GUM 33",
+        "RCW 53",
+        "C 92"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Carina",
+      "ra": "10 45 02",
+      "dec": "-59 42 00",
+      "magnitude": null,
+      "size": "2º x 2º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh2240",
+      "catalogueEntry": "SH 2-240",
+      "familiarName": "Spaghetti Nebula",
+      "altNames": [
+        "LBN 822",
+        "LBN 180.05-01.66"
+      ],
+      "type": "HII Region",
+      "constellation": "Taurus",
+      "ra": "05 41 06",
+      "dec": "28 05 00",
+      "magnitude": null,
+      "size": "3º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ic2177",
+      "catalogueEntry": "IC 2177",
+      "familiarName": "Seagull Nebula",
+      "altNames": [
+        "SH 2-292",
+        "LBN 1027",
+        "LBN 223.68-01.86",
+        "VDB 93",
+        "GUM 1",
+        "RCW 2"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Monoceros",
+      "ra": "07 04 25",
+      "dec": "-10 27 18",
+      "magnitude": null,
+      "size": "20' x 20'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m83",
+      "catalogueEntry": "M 83",
+      "familiarName": "Southern Pinwheel Galaxy",
+      "altNames": [
+        "NGC 5236",
+        "MCG -05-32-050",
+        "PGC 48082",
+        "UGCA 366",
+        "HD 118366",
+        "ESO 444-81",
+        "ESO-LV 444-0810",
+        "IRAS 13341-2936",
+        "IRAS F13341-2936",
+        "MCG -5-32-50",
+        "MCG -5-32-50"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Hydra",
+      "ra": "13 37 01",
+      "dec": "-29 51 57",
+      "magnitude": 7.5,
+      "size": "14' x 13'",
+      "surfaceBrightness": 21.8
+    },
+    {
+      "id": "sh2276",
+      "catalogueEntry": "SH 2-276",
+      "familiarName": "Barnard's Loop",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 27 30",
+      "dec": "-03 58 00",
+      "magnitude": null,
+      "size": "20º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m44",
+      "catalogueEntry": "M 44",
+      "familiarName": "Beehive Cluster",
+      "altNames": [
+        "NGC 2632",
+        "CL MELOTTE 88",
+        "OCL 507.0"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Cancer",
+      "ra": "08 40 13",
+      "dec": "19 37 16",
+      "magnitude": 3.7,
+      "size": "2º x 2º",
+      "surfaceBrightness": 21.6
+    },
+    {
+      "id": "sh2264",
+      "catalogueEntry": "SH 2-264",
+      "familiarName": "Lambda Orionis Ring",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 18",
+      "dec": "09 56 00",
+      "magnitude": null,
+      "size": "6.5º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m77",
+      "catalogueEntry": "M 77",
+      "familiarName": "Cetus A",
+      "altNames": [
+        "NGC 1068",
+        "APG 37",
+        "MCG +00-07-083",
+        "PGC 10266",
+        "UGC 2188",
+        "Z 388-98",
+        "Z 0240.1-0013",
+        "3C 71",
+        "3C 71.0",
+        "IRAS 02401-0013",
+        "IRAS F02401-0013",
+        "MCG +00-7-83",
+        "MCG +00-7-83"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Cetus",
+      "ra": "02 42 41",
+      "dec": "-00 00 48",
+      "magnitude": 8.9,
+      "size": "6.9' x 6'",
+      "surfaceBrightness": 21.6
+    },
+    {
+      "id": "ngc1990",
+      "catalogueEntry": "NGC 1990",
+      "familiarName": "Epsilon Orionis Nebula",
+      "altNames": [
+        "LBN 940",
+        "LBN 205.42-17.78"
+      ],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 00",
+      "dec": "-01 42 00",
+      "magnitude": 4.1,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc5128",
+      "catalogueEntry": "NGC 5128",
+      "familiarName": "Centaurus A",
+      "altNames": [
+        "APG 153",
+        "MCG -07-28-001",
+        "PGC 46957",
+        "ESO 270-9",
+        "H 1322-427",
+        "ESO-LV 270-0090",
+        "IRAS 13225-4245",
+        "IRAS F13225-4245",
+        "C 77",
+        "MCG -7-28-01",
+        "MCG -7-28-1",
+        "MCG -7-28-01",
+        "MCG -7-28-1",
+        "MCG -7-28-1"
+      ],
+      "type": "Peculiar Galaxy",
+      "constellation": "Centaurus",
+      "ra": "13 25 28",
+      "dec": "-43 01 09",
+      "magnitude": 6.8,
+      "size": "26' x 18'",
+      "surfaceBrightness": 22.1
+    },
+    {
+      "id": "m87",
+      "catalogueEntry": "M 87",
+      "familiarName": "Smoking Gun Galaxy",
+      "altNames": [
+        "NGC 4486",
+        "APG 152",
+        "MCG +02-32-105",
+        "PGC 41361",
+        "UGC 7654",
+        "Z 70-139",
+        "Z 1228.3+1240",
+        "3C 274",
+        "3C 274.0",
+        "H 1227+12",
+        "H 1228+127",
+        "IRAS 12282+1240",
+        "IRAS F12282+1240"
+      ],
+      "type": "Elliptical Galaxy",
+      "constellation": "Virgo",
+      "ra": "12 30 49",
+      "dec": "12 23 28",
+      "magnitude": 8.6,
+      "size": "9.1' x 7.9'",
+      "surfaceBrightness": 21.9
+    },
+    {
+      "id": "ic2944",
+      "catalogueEntry": "IC 2944",
+      "familiarName": "Running Chicken Nebula",
+      "altNames": [
+        "GUM 42",
+        "RCW 62",
+        "OCL 862.0",
+        "C 100"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Centaurus",
+      "ra": "11 38 20",
+      "dec": "-63 22 22",
+      "magnitude": null,
+      "size": "40' x 20'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh2308",
+      "catalogueEntry": "SH 2-308",
+      "familiarName": "Dolphin Nebula",
+      "altNames": [
+        "LBN 1052",
+        "LBN 234.57-10.00",
+        "WR 6",
+        "RCW 11",
+        "HEN 3-20",
+        "CL COLLINDER 121 4",
+        "HD 50896",
+        "HIP 33165",
+        "IRAS 06521-2351"
+      ],
+      "type": "Star",
+      "constellation": "Canis Major",
+      "ra": "06 54 13",
+      "dec": "-23 55 42",
+      "magnitude": 6.9,
+      "size": "35'",
+      "surfaceBrightness": 23.25
+    },
+    {
+      "id": "ngc5139",
+      "catalogueEntry": "NGC 5139",
+      "familiarName": "Omega Centauri",
+      "altNames": [
+        "HD 116790",
+        "C 80",
+        "CL MELOTTE 118"
+      ],
+      "type": "Globular Cluster",
+      "constellation": "Centaurus",
+      "ra": "13 26 47",
+      "dec": "-47 28 46",
+      "magnitude": 5.3,
+      "size": "36' x 36'",
+      "surfaceBrightness": 22.6
+    },
+    {
+      "id": "ngc6822",
+      "catalogueEntry": "NGC 6822",
+      "familiarName": "Barnard's Galaxy",
+      "altNames": [
+        "IC 4895",
+        "MCG -02-50-006",
+        "PGC 63616",
+        "IRAS 19421-1455",
+        "C 57",
+        "MCG -2-50-06",
+        "MCG -2-50-6",
+        "MCG -2-50-06",
+        "MCG -2-50-6",
+        "MCG -2-50-6"
+      ],
+      "type": "Irregular Galaxy",
+      "constellation": "Sagittarius",
+      "ra": "19 44 56",
+      "dec": "-14 47 51",
+      "magnitude": 8.1,
+      "size": "14' x 13'",
+      "surfaceBrightness": 22.4
+    },
+    {
+      "id": "psr0531",
+      "catalogueEntry": "PSR 0531",
+      "familiarName": "Crab Pulsar",
+      "altNames": [
+        "PSR 0532",
+        "PSR B0531+21",
+        "PSR B0532+21",
+        "PSR B0531+21.9",
+        "PSR J0534+2200"
+      ],
+      "type": "Pulsar",
+      "constellation": "Taurus",
+      "ra": "05 34 32",
+      "dec": "22 00 52",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh2274",
+      "catalogueEntry": "SH 2-274",
+      "familiarName": "Medusa Nebula",
+      "altNames": [
+        "PN A66 21",
+        "PK 205+14 1"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Gemini",
+      "ra": "07 29 03",
+      "dec": "13 14 49",
+      "magnitude": null,
+      "size": "10' x 10'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m99",
+      "catalogueEntry": "M 99",
+      "familiarName": "[St.] Katherine's Wheel",
+      "altNames": [
+        "NGC 4254",
+        "MCG +03-31-099",
+        "PGC 39578",
+        "UGC 7345",
+        "Z 99-11",
+        "Z 98-144",
+        "Z 1216.3+1442",
+        "IRAS 12162+1441",
+        "IRAS F12163+1441",
+        "MCG +03-31-99",
+        "MCG +03-31-99"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Coma Berenices",
+      "ra": "12 18 50",
+      "dec": "14 24 59",
+      "magnitude": 9.9,
+      "size": "5.1' x 4.5'",
+      "surfaceBrightness": 21.9
+    },
+    {
+      "id": "sh2261",
+      "catalogueEntry": "SH 2-261",
+      "familiarName": "Lower's Nebula",
+      "altNames": [
+        "LBN 863",
+        "LBN 194.10-01.93"
+      ],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "06 08 44",
+      "dec": "15 40 30",
+      "magnitude": null,
+      "size": "45'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc2392",
+      "catalogueEntry": "NGC 2392",
+      "familiarName": "Clown Face Nebula",
+      "altNames": [
+        "PK 197+17 1",
+        "HD 59088",
+        "HIP 36369",
+        "IRAS 07262+2100",
+        "IRAS F07262+2100",
+        "C 39"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Gemini",
+      "ra": "07 29 11",
+      "dec": "20 54 42",
+      "magnitude": 9.1,
+      "size": "20\"\" x 20\"\"",
+      "surfaceBrightness": 17.5
+    },
+    {
+      "id": "m37",
+      "catalogueEntry": "M 37",
+      "familiarName": "January Salt-and-Pepper",
+      "altNames": [
+        "NGC 2099",
+        "CL MELOTTE 38"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Auriga",
+      "ra": "05 52 18",
+      "dec": "32 32 42",
+      "magnitude": 6.2,
+      "size": "19' x 19'",
+      "surfaceBrightness": 20.7
+    },
+    {
+      "id": "ngc1365",
+      "catalogueEntry": "NGC 1365",
+      "familiarName": "Great Barred Spiral Galaxy",
+      "altNames": [
+        "VV 825",
+        "MCG -06-08-026",
+        "PGC 13179",
+        "ESO 358-17",
+        "ESO-LV 358-0170",
+        "IRAS 03317-3618",
+        "IRAS F03316-3618",
+        "MCG -6-8-26",
+        "MCG -6-8-26"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Fornax",
+      "ra": "03 33 36",
+      "dec": "-36 08 26",
+      "magnitude": 9.6,
+      "size": "11' x 6.3'",
+      "surfaceBrightness": 22.8
+    },
+    {
+      "id": "ngc4438",
+      "catalogueEntry": "NGC 4438",
+      "familiarName": "The Eyes",
+      "altNames": [
+        "APG 120",
+        "VV 188",
+        "MCG +02-32-065",
+        "PGC 40914",
+        "UGC 7574",
+        "Z 70-97",
+        "Z 1225.2+1317",
+        "IRAS 12252+1317",
+        "IRAS F12252+1317",
+        "MCG +02-32-65",
+        "MCG +02-32-65"
+      ],
+      "type": "Lenticular Galaxy",
+      "constellation": "Virgo",
+      "ra": "12 27 46",
+      "dec": "13 00 32",
+      "magnitude": 10.2,
+      "size": "9' x 5'",
+      "surfaceBrightness": 23.0
+    },
+    {
+      "id": "deerlickgroup",
+      "catalogueEntry": "Deer Lick Group",
+      "familiarName": "Deer Lick Group",
+      "altNames": [],
+      "type": "Group of Galaxies",
+      "constellation": "Pegasus",
+      "ra": "22 37 00",
+      "dec": "34 25 00",
+      "magnitude": null,
+      "size": "11' x 11'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc7009",
+      "catalogueEntry": "NGC 7009",
+      "familiarName": "Saturn Nebula",
+      "altNames": [
+        "PK 037-34 1",
+        "HD 200516",
+        "HIP 103992",
+        "IRAS 21014-1133",
+        "IRAS F21014-1133",
+        "C 55"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Aquarius",
+      "ra": "21 04 11",
+      "dec": "-11 21 49",
+      "magnitude": 8.0,
+      "size": "42\"\" x 31\"\"",
+      "surfaceBrightness": 15.5
+    },
+    {
+      "id": "ngc1931",
+      "catalogueEntry": "NGC 1931",
+      "familiarName": "Fly Nebula",
+      "altNames": [
+        "SH 2-237",
+        "LBN 810",
+        "LBN 173.92+00.24",
+        "CED 49",
+        "MIN 1-81",
+        "OCL 441",
+        "OCL 441.0",
+        "IRAS 05281+3412"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Auriga",
+      "ra": "05 31 23",
+      "dec": "34 14 00",
+      "magnitude": 10.1,
+      "size": "13' x 13'",
+      "surfaceBrightness": 24.3
+    },
+    {
+      "id": "sh2281",
+      "catalogueEntry": "SH 2-281",
+      "familiarName": "SH 2-281",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 14",
+      "dec": "-05 22 30",
+      "magnitude": null,
+      "size": "1º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m38",
+      "catalogueEntry": "M 38",
+      "familiarName": "Starfish Cluster",
+      "altNames": [
+        "NGC 1912",
+        "OCL 433.0",
+        "CL MELOTTE 36"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Auriga",
+      "ra": "05 28 40",
+      "dec": "35 49 26",
+      "magnitude": 7.4,
+      "size": "20' x 20'",
+      "surfaceBrightness": 21.9
+    },
+    {
+      "id": "ngc2070",
+      "catalogueEntry": "NGC 2070",
+      "familiarName": "Tarantula Nebula",
+      "altNames": [
+        "C 103"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Dorado",
+      "ra": "05 38 42",
+      "dec": "-69 06 00",
+      "magnitude": null,
+      "size": "3.5' x 3.5'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc3324",
+      "catalogueEntry": "NGC 3324",
+      "familiarName": "Gabriela Mistral Nebula",
+      "altNames": [
+        "OCL 819",
+        "OCL 819.0"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Carina",
+      "ra": "10 37 22",
+      "dec": "-58 36 54",
+      "magnitude": null,
+      "size": "11' x 11'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "stephansquintet",
+      "catalogueEntry": "Stephan's Quintet",
+      "familiarName": "Stephan's Quintet",
+      "altNames": [],
+      "type": "Group of Galaxies",
+      "constellation": "Pegasus",
+      "ra": "22 36 00",
+      "dec": "33 57 48",
+      "magnitude": 13.2,
+      "size": "5.5'",
+      "surfaceBrightness": 25.53
+    },
+    {
+      "id": "ced55d",
+      "catalogueEntry": "CED 55D",
+      "familiarName": "CED 55D",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 35 18",
+      "dec": "-05 23 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ced55g",
+      "catalogueEntry": "CED 55G",
+      "familiarName": "CED 55G",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 35 30",
+      "dec": "-05 16 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc104",
+      "catalogueEntry": "NGC 104",
+      "familiarName": "47 Tucanae",
+      "altNames": [
+        "CL MELOTTE 1",
+        "HD 2051",
+        "HIP 1902",
+        "IRAS 00218-7221",
+        "IRAS F00218-7221",
+        "C 106"
+      ],
+      "type": "Globular Cluster",
+      "constellation": "Tucana",
+      "ra": "00 24 05",
+      "dec": "-72 04 53",
+      "magnitude": 4.1,
+      "size": "44' x 44'",
+      "surfaceBrightness": 20.9
+    },
+    {
+      "id": "ced55a",
+      "catalogueEntry": "CED 55A",
+      "familiarName": "CED 55A",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 34 48",
+      "dec": "-05 34 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc4535",
+      "catalogueEntry": "NGC 4535",
+      "familiarName": "Lost Galaxy",
+      "altNames": [
+        "MCG +01-32-104",
+        "PGC 41812",
+        "UGC 7727",
+        "Z 42-159",
+        "Z 1231.8+0828",
+        "IRAS 12318+0828",
+        "IRAS F12317+0828"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Virgo",
+      "ra": "12 34 20",
+      "dec": "08 11 52",
+      "magnitude": 10.0,
+      "size": "7.1' x 6.2'",
+      "surfaceBrightness": 22.5
+    },
+    {
+      "id": "ngc246",
+      "catalogueEntry": "NGC 246",
+      "familiarName": "Skull Nebula",
+      "altNames": [
+        "PK 118-74 1",
+        "HIP 3678",
+        "IRAS 00445-1207",
+        "C 56"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Cetus",
+      "ra": "00 47 03",
+      "dec": "-11 52 19",
+      "magnitude": 10.9,
+      "size": "3.7' x 3.7'",
+      "surfaceBrightness": 22.6
+    },
+    {
+      "id": "ced55e",
+      "catalogueEntry": "CED 55E",
+      "familiarName": "CED 55E",
+      "altNames": [
+        "IRAS 05327-0457"
+      ],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 14",
+      "dec": "-04 55 45",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc292",
+      "catalogueEntry": "NGC 292",
+      "familiarName": "Small Magellanic Cloud",
+      "altNames": [
+        "PGC 3085",
+        "ESO 29-21"
+      ],
+      "type": "Spiral Galaxy",
+      "constellation": "Tucana",
+      "ra": "00 52 38",
+      "dec": "-72 48 01",
+      "magnitude": 2.2,
+      "size": "2.6º x 1.6º",
+      "surfaceBrightness": 21.3
+    },
+    {
+      "id": "ngc2237",
+      "catalogueEntry": "NGC 2237",
+      "familiarName": "NGC 2237",
+      "altNames": [
+        "OCL 512"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Monoceros",
+      "ra": "06 30 36",
+      "dec": "04 58 51",
+      "magnitude": null,
+      "size": "1.3º x 50'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m36",
+      "catalogueEntry": "M 36",
+      "familiarName": "Pinwheel Cluster",
+      "altNames": [
+        "NGC 1960",
+        "OCL 445",
+        "CL MELOTTE 37"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Auriga",
+      "ra": "05 36 20",
+      "dec": "34 08 06",
+      "magnitude": 6.3,
+      "size": "10' x 10'",
+      "surfaceBrightness": 19.9
+    },
+    {
+      "id": "ldn1640",
+      "catalogueEntry": "LDN 1640",
+      "familiarName": "LDN 1640",
+      "altNames": [],
+      "type": "Dark Nebula",
+      "constellation": "Orion",
+      "ra": "05 33 45",
+      "dec": "-05 41 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc2238",
+      "catalogueEntry": "NGC 2238",
+      "familiarName": "NGC 2238",
+      "altNames": [],
+      "type": "Emission Nebula",
+      "constellation": "Monoceros",
+      "ra": "06 30 30",
+      "dec": "05 03 00",
+      "magnitude": null,
+      "size": "1.3º x 1º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc3242",
+      "catalogueEntry": "NGC 3242",
+      "familiarName": "Eye Nebula",
+      "altNames": [
+        "PK 261+32 1",
+        "HD 90255",
+        "ESO 568-5",
+        "IRAS 10223-1823",
+        "IRAS F10223-1823",
+        "C 59"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Hydra",
+      "ra": "10 24 46",
+      "dec": "-18 38 32",
+      "magnitude": 7.7,
+      "size": "30\"\" x 6\"\"",
+      "surfaceBrightness": 16.5
+    },
+    {
+      "id": "antennaegalaxies",
+      "catalogueEntry": "Antennae Galaxies",
+      "familiarName": "Antennae Galaxies",
+      "altNames": [],
+      "type": "Group of Galaxies",
+      "constellation": "Corvus",
+      "ra": "12 01 54",
+      "dec": "-18 52 30",
+      "magnitude": 10.4,
+      "size": "7' x 3.1'",
+      "surfaceBrightness": 22.37
+    },
+    {
+      "id": "ngc1514",
+      "catalogueEntry": "NGC 1514",
+      "familiarName": "Crystal Ball Nebula",
+      "altNames": [
+        "PK 165-15 1",
+        "HD 281679",
+        "HIP 19395",
+        "IRAS 04061+3038",
+        "IRAS F04061+3038"
+      ],
+      "type": "Planetary Nebula",
+      "constellation": "Taurus",
+      "ra": "04 09 17",
+      "dec": "30 46 33",
+      "magnitude": 10.9,
+      "size": "1.7' x 1.7'",
+      "surfaceBrightness": 21.2
+    },
+    {
+      "id": "ced55f",
+      "catalogueEntry": "CED 55F",
+      "familiarName": "CED 55F",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 35 24",
+      "dec": "-05 54 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh2279",
+      "catalogueEntry": "SH 2-279",
+      "familiarName": "SH 2-279",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 35 18",
+      "dec": "-04 47 00",
+      "magnitude": null,
+      "size": "30' x 20'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc6729",
+      "catalogueEntry": "NGC 6729",
+      "familiarName": "R CrA Nebula",
+      "altNames": [
+        "C 68"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Corona Australis",
+      "ra": "19 01 46",
+      "dec": "-36 57 40",
+      "magnitude": null,
+      "size": "25' x 20'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "lbn953",
+      "catalogueEntry": "LBN 953",
+      "familiarName": "LBN 953",
+      "altNames": [
+        "LBN 206.90-16.56",
+        "SNR G206.5-16.4"
+      ],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 41 43",
+      "dec": "-01 54 44",
+      "magnitude": null,
+      "size": "1.5º x 30'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh2277",
+      "catalogueEntry": "SH 2-277",
+      "familiarName": "SH 2-277",
+      "altNames": [],
+      "type": "HII Region",
+      "constellation": "Orion",
+      "ra": "05 42 22",
+      "dec": "-01 55 23",
+      "magnitude": null,
+      "size": "2º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ced55c",
+      "catalogueEntry": "CED 55C",
+      "familiarName": "CED 55C",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 35 12",
+      "dec": "-04 41 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "leotriplet",
+      "catalogueEntry": "Leo Triplet",
+      "familiarName": "Leo Triplet",
+      "altNames": [],
+      "type": "Group of Galaxies",
+      "constellation": "Leo",
+      "ra": "11 19 52",
+      "dec": "13 18 55",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc1980",
+      "catalogueEntry": "NGC 1980",
+      "familiarName": "NGC 1980",
+      "altNames": [
+        "LBN 977",
+        "LBN 209.84-19.13",
+        "OCL 529.0"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Orion",
+      "ra": "05 35 14",
+      "dec": "-05 55 26",
+      "magnitude": null,
+      "size": "14' x 14'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ced55n",
+      "catalogueEntry": "CED 55N",
+      "familiarName": "CED 55N",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 41 00",
+      "dec": "-02 25 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ldn1622",
+      "catalogueEntry": "LDN 1622",
+      "familiarName": "Boogie Man Nebula",
+      "altNames": [],
+      "type": "Dark Nebula",
+      "constellation": "Orion",
+      "ra": "05 54 28",
+      "dec": "01 48 12",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "sh2275",
+      "catalogueEntry": "SH 2-275",
+      "familiarName": "SH 2-275",
+      "altNames": [
+        "LBN 948",
+        "LBN 949",
+        "LBN 206.39-01.87",
+        "CTB 21",
+        "3C 163"
+      ],
+      "type": "HII Region",
+      "constellation": "Monoceros",
+      "ra": "06 32 27",
+      "dec": "04 47 37",
+      "magnitude": null,
+      "size": "1.7º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc2736",
+      "catalogueEntry": "NGC 2736",
+      "familiarName": "Pencil Nebula",
+      "altNames": [
+        "RCW 37"
+      ],
+      "type": "Supernova Remnant",
+      "constellation": "Vela",
+      "ra": "09 00 12",
+      "dec": "-45 57 00",
+      "magnitude": null,
+      "size": "20' x 2'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "m50",
+      "catalogueEntry": "M 50",
+      "familiarName": "Heart-Shaped Cluster",
+      "altNames": [
+        "NGC 2323",
+        "OCL 559",
+        "OCL 559.0",
+        "CL MELOTTE 58"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Monoceros",
+      "ra": "07 02 44",
+      "dec": "-08 21 54",
+      "magnitude": 5.9,
+      "size": "32' x 32'",
+      "surfaceBrightness": 20.4
+    },
+    {
+      "id": "ngc3576",
+      "catalogueEntry": "NGC 3576",
+      "familiarName": "Statue of Liberty Nebula",
+      "altNames": [
+        "GUM 38A",
+        "RCW 57A"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Carina",
+      "ra": "11 11 50",
+      "dec": "-61 18 14",
+      "magnitude": null,
+      "size": "3' x 3'",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc2261",
+      "catalogueEntry": "NGC 2261",
+      "familiarName": "Hubble's Variable Nebula",
+      "altNames": [
+        "LBN 920",
+        "LBN 203.74+01.20",
+        "CED 83",
+        "IRAS 06364+0846",
+        "C 46"
+      ],
+      "type": "Emission Nebula",
+      "constellation": "Monoceros",
+      "ra": "06 39 10",
+      "dec": "08 44 10",
+      "magnitude": 9.0,
+      "size": "3' x 1'",
+      "surfaceBrightness": 18.8
+    },
+    {
+      "id": "lbn770",
+      "catalogueEntry": "LBN 770",
+      "familiarName": "LBN 770",
+      "altNames": [
+        "LBN 772",
+        "LBN 166.39-23.63"
+      ],
+      "type": "HII Region",
+      "constellation": "Taurus",
+      "ra": "03 46 00",
+      "dec": "24 12 00",
+      "magnitude": null,
+      "size": "1.5º x 1.5º",
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc3532",
+      "catalogueEntry": "NGC 3532",
+      "familiarName": "Wishing Well Cluster",
+      "altNames": [
+        "CL VDBH 109",
+        "OCL 839.0",
+        "C 91",
+        "CL MELOTTE 103"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Carina",
+      "ra": "11 05 40",
+      "dec": "-58 42 25",
+      "magnitude": 3.0,
+      "size": "1.1º x 1.1º",
+      "surfaceBrightness": 20.1
+    },
+    {
+      "id": "ic427",
+      "catalogueEntry": "IC 427",
+      "familiarName": "IC 427",
+      "altNames": [],
+      "type": "Emission Nebula",
+      "constellation": "Orion",
+      "ra": "05 35 54",
+      "dec": "-06 13 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ced55p",
+      "catalogueEntry": "CED 55P",
+      "familiarName": "CED 55P",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Orion",
+      "ra": "05 40 18",
+      "dec": "-01 45 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ngc1981",
+      "catalogueEntry": "NGC 1981",
+      "familiarName": "NGC 1981",
+      "altNames": [
+        "OCL 525.0"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Orion",
+      "ra": "05 35 23",
+      "dec": "-04 29 10",
+      "magnitude": 4.2,
+      "size": "28'",
+      "surfaceBrightness": 20.1
+    },
+    {
+      "id": "ngc1316",
+      "catalogueEntry": "NGC 1316",
+      "familiarName": "Fornax A",
+      "altNames": [
+        "APG 154",
+        "MCG -06-08-005",
+        "PGC 12651",
+        "ESO 357-22",
+        "ESO-LV 357-0220",
+        "IRAS 03208-3723",
+        "IRAS F03207-3723",
+        "MCG -6-8-05",
+        "MCG -6-8-5",
+        "MCG -6-8-05",
+        "MCG -6-8-5",
+        "MCG -6-8-5"
+      ],
+      "type": "Lenticular Galaxy",
+      "constellation": "Fornax",
+      "ra": "03 22 42",
+      "dec": "-37 12 30",
+      "magnitude": 8.5,
+      "size": "13' x 8.3'",
+      "surfaceBrightness": 22.2
+    },
+    {
+      "id": "ic2602",
+      "catalogueEntry": "IC 2602",
+      "familiarName": "Southern Pleiades",
+      "altNames": [
+        "CL VDBH 103",
+        "CL MELOTTE 102",
+        "CL COLLINDER 229",
+        "OCL 838.0",
+        "C 102"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Carina",
+      "ra": "10 42 27",
+      "dec": "-64 25 34",
+      "magnitude": 1.6,
+      "size": "2.9º x 2.9º",
+      "surfaceBrightness": 20.2
+    },
+    {
+      "id": "ced19g",
+      "catalogueEntry": "CED 19G",
+      "familiarName": "CED 19G",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Taurus",
+      "ra": "03 46 00",
+      "dec": "24 06 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "clmelotte25",
+      "catalogueEntry": "CL MELOTTE 25",
+      "familiarName": "Hyades",
+      "altNames": [
+        "CL COLLINDER 50",
+        "OCL 456.0",
+        "C 41"
+      ],
+      "type": "Open Cluster",
+      "constellation": "Taurus",
+      "ra": "04 29 47",
+      "dec": "16 56 53",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ced19e",
+      "catalogueEntry": "CED 19E",
+      "familiarName": "CED 19E",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Taurus",
+      "ra": "03 45 18",
+      "dec": "24 29 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "ced19c",
+      "catalogueEntry": "CED 19C",
+      "familiarName": "CED 19C",
+      "altNames": [],
+      "type": "Interstellar Matter",
+      "constellation": "Taurus",
+      "ra": "03 44 48",
+      "dec": "24 18 00",
+      "magnitude": null,
+      "size": null,
+      "surfaceBrightness": null
+    },
+    {
+      "id": "barnard22",
+      "catalogueEntry": "BARNARD 22",
+      "familiarName": "Taurus Dark Cloud",
+      "altNames": [],
+      "type": "Dark Nebula",
+      "constellation": "Taurus",
+      "ra": "04 38 00",
+      "dec": "26 06 00",
+      "magnitude": null,
+      "size": "2º",
       "surfaceBrightness": null
     }
   ]

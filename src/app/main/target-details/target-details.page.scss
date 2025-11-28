@@ -1,0 +1,12 @@
+.target-details {
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin: 1rem 2rem;
+  }
+
+  .first-row {
+    margin-top: 0 !important;
+  }
+}

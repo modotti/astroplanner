@@ -1,0 +1,28 @@
+<div class="moon-status">
+  <div class="first-row">
+    <div class="icon">
+      <app-moon-icon [illumination]="moonIlluminationPercent / 100" [waxing]="isWaxingMoon" [size]="50" />
+    </div>
+    <div>
+      <div class="text-percent">{{ moonIlluminationPercent | number:'1.0-0' }}%</div>
+      <div>{{ moonPhaseName }}</div>
+    </div>
+  </div>
+  <div style="white-space: nowrap;">
+    <div *ngIf="moon?.moonrise || moon?.moonset">
+      <ng-container *ngIf="moon?.moonrise">
+        <i class="fas fa-arrow-up fa-xs"></i>
+        {{ moon?.moonrise | date:'HH:mm' }}
+      </ng-container>
+
+      <ng-container *ngIf="moon?.moonrise && moon?.moonset">
+        &nbsp;
+      </ng-container>
+
+      <ng-container *ngIf="moon?.moonset">
+        {{ moon?.moonset | date:'HH:mm' }}
+        <i class="fas fa-arrow-down fa-xs"></i>
+      </ng-container>
+    </div>
+  </div>
+</div>
