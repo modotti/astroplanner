@@ -1,8 +1,8 @@
 <div class="visibility-window">
-  <div class="row">
+  <div class="row" *ngIf="visibilityWindow?.start || visibilityWindow?.end">
     <div>
       <div>Above <b>{{ minAltitudeDeg }}º</b></div>
-      <div *ngIf="visibilityWindow?.start || visibilityWindow?.end">
+      <div>
         <ng-container *ngIf="visibilityWindow?.start">
           <i class="fas fa-arrow-up fa-xs"></i>
           {{ visibilityWindow?.start | date:'HH:mm' }}
@@ -16,14 +16,20 @@
     </div>
     <div style="text-align: right;">
       <div>Culmination at</div>
-      <div>{{ culmination?.time | date:'HH:mm' }} - {{ culmination?.direction }} {{ culmination?.altitude |
-        number:'1.0-0' }}º</div>
+      <div>
+        <b>{{ culmination?.time | date:'HH:mm' }} - {{ culmination?.direction }} {{ culmination?.altitude |
+          number:'1.0-0' }}º</b>
+      </div>
     </div>
+  </div>
+  <div class="row" *ngIf="!visibilityWindow?.start && !visibilityWindow?.end">
+    <span>There is no visibility window above <b>{{ minAltitudeDeg }}º</b>.</span>
   </div>
   <div>
     <app-altitude-chart [samples]="altitudeCurve" [minAltitude]="+minAltitudeDeg"></app-altitude-chart>
   </div>
   <div class="row small-gray">
-    Current position: {{ currentPosition?.direction }} {{ currentPosition?.altitude | number:'1.0-0' }}º
+    <span>Current position: <b>{{ currentPosition?.direction }} {{ currentPosition?.altitude | number:'1.0-0'
+        }}º</b></span>
   </div>
 </div>

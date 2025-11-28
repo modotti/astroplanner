@@ -1741,6 +1741,19 @@
       "magnitude": null,
       "size": "2º",
       "surfaceBrightness": null
+    },
+    {
+      "id": "m57",
+      "catalogueEntry": "M 57",
+      "familiarName": "Ring Nebula",
+      "altNames": [],
+      "type": "Planetary Nebula",
+      "constellation": "Lyra",
+      "ra": "18 53 35",
+      "dec": "33 01 45",
+      "magnitude": 8.8,
+      "size": "1.2' x 1.2'",
+      "surfaceBrightness": 19.6
     }
   ]
 }
