@@ -1744,14 +1744,14 @@
         "HIP 33165",
         "IRAS 06521-2351"
       ],
-      "type": "Star",
+      "type": "HII Region",
       "constellation": "Canis Major",
       "ra": "06 54 13",
       "dec": "-23 55 42",
       "magnitude": 6.9,
       "size": "35'",
       "surfaceBrightness": 23.25,
-      "group": "Star"
+      "group": "HII Region"
     },
     {
       "id": "pk164311",
