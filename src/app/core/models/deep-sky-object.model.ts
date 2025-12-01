@@ -4,6 +4,7 @@ export interface DeepSkyObject {
   familiarName: string;
   altNames: string[];
   type: string;
+  group: string;
   constellation: string;
   ra: string;   // ex: "05h 35' 17\""
   dec: string;  // ex: "-05º 23' 24\""

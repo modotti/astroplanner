@@ -46,43 +46,29 @@ export class TargetsPage {
   // Signals
   private allTargets = signal<DeepSkyObject[]>([]);
   searchTerm = signal('');
-  selectedTypes = signal<string[]>([]);
+  selectedGroups = signal<string[]>([]);
   visibleCount = signal(this.PAGE_SIZE);
 
-  targetTypes = computed(() => {
-    const nebula: Set<string> = new Set();
-    const galaxy: Set<string> = new Set();
-    const cluster: Set<string> = new Set();
-    const other: Set<string> = new Set();
+  targetGroups = computed(() => {
+    const groups = new Set<string>();
 
     for (const t of this.allTargets()) {
-      if (!t.type) continue;
-
-      const type = t.type.toLowerCase();
-
-      if (type.includes('neb')) {
-        nebula.add(t.type);
-      } else if (type.includes('galax')) {
-        galaxy.add(t.type);
-      } else if (type.includes('cluster')) {
-        cluster.add(t.type);
-      } else {
-        other.add(t.type);
+      if (t.group) {
+        groups.add(t.group);
       }
     }
 
-    return {
-      nebula: Array.from(nebula).sort(),
-      galaxy: Array.from(galaxy).sort(),
-      cluster: Array.from(cluster).sort(),
-      other: Array.from(other).sort()
-    };
+    return Array.from(groups).sort((a, b) => {
+      if (a === 'Other') return 1;
+      if (b === 'Other') return -1;
+      return a.localeCompare(b);
+    });
   });
 
   // Lista já filtrada automaticamente (texto + tipos)
   filteredTargets = computed(() => {
     const term = this.searchTerm().trim().toLowerCase();
-    const types = this.selectedTypes();
+    const groups = this.selectedGroups();
     const list = this.allTargets();
 
     return list.filter(t => {
@@ -94,10 +80,10 @@ export class TargetsPage {
         familiarName.includes(term) ||
         catalogueEntry.includes(term);
 
-      const matchesType =
-        !types.length || (t.type != null && types.includes(t.type));
+      const matchesGroup =
+        !groups.length || groups.includes(t.group);
 
-      return matchesText && matchesType;
+      return matchesText && matchesGroup;
     });
   });
 
@@ -125,10 +111,8 @@ export class TargetsPage {
     this.visibleCount.set(this.PAGE_SIZE);
   }
 
-  onTypesChange(event: any) {
-    // ion-select envia o array selecionado em event.detail.value
-    this.selectedTypes.set(event.detail?.value ?? []);
-    // sempre que muda o filtro, reseta a quantidade visível
+  onGroupsChange(event: any) {
+    this.selectedGroups.set(event.detail?.value ?? []);
     this.visibleCount.set(this.PAGE_SIZE);
   }
 

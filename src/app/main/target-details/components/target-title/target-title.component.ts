@@ -14,10 +14,6 @@ export class TargetTileComponent {
 
   constructor() { }
 
-  getIconForType(type: string): string {
-    return `assets/image/${TARGET_ICON_MAP[type] ?? 'open.svg'}`;
-  }
-
   get catalogueEntry(): string {
     return this.target?.catalogueEntry || '';
   }
@@ -28,5 +24,9 @@ export class TargetTileComponent {
 
   get type(): string {
     return this.target?.type || '';
+  }
+
+  get group(): string {
+    return this.target?.group || '';
   }
 }

@@ -22,39 +22,17 @@
     <!-- Filtro por tipo -->
     <ion-item>
       <ion-select label="Filter by type" multiple="true" interface="popover" placeholder="All types"
-        [value]="selectedTypes()" (ionChange)="onTypesChange($event)">
-
-        <!-- Nebula group -->
-        <ion-select-option disabled>— Nebulae —</ion-select-option>
-        <ion-select-option *ngFor="let t of targetTypes().nebula" [value]="t">
-          {{ t }}
+        [value]="selectedGroups()" (ionChange)="onGroupsChange($event)">
+        <ion-select-option *ngFor="let g of targetGroups()" [value]="g">
+          {{ g }}
         </ion-select-option>
-
-        <!-- Galaxy group -->
-        <ion-select-option disabled>— Galaxies —</ion-select-option>
-        <ion-select-option *ngFor="let t of targetTypes().galaxy" [value]="t">
-          {{ t }}
-        </ion-select-option>
-
-        <!-- Clusters group -->
-        <ion-select-option disabled>— Clusters —</ion-select-option>
-        <ion-select-option *ngFor="let t of targetTypes().cluster" [value]="t">
-          {{ t }}
-        </ion-select-option>
-
-        <!-- Other -->
-        <ion-select-option disabled>— Others —</ion-select-option>
-        <ion-select-option *ngFor="let t of targetTypes().other" [value]="t">
-          {{ t }}
-        </ion-select-option>
-
       </ion-select>
     </ion-item>
 
     <!-- Lista de resultados (paginada) -->
     <ion-list *ngIf="visibleTargets().length; else noResults" class="result">
       <ion-item *ngFor="let t of visibleTargets()" button detail="true" (click)="openTarget(t)">
-        <img [src]="t.type | targetIcon" alt="{{ t.type }}" class="icon">
+        <img [src]="t.group | targetIcon" alt="{{ t.type }}" class="icon">
 
         <ion-label>
           <h2>{{ t.familiarName || t.catalogueEntry }}</h2>
