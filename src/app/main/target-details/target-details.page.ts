@@ -60,7 +60,7 @@ export class TargetDetailsPage implements OnInit {
         const object = this.mapDsoToTargetEquatorial(this.target);
         this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
           minAltitudeDeg: 30,
-          stepMinutes: 30,
+          stepMinutes: 10,
         });
 
         console.log(this.plan)

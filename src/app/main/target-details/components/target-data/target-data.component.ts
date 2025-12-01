@@ -36,4 +36,8 @@ export class TargetDataComponent {
   get surfaceBrightness(): string {
     return this.target?.surfaceBrightness?.toString() || '';
   }
+
+  get score(): string {
+    return this.target?.score?.toString() || '';
+  }
 }

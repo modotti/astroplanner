@@ -71,7 +71,7 @@ export class PlanningService {
     options: CapturePlanOptions = {}
   ): CapturePlan {
     const minAlt = options.minAltitudeDeg ?? 30;
-    const stepMinutes = options.stepMinutes ?? 30;
+    const stepMinutes = options.stepMinutes ?? 10;
     const currentTime = options.currentTime ?? new Date();
 
     // 1) Janela da noite: 18h do dia -> 06h do dia seguinte

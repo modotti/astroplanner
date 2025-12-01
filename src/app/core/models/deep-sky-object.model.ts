@@ -10,6 +10,7 @@ export interface DeepSkyObject {
   magnitude: number | null;
   size: string; // ex: "1.1º x 1.1º"
   surfaceBrightness: number | null;
+  score?: number;
 }
 
 export interface DeepSkyCatalog {

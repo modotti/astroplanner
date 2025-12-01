@@ -78,7 +78,7 @@ export class AltitudeChartComponent implements AfterViewInit, OnDestroy, OnChang
         below: '#333'
       },
       borderWidth: 2,
-      pointRadius: 1,
+      pointRadius: 0,
       pointHoverRadius: 5
     };
 
