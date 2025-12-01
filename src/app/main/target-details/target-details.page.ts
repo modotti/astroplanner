@@ -83,13 +83,14 @@ export class TargetDetailsPage implements OnInit {
   async openLinks(target: DeepSkyObject | undefined) {
     if (!target) return;
 
-    const googleName = `${target.familiarName} ${target.id} astronomy`;
-    const googleSearchQuery = encodeURIComponent(googleName);
-    const telescopiusName = target.catalogueEntry.replace(/\s+/g, '-');
-    const stellariumName = target.id;
+    const name = `${target.familiarName}`;
+    const googleTerm = `${target.familiarName} ${target.id} astronomy`;
+    const googleSearchQuery = encodeURIComponent(googleTerm);
+    const telescopiusTerm = target.catalogueEntry.replace(/\s+/g, '-');
+    const stellariumTerm = target.id;
 
     const actionSheet = await this.actionSheetCtrl.create({
-      header: `Links para ${googleName}`,
+      header: `Links para ${name}`,
       buttons: [
         {
           text: 'Buscar no Google',
@@ -113,7 +114,7 @@ export class TargetDetailsPage implements OnInit {
           text: 'Telescopius',
           handler: () => {
             window.open(
-              `https://telescopius.com/deep-sky-objects/${telescopiusName}/`,
+              `https://telescopius.com/deep-sky-objects/${telescopiusTerm}/`,
               '_blank'
             );
           },
@@ -122,7 +123,7 @@ export class TargetDetailsPage implements OnInit {
           text: 'Stellarium',
           handler: () => {
             window.open(
-              `https://stellarium-web.org/skysource/${stellariumName}`,
+              `https://stellarium-web.org/skysource/${stellariumTerm}`,
               '_blank'
             );
           },
