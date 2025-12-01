@@ -23,6 +23,10 @@ export class TargetCatalogService {
     });
   }
 
+  getAll(): DeepSkyObject[] {
+    return this.objects();
+  }
+
   getById(id: string): DeepSkyObject | undefined {
     return this.objects().find((o) => o.id === id);
   }

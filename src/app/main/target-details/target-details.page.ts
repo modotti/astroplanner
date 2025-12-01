@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButtons, IonBackButton } from '@ionic/angular/standalone';
 import { ActivatedRoute } from '@angular/router';
 import { DateLocationWidgetComponent } from 'src/app/shared/components/date-location-widget/date-location-widget.component';
 import { TargetTileComponent } from './components/target-title/target-title.component';
@@ -23,6 +23,8 @@ import { VisibilityWindowComponent } from './components/visibility-window/visibi
     IonToolbar,
     IonTitle,
     IonContent,
+    IonButtons, 
+    IonBackButton,
     DateLocationWidgetComponent,
     TargetTileComponent,
     TargetDataComponent,

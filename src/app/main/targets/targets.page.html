@@ -1,17 +1,45 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Targets
-    </ion-title>
+    <ion-title>Targets</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <!-- Header condensado -->
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Targets</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  TARGETS
+  <div class="target-page">
+
+    <!-- Campo de busca -->
+    <ion-searchbar placeholder="Search by name or catalogue..." (ionInput)="onSearch($event)"
+      [value]="searchTerm()"></ion-searchbar>
+
+    <!-- Lista de resultados -->
+    <ion-list class="mt-4" *ngIf="filteredTargets().length; else noResults">
+
+      <ion-item *ngFor="let t of filteredTargets()" button detail="true" (click)="openTarget(t)">
+        <img [src]="t.type | targetIcon" alt="{{ t.type }}" class="icon">
+
+        <ion-label>
+          <h2>{{ t.familiarName }}</h2>
+          <p>{{ t.catalogueEntry }} • {{ t.type }}</p>
+        </ion-label>
+      </ion-item>
+
+    </ion-list>
+
+    <!-- Empty state -->
+    <ng-template #noResults>
+      <div class="text-center text-gray-500 mt-8">
+        No targets found
+      </div>
+    </ng-template>
+
+  </div>
+
 </ion-content>

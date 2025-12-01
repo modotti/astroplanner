@@ -1,5 +1,8 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/main/targets"></ion-back-button>
+    </ion-buttons>
     <ion-title>
       Target Details
     </ion-title>
@@ -16,7 +19,7 @@
   <div class="target-details">
     <app-date-location-widget />
     <app-target-title [target]="target" />
-    <div class="info-row first-row">
+    <div class="info-row">
       <div>
         <app-target-data [target]="target" />
       </div>
@@ -25,7 +28,7 @@
       </div>
     </div>
     <div class="info-row">
-      <app-moon-impact [impact]="plan?.moonImpact"/>
+      <app-moon-impact [impact]="plan?.moonImpact" />
     </div>
     <div class="info-row">
       <app-visibility-window style="width: 100%;" [plan]="plan" />

@@ -1,6 +1,6 @@
 <div class="target-title">
   <div>
-    <img [src]="getIconForType(type)" alt="{{ type }}" class="icon">
+    <img [src]="type | targetIcon" alt="{{ type }}" class="icon">
   </div>
   <div>
     <div class="text-lg text-bold">{{ catalogueEntry }}</div>
