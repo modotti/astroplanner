@@ -2649,7 +2649,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "ngc7793",
@@ -2833,7 +2833,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Open Cluster"
     },
     {
       "id": "aco347",
@@ -2849,7 +2849,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "sh27",
@@ -3390,7 +3390,7 @@
       "magnitude": null,
       "size": "6º x 6º",
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "ngc5746",
@@ -3541,7 +3541,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "ldn215",
@@ -4383,7 +4383,7 @@
       "magnitude": null,
       "size": "12' x 12'",
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "ngc6384",
@@ -5710,7 +5710,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Open Cluster"
     },
     {
       "id": "ngc6559",
@@ -6237,7 +6237,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "m19",
@@ -6736,7 +6736,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "lbn400",
@@ -7552,7 +7552,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "lbn988",
@@ -8170,7 +8170,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Open Cluster"
     },
     {
       "id": "lbn445",
@@ -10434,7 +10434,7 @@
       "magnitude": null,
       "size": "30' x 30'",
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Galaxy"
     },
     {
       "id": "ced89c",
@@ -10792,7 +10792,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Open Cluster"
     },
     {
       "id": "lbn270",
@@ -16951,7 +16951,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "Other"
+      "group": "Open Cluster"
     },
     {
       "id": "ic2602",
