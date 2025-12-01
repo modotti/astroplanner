@@ -16,30 +16,65 @@
   <div class="target-page">
 
     <!-- Campo de busca -->
-    <ion-searchbar placeholder="Search by name or catalogue..." (ionInput)="onSearch($event)"
-      [value]="searchTerm()"></ion-searchbar>
+    <ion-searchbar placeholder="Search by name or catalogue..." (ionInput)="onSearch($event)" [value]="searchTerm()">
+    </ion-searchbar>
 
-    <!-- Lista de resultados -->
-    <ion-list class="mt-4" *ngIf="filteredTargets().length; else noResults">
+    <!-- Filtro por tipo -->
+    <ion-item>
+      <ion-select label="Filter by type" multiple="true" interface="popover" placeholder="All types"
+        [value]="selectedTypes()" (ionChange)="onTypesChange($event)">
 
-      <ion-item *ngFor="let t of filteredTargets()" button detail="true" (click)="openTarget(t)">
+        <!-- Nebula group -->
+        <ion-select-option disabled>— Nebulae —</ion-select-option>
+        <ion-select-option *ngFor="let t of targetTypes().nebula" [value]="t">
+          {{ t }}
+        </ion-select-option>
+
+        <!-- Galaxy group -->
+        <ion-select-option disabled>— Galaxies —</ion-select-option>
+        <ion-select-option *ngFor="let t of targetTypes().galaxy" [value]="t">
+          {{ t }}
+        </ion-select-option>
+
+        <!-- Clusters group -->
+        <ion-select-option disabled>— Clusters —</ion-select-option>
+        <ion-select-option *ngFor="let t of targetTypes().cluster" [value]="t">
+          {{ t }}
+        </ion-select-option>
+
+        <!-- Other -->
+        <ion-select-option disabled>— Others —</ion-select-option>
+        <ion-select-option *ngFor="let t of targetTypes().other" [value]="t">
+          {{ t }}
+        </ion-select-option>
+
+      </ion-select>
+    </ion-item>
+
+    <!-- Lista de resultados (paginada) -->
+    <ion-list *ngIf="visibleTargets().length; else noResults" class="result">
+      <ion-item *ngFor="let t of visibleTargets()" button detail="true" (click)="openTarget(t)">
         <img [src]="t.type | targetIcon" alt="{{ t.type }}" class="icon">
 
         <ion-label>
-          <h2>{{ t.familiarName }}</h2>
-          <p>{{ t.catalogueEntry }} • {{ t.type }}</p>
+          <h2>{{ t.familiarName || t.catalogueEntry }}</h2>
+          <p>{{ t.catalogueEntry }} • {{ t.type }} • [{{ t.score }}]</p>
         </ion-label>
       </ion-item>
-
     </ion-list>
+
+    <!-- Botão "Show more" -->
+    <div class="load-more" *ngIf="filteredTargets().length > visibleCount()">
+      <ion-button expand="block" fill="outline" (click)="loadMore()">
+        Show more ({{ filteredTargets().length - visibleCount() }})
+      </ion-button>
+    </div>
 
     <!-- Empty state -->
     <ng-template #noResults>
-      <div class="text-center text-gray-500 mt-8">
+      <div class="no-targets">
         No targets found
       </div>
     </ng-template>
-
   </div>
-
 </ion-content>
