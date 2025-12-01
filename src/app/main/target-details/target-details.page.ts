@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter, ActionSheetController } from '@ionic/angular/standalone';
 import { ActivatedRoute } from '@angular/router';
 import { DateLocationWidgetComponent } from 'src/app/shared/components/date-location-widget/date-location-widget.component';
 import { TargetTileComponent } from './components/target-title/target-title.component';
@@ -44,6 +44,7 @@ export class TargetDetailsPage implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
+    private actionSheetCtrl: ActionSheetController,
     private targetCatalogService: TargetCatalogService,
     private locationService: LocationService,
     private planningService: PlanningService,
@@ -55,8 +56,6 @@ export class TargetDetailsPage implements OnInit {
 
     if (targetId) {
       this.target = this.targetCatalogService.getById(targetId);
-
-      console.log(this.target)
 
       if (this.target) {
         const object = this.mapDsoToTargetEquatorial(this.target);
@@ -81,8 +80,60 @@ export class TargetDetailsPage implements OnInit {
     };
   }
 
-  get googleSearchUrl(): string {
-    const query = encodeURIComponent(this.target?.familiarName || '') + " " + encodeURIComponent(this.target?.catalogueEntry || '')
-    return `https://www.google.com/search?q=${query}+astronomy`;
+  async openLinks(target: DeepSkyObject | undefined) {
+    if (!target) return;
+
+    const googleName = `${target.familiarName} ${target.id} astronomy`;
+    const googleSearchQuery = encodeURIComponent(googleName);
+    const telescopiusName = target.catalogueEntry.replace(/\s+/g, '-');
+    const stellariumName = target.id;
+
+    const actionSheet = await this.actionSheetCtrl.create({
+      header: `Links para ${googleName}`,
+      buttons: [
+        {
+          text: 'Buscar no Google',
+          handler: () => {
+            window.open(
+              `https://www.google.com/search?q=${googleSearchQuery}`,
+              '_blank'
+            );
+          },
+        },
+        {
+          text: 'Imagens no Google',
+          handler: () => {
+            window.open(
+              `https://www.google.com/search?tbm=isch&q=${googleSearchQuery}`,
+              '_blank'
+            );
+          },
+        },
+        {
+          text: 'Telescopius',
+          handler: () => {
+            window.open(
+              `https://telescopius.com/deep-sky-objects/${telescopiusName}/`,
+              '_blank'
+            );
+          },
+        },
+        {
+          text: 'Stellarium',
+          handler: () => {
+            window.open(
+              `https://stellarium-web.org/skysource/${stellariumName}`,
+              '_blank'
+            );
+          },
+        },
+        {
+          text: 'Cancelar',
+          role: 'cancel',
+        },
+      ],
+    });
+
+    await actionSheet.present();
   }
 }

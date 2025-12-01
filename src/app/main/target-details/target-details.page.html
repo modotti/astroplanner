@@ -40,20 +40,16 @@
   <ion-toolbar class="target-details">
     <div class="actions-row">
       <div>
-        <a>
-          <ion-button>
-            <i class="fas fa-thumbtack"></i>
-            <span style="margin-left: 0.5rem;">Create Plan</span>
-          </ion-button>
-        </a>
+        <ion-button>
+          <i class="fas fa-thumbtack"></i>
+          <span style="margin-left: 0.5rem;">Create Plan</span>
+        </ion-button>
       </div>
       <div>
-        <a [href]="googleSearchUrl" target="_blank" rel="noopener">
-          <ion-button fill="outline">
-            <i class="fab fa-google"></i>
-            <span style="margin-left: 0.5rem;">Google this target</span>
-          </ion-button>
-        </a>
+        <ion-button fill="outline" (click)="openLinks(target)">
+          <i class="fas fa-link"></i>
+          <span style="margin-left: 0.5rem;">Links</span>
+        </ion-button>
       </div>
     </div>
   </ion-toolbar>
