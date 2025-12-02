@@ -72,10 +72,14 @@ export class TargetDetailsPage implements OnInit {
     if (!target) return;
 
     const name = `${target.familiarName}`;
-    const googleTerm = `${target.familiarName} ${target.id} astronomy`;
-    const googleSearchQuery = encodeURIComponent(googleTerm);
+    const googleTerm =
+      target.type === 'Bright Star' ?
+        `${target.familiarName} ${target.catalogueEntry} astronomy` :
+        `${target.familiarName} ${target.id} astronomy`;
     const telescopiusTerm = target.catalogueEntry.replace(/\s+/g, '-');
     const stellariumTerm = target.id;
+
+    const googleSearchQuery = encodeURIComponent(googleTerm);
 
     const searchGoogleButton = {
       text: 'Search on Google',
