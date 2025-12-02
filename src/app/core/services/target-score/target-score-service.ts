@@ -125,7 +125,7 @@ export class TargetScoreService {
     // 2. Converte RA/Dec do catálogo
     // -----------------------------------------------
 
-    const targetEq = this.astro.mapDsoToTargetEquatorial(target, location)
+    const targetEq = this.astro.mapObjectToTargetEquatorial(target, location)
 
     // -----------------------------------------------
     // 3. Curva de altitude da noite
@@ -257,9 +257,9 @@ export class TargetScoreService {
     }
 
     // -----------------------------------------------
-    // 7. Ajustes para planetas
+    // 7. Ajustes para planetas e objetos brilhantes
     // -----------------------------------------------
-    if (['venus', 'jupiter', 'saturn'].includes(target.id)) {
+    if (target.type === 'Bright Star' || ['venus', 'jupiter', 'saturn'].includes(target.id)) {
       moonFactor = 1;
     }
 

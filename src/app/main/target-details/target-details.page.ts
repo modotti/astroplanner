@@ -59,7 +59,7 @@ export class TargetDetailsPage implements OnInit {
       this.target = this.targetCatalogService.getById(targetId);
 
       if (this.target) {
-        const object = this.astroCoreService.mapDsoToTargetEquatorial(this.target, this.location);
+        const object = this.astroCoreService.mapObjectToTargetEquatorial(this.target, this.location);
         this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
           minAltitudeDeg: 30,
           stepMinutes: 10,

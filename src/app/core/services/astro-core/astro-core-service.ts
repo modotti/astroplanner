@@ -251,7 +251,7 @@ export class AstroCoreService {
   // Utils
   // -------------------------------------------------------------------
 
-  mapDsoToTargetEquatorial(object: DeepSkyObject, location: UserLocation): TargetEquatorial {
+  mapObjectToTargetEquatorial(object: DeepSkyObject, location: UserLocation): TargetEquatorial {
     const name = object.familiarName || object.catalogueEntry || object.id;
 
     // -------------------------
