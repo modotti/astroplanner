@@ -124,7 +124,7 @@ export class TargetDetailsPage implements OnInit {
     };
 
     let buttons = [searchGoogleButton, imageGoogleButton];
-    if (target.group !== 'Planet') {
+    if (target.type !== 'Bright Star' && target.group !== 'Planet') {
       buttons.push(telescopiusButton);
     }
     buttons.push(stellariumButton);

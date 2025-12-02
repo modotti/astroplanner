@@ -12,7 +12,7 @@ export class TargetCatalogService {
   private readonly CATALOG_URLS = [
     'assets/catalog/deep-sky-catalog.json',
     'assets/catalog/planet-catalog.json',
-    //'assets/catalog/bright-star-catalog.json'
+    'assets/catalog/bright-star-catalog.json'
   ];
   private readonly catalogSignal = signal<DeepSkyCatalog | null>(null);
 
@@ -65,6 +65,8 @@ export class TargetCatalogService {
         };
 
         this.catalogSignal.set(mergedCatalog);
+
+        console.log(mergedCatalog.objects.length)
 
         this.locationService.getCurrentLocation().then(location => {
           const lat = +location.latitude.toFixed(1);

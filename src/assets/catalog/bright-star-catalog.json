@@ -1,0 +1,1480 @@
+{
+  "version": 1,
+  "source": "catalogo.xlsx",
+  "updatedAt": "2025-12-01",
+  "objects": [
+    {
+      "id": "sirius",
+      "catalogueEntry": "alpha Canis Majoris",
+      "familiarName": "Sirius",
+      "altNames": [
+        "Alpha CMa",
+        "9 CMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Canis Major",
+      "ra": "06 45 08.91",
+      "dec": "-16 42 58.0",
+      "magnitude": -1.46,
+      "group": "Star"
+    },
+    {
+      "id": "canopus",
+      "catalogueEntry": "alpha Carinae",
+      "familiarName": "Canopus",
+      "altNames": [
+        "Alpha Car"
+      ],
+      "type": "Bright Star",
+      "constellation": "Carina",
+      "ra": "06 23 57.11",
+      "dec": "-52 41 44.6",
+      "magnitude": -0.74,
+      "group": "Star"
+    },
+    {
+      "id": "rigilkentaurus",
+      "catalogueEntry": "alpha Centauri",
+      "familiarName": "Rigil Kentaurus",
+      "altNames": [
+        "Alpha Cen",
+        "Toliman"
+      ],
+      "type": "Bright Star",
+      "constellation": "Centaurus",
+      "ra": "14 39 36.50",
+      "dec": "-60 50 02.3",
+      "magnitude": -0.27,
+      "group": "Star"
+    },
+    {
+      "id": "arcturus",
+      "catalogueEntry": "alpha Bootis",
+      "familiarName": "Arcturus",
+      "altNames": [
+        "Alpha Boo",
+        "16 Boo"
+      ],
+      "type": "Bright Star",
+      "constellation": "Bootes",
+      "ra": "14 15 39.75",
+      "dec": "+19 10 56.6",
+      "magnitude": -0.05,
+      "group": "Star"
+    },
+    {
+      "id": "vega",
+      "catalogueEntry": "alpha Lyrae",
+      "familiarName": "Vega",
+      "altNames": [
+        "Alpha Lyr",
+        "3 Lyr"
+      ],
+      "type": "Bright Star",
+      "constellation": "Lyra",
+      "ra": "18 36 56.33",
+      "dec": "+38 47 01.3",
+      "magnitude": 0.03,
+      "group": "Star"
+    },
+    {
+      "id": "capella",
+      "catalogueEntry": "alpha Aurigae",
+      "familiarName": "Capella",
+      "altNames": [
+        "Alpha Aur",
+        "13 Aur"
+      ],
+      "type": "Bright Star",
+      "constellation": "Auriga",
+      "ra": "05 16 41.36",
+      "dec": "+45 59 52.8",
+      "magnitude": 0.08,
+      "group": "Star"
+    },
+    {
+      "id": "rigel",
+      "catalogueEntry": "beta Orionis",
+      "familiarName": "Rigel",
+      "altNames": [
+        "Beta Ori",
+        "19 Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 14 32.27",
+      "dec": "-08 12 05.9",
+      "magnitude": 0.13,
+      "group": "Star"
+    },
+    {
+      "id": "procyon",
+      "catalogueEntry": "alpha Canis Minoris",
+      "familiarName": "Procyon",
+      "altNames": [
+        "Alpha CMi",
+        "10 CMi"
+      ],
+      "type": "Bright Star",
+      "constellation": "Canis Minor",
+      "ra": "07 39 18.12",
+      "dec": "+05 13 30.0",
+      "magnitude": 0.34,
+      "group": "Star"
+    },
+    {
+      "id": "achernar",
+      "catalogueEntry": "alpha Eridani",
+      "familiarName": "Achernar",
+      "altNames": [
+        "Alpha Eri"
+      ],
+      "type": "Bright Star",
+      "constellation": "Eridanus",
+      "ra": "01 37 42.85",
+      "dec": "-57 14 12.3",
+      "magnitude": 0.46,
+      "group": "Star"
+    },
+    {
+      "id": "betelgeuse",
+      "catalogueEntry": "alpha Orionis",
+      "familiarName": "Betelgeuse",
+      "altNames": [
+        "Alpha Ori",
+        "58 Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 55 10.30",
+      "dec": "+07 24 25.4",
+      "magnitude": 0.50,
+      "group": "Star"
+    },
+    {
+      "id": "hadar",
+      "catalogueEntry": "beta Centauri",
+      "familiarName": "Hadar",
+      "altNames": [
+        "Beta Cen",
+        "Agena"
+      ],
+      "type": "Bright Star",
+      "constellation": "Centaurus",
+      "ra": "14 03 49.43",
+      "dec": "-60 22 22.9",
+      "magnitude": 0.61,
+      "group": "Star"
+    },
+    {
+      "id": "altair",
+      "catalogueEntry": "alpha Aquilae",
+      "familiarName": "Altair",
+      "altNames": [
+        "Alpha Aql",
+        "53 Aql"
+      ],
+      "type": "Bright Star",
+      "constellation": "Aquila",
+      "ra": "19 50 47.00",
+      "dec": "+08 52 05.9",
+      "magnitude": 0.76,
+      "group": "Star"
+    },
+    {
+      "id": "acrux",
+      "catalogueEntry": "alpha Crucis",
+      "familiarName": "Acrux",
+      "altNames": [
+        "Alpha Cru"
+      ],
+      "type": "Bright Star",
+      "constellation": "Crux",
+      "ra": "12 26 59.81",
+      "dec": "-63 05 56.7",
+      "magnitude": 0.76,
+      "group": "Star"
+    },
+    {
+      "id": "aldebaran",
+      "catalogueEntry": "alpha Tauri",
+      "familiarName": "Aldebaran",
+      "altNames": [
+        "Alpha Tau",
+        "87 Tau"
+      ],
+      "type": "Bright Star",
+      "constellation": "Taurus",
+      "ra": "04 35 55.23",
+      "dec": "+16 30 33.5",
+      "magnitude": 0.86,
+      "group": "Star"
+    },
+    {
+      "id": "antares",
+      "catalogueEntry": "alpha Scorpii",
+      "familiarName": "Antares",
+      "altNames": [
+        "Alpha Sco",
+        "21 Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "16 29 24.46",
+      "dec": "-26 25 55.2",
+      "magnitude": 0.96,
+      "group": "Star"
+    },
+    {
+      "id": "spica",
+      "catalogueEntry": "alpha Virginis",
+      "familiarName": "Spica",
+      "altNames": [
+        "Alpha Vir",
+        "67 Vir"
+      ],
+      "type": "Bright Star",
+      "constellation": "Virgo",
+      "ra": "13 25 11.58",
+      "dec": "-11 09 40.8",
+      "magnitude": 0.97,
+      "group": "Star"
+    },
+    {
+      "id": "pollux",
+      "catalogueEntry": "beta Geminorum",
+      "familiarName": "Pollux",
+      "altNames": [
+        "Beta Gem",
+        "78 Gem"
+      ],
+      "type": "Bright Star",
+      "constellation": "Gemini",
+      "ra": "07 45 18.94",
+      "dec": "+28 01 34.6",
+      "magnitude": 1.14,
+      "group": "Star"
+    },
+    {
+      "id": "fomalhaut",
+      "catalogueEntry": "alpha Piscis Austrini",
+      "familiarName": "Fomalhaut",
+      "altNames": [
+        "Alpha PsA"
+      ],
+      "type": "Bright Star",
+      "constellation": "Piscis Austrinus",
+      "ra": "22 57 39.04",
+      "dec": "-29 37 20.0",
+      "magnitude": 1.16,
+      "group": "Star"
+    },
+    {
+      "id": "deneb",
+      "catalogueEntry": "alpha Cygni",
+      "familiarName": "Deneb",
+      "altNames": [
+        "Alpha Cyg",
+        "50 Cyg"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cygnus",
+      "ra": "20 41 25.91",
+      "dec": "+45 16 49.3",
+      "magnitude": 1.25,
+      "group": "Star"
+    },
+    {
+      "id": "mimosa",
+      "catalogueEntry": "beta Crucis",
+      "familiarName": "Mimosa",
+      "altNames": [
+        "Beta Cru",
+        "Becrux"
+      ],
+      "type": "Bright Star",
+      "constellation": "Crux",
+      "ra": "12 53 49.48",
+      "dec": "-59 41 19.6",
+      "magnitude": 1.25,
+      "group": "Star"
+    },
+    {
+      "id": "regulus",
+      "catalogueEntry": "alpha Leonis",
+      "familiarName": "Regulus",
+      "altNames": [
+        "Alpha Leo",
+        "32 Leo"
+      ],
+      "type": "Bright Star",
+      "constellation": "Leo",
+      "ra": "10 08 22.31",
+      "dec": "+11 58 02.0",
+      "magnitude": 1.39,
+      "group": "Star"
+    },
+    {
+      "id": "adhara",
+      "catalogueEntry": "epsilon Canis Majoris",
+      "familiarName": "Adhara",
+      "altNames": [
+        "Epsilon CMa",
+        "21 CMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Canis Major",
+      "ra": "06 58 37.52",
+      "dec": "-28 58 19.5",
+      "magnitude": 1.50,
+      "group": "Star"
+    },
+    {
+      "id": "shaula",
+      "catalogueEntry": "lambda Scorpii",
+      "familiarName": "Shaula",
+      "altNames": [
+        "Lambda Sco",
+        "35 Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "17 33 36.53",
+      "dec": "-37 06 13.9",
+      "magnitude": 1.62,
+      "group": "Star"
+    },
+    {
+      "id": "castor",
+      "catalogueEntry": "alpha Geminorum",
+      "familiarName": "Castor",
+      "altNames": [
+        "Alpha Gem",
+        "66 Gem"
+      ],
+      "type": "Bright Star",
+      "constellation": "Gemini",
+      "ra": "07 34 35.91",
+      "dec": "+31 53 18.2",
+      "magnitude": 1.62,
+      "group": "Star"
+    },
+    {
+      "id": "gacrux",
+      "catalogueEntry": "gamma Crucis",
+      "familiarName": "Gacrux",
+      "altNames": [
+        "Gamma Cru"
+      ],
+      "type": "Bright Star",
+      "constellation": "Crux",
+      "ra": "12 57 23.27",
+      "dec": "-57 06 47.6",
+      "magnitude": 1.64,
+      "group": "Star"
+    },
+    {
+      "id": "bellatrix",
+      "catalogueEntry": "gamma Orionis",
+      "familiarName": "Bellatrix",
+      "altNames": [
+        "Gamma Ori",
+        "24 Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 25 07.87",
+      "dec": "+06 20 59.3",
+      "magnitude": 1.64,
+      "group": "Star"
+    },
+    {
+      "id": "elnath",
+      "catalogueEntry": "beta Tauri",
+      "familiarName": "El Nath",
+      "altNames": [
+        "Beta Tau",
+        "112 Tau"
+      ],
+      "type": "Bright Star",
+      "constellation": "Taurus",
+      "ra": "05 21 00.56",
+      "dec": "+28 36 24.3",
+      "magnitude": 1.65,
+      "group": "Star"
+    },
+    {
+      "id": "miaplacidus",
+      "catalogueEntry": "beta Carinae",
+      "familiarName": "Miaplacidus",
+      "altNames": [
+        "Beta Car"
+      ],
+      "type": "Bright Star",
+      "constellation": "Carina",
+      "ra": "09 13 12.03",
+      "dec": "-69 41 27.9",
+      "magnitude": 1.69,
+      "group": "Star"
+    },
+    {
+      "id": "alnilam",
+      "catalogueEntry": "epsilon Orionis",
+      "familiarName": "Alnilam",
+      "altNames": [
+        "Epsilon Ori",
+        "46 Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 36 12.81",
+      "dec": "-01 12 06.9",
+      "magnitude": 1.69,
+      "group": "Star"
+    },
+    {
+      "id": "regor",
+      "catalogueEntry": "gamma Velorum",
+      "familiarName": "Regor",
+      "altNames": [
+        "Gamma Vel"
+      ],
+      "type": "Bright Star",
+      "constellation": "Vela",
+      "ra": "08 09 31.95",
+      "dec": "-47 20 11.8",
+      "magnitude": 1.72,
+      "group": "Star"
+    },
+    {
+      "id": "alnair",
+      "catalogueEntry": "alpha Gruis",
+      "familiarName": "Alnair",
+      "altNames": [
+        "Alpha Gru"
+      ],
+      "type": "Bright Star",
+      "constellation": "Grus",
+      "ra": "22 10 52.12",
+      "dec": "-46 57 26.0",
+      "magnitude": 1.74,
+      "group": "Star"
+    },
+    {
+      "id": "alioth",
+      "catalogueEntry": "epsilon Ursae Majoris",
+      "familiarName": "Alioth",
+      "altNames": [
+        "Epsilon UMa",
+        "77 UMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "12 54 01.99",
+      "dec": "+55 57 35.3",
+      "magnitude": 1.77,
+      "group": "Star"
+    },
+    {
+      "id": "alnitak",
+      "catalogueEntry": "zeta Orionis",
+      "familiarName": "Alnitak",
+      "altNames": [
+        "Zeta Ori",
+        "50 Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 40 45.52",
+      "dec": "-01 56 34.0",
+      "magnitude": 1.77,
+      "group": "Star"
+    },
+    {
+      "id": "dubhe",
+      "catalogueEntry": "alpha Ursae Majoris",
+      "familiarName": "Dubhe",
+      "altNames": [
+        "Alpha UMa",
+        "48 UMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "11 03 43.67",
+      "dec": "+61 45 03.7",
+      "magnitude": 1.79,
+      "group": "Star"
+    },
+    {
+      "id": "mirfak",
+      "catalogueEntry": "alpha Persei",
+      "familiarName": "Mirfak",
+      "altNames": [
+        "Alpha Per",
+        "33 Per"
+      ],
+      "type": "Bright Star",
+      "constellation": "Perseus",
+      "ra": "03 24 19.36",
+      "dec": "+49 51 03.0",
+      "magnitude": 1.80,
+      "group": "Star"
+    },
+    {
+      "id": "wezen",
+      "catalogueEntry": "delta Canis Majoris",
+      "familiarName": "Wezen",
+      "altNames": [
+        "Delta CMa",
+        "25 CMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Canis Major",
+      "ra": "07 08 23.49",
+      "dec": "-26 23 35.5",
+      "magnitude": 1.82,
+      "group": "Star"
+    },
+    {
+      "id": "sargas",
+      "catalogueEntry": "theta Scorpii",
+      "familiarName": "Sargas",
+      "altNames": [
+        "Theta Sco",
+        "29 Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "17 50 45.48",
+      "dec": "-43 03 35.8",
+      "magnitude": 1.84,
+      "group": "Star"
+    },
+    {
+      "id": "kausaustralis",
+      "catalogueEntry": "epsilon Sagittarii",
+      "familiarName": "Kaus Australis",
+      "altNames": [
+        "Epsilon Sgr",
+        "42 Sgr"
+      ],
+      "type": "Bright Star",
+      "constellation": "Sagittarius",
+      "ra": "18 24 10.32",
+      "dec": "-34 23 04.9",
+      "magnitude": 1.85,
+      "group": "Star"
+    },
+    {
+      "id": "avior",
+      "catalogueEntry": "epsilon Carinae",
+      "familiarName": "Avior",
+      "altNames": [
+        "Epsilon Car"
+      ],
+      "type": "Bright Star",
+      "constellation": "Carina",
+      "ra": "08 22 35.91",
+      "dec": "-59 30 34.3",
+      "magnitude": 1.86,
+      "group": "Star"
+    },
+    {
+      "id": "alkaid",
+      "catalogueEntry": "eta Ursae Majoris",
+      "familiarName": "Alkaid",
+      "altNames": [
+        "Eta UMa",
+        "85 UMa",
+        "Benetnash"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "13 47 32.44",
+      "dec": "+49 18 47.1",
+      "magnitude": 1.86,
+      "group": "Star"
+    },
+    {
+      "id": "menkalinan",
+      "catalogueEntry": "beta Aurigae",
+      "familiarName": "Menkalinan",
+      "altNames": [
+        "Beta Aur",
+        "34 Aur"
+      ],
+      "type": "Bright Star",
+      "constellation": "Auriga",
+      "ra": "05 59 31.60",
+      "dec": "+44 56 48.7",
+      "magnitude": 1.90,
+      "group": "Star"
+    },
+    {
+      "id": "atria",
+      "catalogueEntry": "alpha Trianguli Aust.",
+      "familiarName": "Atria",
+      "altNames": [
+        "Alpha TrA"
+      ],
+      "type": "Bright Star",
+      "constellation": "Triangulum Australe",
+      "ra": "16 48 39.87",
+      "dec": "-69 01 39.5",
+      "magnitude": 1.91,
+      "group": "Star"
+    },
+    {
+      "id": "alhena",
+      "catalogueEntry": "gamma Geminorum",
+      "familiarName": "Alhena",
+      "altNames": [
+        "Gamma Gem",
+        "24 Gem"
+      ],
+      "type": "Bright Star",
+      "constellation": "Gemini",
+      "ra": "06 37 43.19",
+      "dec": "+16 23 57.0",
+      "magnitude": 1.93,
+      "group": "Star"
+    },
+    {
+      "id": "peacock",
+      "catalogueEntry": "alpha Pavonis",
+      "familiarName": "Peacock",
+      "altNames": [
+        "Alpha Pav"
+      ],
+      "type": "Bright Star",
+      "constellation": "Pavo",
+      "ra": "20 25 38.80",
+      "dec": "-56 44 04.9",
+      "magnitude": 1.94,
+      "group": "Star"
+    },
+    {
+      "id": "alsephina",
+      "catalogueEntry": "delta Velorum",
+      "familiarName": "Alsephina",
+      "altNames": [
+        "Delta Vel"
+      ],
+      "type": "Bright Star",
+      "constellation": "Vela",
+      "ra": "09 08 20.97",
+      "dec": "-54 43 05.8",
+      "magnitude": 1.96,
+      "group": "Star"
+    },
+    {
+      "id": "mirzam",
+      "catalogueEntry": "beta Canis Majoris",
+      "familiarName": "Mirzam",
+      "altNames": [
+        "Beta CMa",
+        "2 CMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Canis Major",
+      "ra": "06 22 23.95",
+      "dec": "-17 57 21.0",
+      "magnitude": 2.00,
+      "group": "Star"
+    },
+    {
+      "id": "hamal",
+      "catalogueEntry": "alpha Arietis",
+      "familiarName": "Hamal",
+      "altNames": [
+        "Alpha Ari",
+        "13 Ari"
+      ],
+      "type": "Bright Star",
+      "constellation": "Aries",
+      "ra": "02 07 10.39",
+      "dec": "+23 27 45.4",
+      "magnitude": 2.01,
+      "group": "Star"
+    },
+    {
+      "id": "polaris",
+      "catalogueEntry": "alpha Ursae Minoris",
+      "familiarName": "Polaris",
+      "altNames": [
+        "Alpha UMi"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Minor",
+      "ra": "02 31 49.09",
+      "dec": "+89 15 50.8",
+      "magnitude": 2.02,
+      "group": "Star"
+    },
+    {
+      "id": "diphda",
+      "catalogueEntry": "beta Ceti",
+      "familiarName": "Diphda",
+      "altNames": [
+        "Beta Cet",
+        "Deneb Kaitos"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cetus",
+      "ra": "00 43 35.08",
+      "dec": "-17 59 11.8",
+      "magnitude": 2.04,
+      "group": "Star"
+    },
+    {
+      "id": "alpheratz",
+      "catalogueEntry": "alpha Andromedae",
+      "familiarName": "Alpheratz",
+      "altNames": [
+        "Alpha And",
+        "21 And"
+      ],
+      "type": "Bright Star",
+      "constellation": "Andromeda",
+      "ra": "00 08 23.29",
+      "dec": "+29 05 25.6",
+      "magnitude": 2.06,
+      "group": "Star"
+    },
+    {
+      "id": "menkent",
+      "catalogueEntry": "theta Centauri",
+      "familiarName": "Menkent",
+      "altNames": [
+        "Theta Cen"
+      ],
+      "type": "Bright Star",
+      "constellation": "Centaurus",
+      "ra": "14 00 23.32",
+      "dec": "-36 22 24.3",
+      "magnitude": 2.06,
+      "group": "Star"
+    },
+    {
+      "id": "rasalhague",
+      "catalogueEntry": "alpha Ophiuchi",
+      "familiarName": "Rasalhague",
+      "altNames": [
+        "Alpha Oph",
+        "55 Oph"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ophiuchus",
+      "ra": "17 46 04.92",
+      "dec": "+12 33 36.3",
+      "magnitude": 2.08,
+      "group": "Star"
+    },
+    {
+      "id": "alphard",
+      "catalogueEntry": "alpha Hydrae",
+      "familiarName": "Alphard",
+      "altNames": [
+        "Alpha Hya",
+        "30 Hya"
+      ],
+      "type": "Bright Star",
+      "constellation": "Hydra",
+      "ra": "09 27 58.74",
+      "dec": "-08 39 31.0",
+      "magnitude": 2.00,
+      "group": "Star"
+    },
+    {
+      "id": "cih",
+      "catalogueEntry": "gamma Cassiopeiae",
+      "familiarName": "Cih",
+      "altNames": [
+        "Gamma Cas",
+        "Tsih"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cassiopeia",
+      "ra": "00 56 42.50",
+      "dec": "+60 43 00.3",
+      "magnitude": 2.15,
+      "group": "Star"
+    },
+    {
+      "id": "mintaka",
+      "catalogueEntry": "delta Orionis",
+      "familiarName": "Mintaka",
+      "altNames": [
+        "Delta Ori",
+        "34 Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 32 00.40",
+      "dec": "-00 17 56.7",
+      "magnitude": 2.23,
+      "group": "Star"
+    },
+    {
+      "id": "eltanin",
+      "catalogueEntry": "gamma Draconis",
+      "familiarName": "Eltanin",
+      "altNames": [
+        "Gamma Dra",
+        "33 Dra"
+      ],
+      "type": "Bright Star",
+      "constellation": "Draco",
+      "ra": "17 56 36.37",
+      "dec": "+51 29 02.4",
+      "magnitude": 2.24,
+      "group": "Star"
+    },
+    {
+      "id": "almach",
+      "catalogueEntry": "gamma Andromedae",
+      "familiarName": "Almach",
+      "altNames": [
+        "Gamma And"
+      ],
+      "type": "Bright Star",
+      "constellation": "Andromeda",
+      "ra": "02 03 53.92",
+      "dec": "+42 19 47.5",
+      "magnitude": 2.26,
+      "group": "Star"
+    },
+    {
+      "id": "epsilonscorpii",
+      "catalogueEntry": "epsilon Scorpii",
+      "familiarName": null,
+      "altNames": [
+        "Epsilon Sco",
+        "26 Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "16 59 37.10",
+      "dec": "-34 17 38.6",
+      "magnitude": 2.29,
+      "group": "Star"
+    },
+    {
+      "id": "alphalupi",
+      "catalogueEntry": "alpha Lupi",
+      "familiarName": null,
+      "altNames": [
+        "Alpha Lup"
+      ],
+      "type": "Bright Star",
+      "constellation": "Lupus",
+      "ra": "14 41 55.43",
+      "dec": "-47 23 17.5",
+      "magnitude": 2.30,
+      "group": "Star"
+    },
+    {
+      "id": "eta Centauri",
+      "catalogueEntry": "eta Centauri",
+      "familiarName": null,
+      "altNames": [
+        "Eta Cen"
+      ],
+      "type": "Bright Star",
+      "constellation": "Centaurus",
+      "ra": "14 36 00.10",
+      "dec": "-42 10 11.5",
+      "magnitude": 2.33,
+      "group": "Star"
+    },
+    {
+      "id": "anka",
+      "catalogueEntry": "alpha Phoenicis",
+      "familiarName": "Ankaa",
+      "altNames": [
+        "Alpha Phe"
+      ],
+      "type": "Bright Star",
+      "constellation": "Phoenix",
+      "ra": "00 26 17.06",
+      "dec": "-42 18 21.4",
+      "magnitude": 2.37,
+      "group": "Star"
+    },
+    {
+      "id": "betaphoenicis",
+      "catalogueEntry": "beta Phoenicis",
+      "familiarName": null,
+      "altNames": [
+        "Beta Phe"
+      ],
+      "type": "Bright Star",
+      "constellation": "Phoenix",
+      "ra": "01 51 03.11",
+      "dec": "-55 46 22.9",
+      "magnitude": 2.37,
+      "group": "Star"
+    },
+    {
+      "id": "girtab",
+      "catalogueEntry": "kappa Scorpii",
+      "familiarName": "Girtab",
+      "altNames": [
+        "Kappa Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "16 07 43.14",
+      "dec": "-39 03 35.8",
+      "magnitude": 2.39,
+      "group": "Star"
+    },
+    {
+      "id": "phad",
+      "catalogueEntry": "gamma Ursae Majoris",
+      "familiarName": "Phad",
+      "altNames": [
+        "Gamma UMa",
+        "Ursa Major"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "11 53 49.80",
+      "dec": "+53 41 41.1",
+      "magnitude": 2.44,
+      "group": "Star"
+    },
+    {
+      "id": "markab",
+      "catalogueEntry": "alpha Pegasi",
+      "familiarName": "Markab",
+      "altNames": [
+        "Alpha Peg",
+        "54 Peg"
+      ],
+      "type": "Bright Star",
+      "constellation": "Pegasus",
+      "ra": "23 04 45.45",
+      "dec": "+15 12 19.3",
+      "magnitude": 2.48,
+      "group": "Star"
+    },
+    {
+      "id": "gienah(cyg)",
+      "catalogueEntry": "epsilon Cygni",
+      "familiarName": "Gienah",
+      "altNames": [
+        "Epsilon Cyg"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cygnus",
+      "ra": "20 46 12.60",
+      "dec": "+33 58 13.9",
+      "magnitude": 2.48,
+      "group": "Star"
+    },
+    {
+      "id": "menkar",
+      "catalogueEntry": "alpha Ceti",
+      "familiarName": "Menkar",
+      "altNames": [
+        "Alpha Cet",
+        "92 Cet"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cetus",
+      "ra": "03 08 55.30",
+      "dec": "+04 05 23.0",
+      "magnitude": 2.54,
+      "group": "Star"
+    },
+    {
+      "id": "acrab",
+      "catalogueEntry": "beta Scorpii",
+      "familiarName": "Acrab",
+      "altNames": [
+        "Beta Sco",
+        "Graffias",
+        "8 Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "16 05 26.23",
+      "dec": "-19 48 38.3",
+      "magnitude": 2.56,
+      "group": "Star"
+    },
+    {
+      "id": "deltacentauri",
+      "catalogueEntry": "delta Centauri",
+      "familiarName": null,
+      "altNames": [
+        "Delta Cen"
+      ],
+      "type": "Bright Star",
+      "constellation": "Centaurus",
+      "ra": "12 50 17.90",
+      "dec": "-50 43 01.6",
+      "magnitude": 2.58,
+      "group": "Star"
+    },
+    {
+      "id": "gienah(crv)",
+      "catalogueEntry": "gamma Corvi",
+      "familiarName": "Gienah",
+      "altNames": [
+        "Gamma Crv"
+      ],
+      "type": "Bright Star",
+      "constellation": "Corvus",
+      "ra": "12 33 55.27",
+      "dec": "-17 32 30.8",
+      "magnitude": 2.58,
+      "group": "Star"
+    },
+    {
+      "id": "zubeneschamali",
+      "catalogueEntry": "beta Librae",
+      "familiarName": "Zubeneschamali",
+      "altNames": [
+        "Beta Lib"
+      ],
+      "type": "Bright Star",
+      "constellation": "Libra",
+      "ra": "15 17 00.37",
+      "dec": "-09 48 35.8",
+      "magnitude": 2.61,
+      "group": "Star"
+    },
+    {
+      "id": "muphrid",
+      "catalogueEntry": "eta Bootis",
+      "familiarName": "Muphrid",
+      "altNames": [
+        "Eta Boo"
+      ],
+      "type": "Bright Star",
+      "constellation": "Boötes",
+      "ra": "13 57 49.33",
+      "dec": "+18 23 51.7",
+      "magnitude": 2.68,
+      "group": "Star"
+    },
+    {
+      "id": "muscorpii",
+      "catalogueEntry": "mu Scorpii",
+      "familiarName": null,
+      "altNames": [
+        "Mu Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "17 33 00.17",
+      "dec": "-38 02 51.5",
+      "magnitude": 2.70,
+      "group": "Star"
+    },
+    {
+      "id": "tarazed",
+      "catalogueEntry": "gamma Aquilae",
+      "familiarName": "Tarazed",
+      "altNames": [
+        "Gamma Aql"
+      ],
+      "type": "Bright Star",
+      "constellation": "Aquila",
+      "ra": "19 48 37.60",
+      "dec": "+10 36 49.3",
+      "magnitude": 2.71,
+      "group": "Star"
+    },
+    {
+      "id": "zubenelgenubi",
+      "catalogueEntry": "alpha Librae",
+      "familiarName": "Zubenelgenubi",
+      "altNames": [
+        "Alpha Lib",
+        "8 Lib"
+      ],
+      "type": "Bright Star",
+      "constellation": "Libra",
+      "ra": "14 50 52.34",
+      "dec": "-16 02 30.3",
+      "magnitude": 2.77,
+      "group": "Star"
+    },
+    {
+      "id": "vindemiatrix",
+      "catalogueEntry": "epsilon Virginis",
+      "familiarName": "Vindemiatrix",
+      "altNames": [
+        "Epsilon Vir",
+        "11 Vir"
+      ],
+      "type": "Bright Star",
+      "constellation": "Virgo",
+      "ra": "13 02 10.98",
+      "dec": "+10 57 32.8",
+      "magnitude": 2.83,
+      "group": "Star"
+    },
+    {
+      "id": "denebalgedi",
+      "catalogueEntry": "delta Capricorni",
+      "familiarName": "Deneb Algedi",
+      "altNames": [
+        "Delta Cap"
+      ],
+      "type": "Bright Star",
+      "constellation": "Capricornus",
+      "ra": "21 47 02.44",
+      "dec": "-16 07 40.0",
+      "magnitude": 2.85,
+      "group": "Star"
+    },
+    {
+      "id": "denebadige",
+      "catalogueEntry": "delta Cygni",
+      "familiarName": "Deneb Adige",
+      "altNames": [
+        "Delta Cyg"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cygnus",
+      "ra": "20 46 12.60",
+      "dec": "+45 06 48.2",
+      "magnitude": 2.87,
+      "group": "Star"
+    },
+    {
+      "id": "betatrianguliaustralis",
+      "catalogueEntry": "beta Trianguli Aust.",
+      "familiarName": null,
+      "altNames": [
+        "Beta TrA"
+      ],
+      "type": "Bright Star",
+      "constellation": "Triangulum Australe",
+      "ra": "15 39 40.89",
+      "dec": "-63 25 38.3",
+      "magnitude": 3.00,
+      "group": "Star"
+    },
+    {
+      "id": "alulaaustralis",
+      "catalogueEntry": "xi Ursae Majoris",
+      "familiarName": "Alula Australis",
+      "altNames": [
+        "Xi UMa",
+        "43 UMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "11 18 11.02",
+      "dec": "+31 31 45.4",
+      "magnitude": 3.06,
+      "group": "Star"
+    },
+    {
+      "id": "alphecca",
+      "catalogueEntry": "alpha Coronae Borealis",
+      "familiarName": "Alphecca",
+      "altNames": [
+        "Alpha CrB",
+        "5 CrB"
+      ],
+      "type": "Bright Star",
+      "constellation": "Corona Borealis",
+      "ra": "15 34 41.34",
+      "dec": "+26 42 53.6",
+      "magnitude": 2.22,
+      "group": "Star"
+    },
+    {
+      "id": "sadr",
+      "catalogueEntry": "gamma Cygni",
+      "familiarName": "Sadr",
+      "altNames": [
+        "Gamma Cyg",
+        "37 Cyg"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cygnus",
+      "ra": "20 22 13.73",
+      "dec": "+40 15 24.3",
+      "magnitude": 2.23,
+      "group": "Star"
+    },
+    {
+      "id": "epsilon-cygni",
+      "catalogueEntry": "epsilon Cygni",
+      "familiarName": "Gienah",
+      "altNames": [
+        "Epsilon Cyg"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cygnus",
+      "ra": "20 46 12.60",
+      "dec": "+33 58 13.9",
+      "magnitude": 2.48,
+      "group": "Star"
+    },
+    {
+      "id": "eta-scorpii",
+      "catalogueEntry": "eta Scorpii",
+      "familiarName": null,
+      "altNames": [
+        "Eta Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "17 08 07.83",
+      "dec": "-37 36 00.9",
+      "magnitude": 3.32,
+      "group": "Star"
+    },
+    {
+      "id": "eta-virginis",
+      "catalogueEntry": "eta Virginis",
+      "familiarName": "Zavijava",
+      "altNames": [
+        "Eta Vir",
+        "15 Vir"
+      ],
+      "type": "Bright Star",
+      "constellation": "Virgo",
+      "ra": "12 19 55.48",
+      "dec": "+00 41 24.3",
+      "magnitude": 2.84,
+      "group": "Star"
+    },
+    {
+      "id": "kaphicassiopeiae",
+      "catalogueEntry": "k Cas",
+      "familiarName": null,
+      "altNames": [
+        "Kappa Cas"
+      ],
+      "type": "Bright Star",
+      "constellation": "Cassiopeia",
+      "ra": "00 37 28.52",
+      "dec": "+62 55 58.7",
+      "magnitude": 3.48,
+      "group": "Star"
+    },
+    {
+      "id": "gamauriga",
+      "catalogueEntry": "gamma Aurigae",
+      "familiarName": "Al Kab",
+      "altNames": [
+        "Gamma Aur"
+      ],
+      "type": "Bright Star",
+      "constellation": "Auriga",
+      "ra": "06 01 42.61",
+      "dec": "+43 51 07.9",
+      "magnitude": 3.18,
+      "group": "Star"
+    },
+    {
+      "id": "deltascorpii",
+      "catalogueEntry": "delta Scorpii",
+      "familiarName": "Dschubba",
+      "altNames": [
+        "Delta Sco",
+        "7 Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "16 00 19.17",
+      "dec": "-22 37 18.9",
+      "magnitude": 2.29,
+      "group": "Star"
+    },
+    {
+      "id": "alula borealis",
+      "catalogueEntry": "nu Ursae Majoris",
+      "familiarName": "Alula Borealis",
+      "altNames": [
+        "Nu UMa",
+        "54 UMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "11 18 29.87",
+      "dec": "+33 06 59.9",
+      "magnitude": 3.49,
+      "group": "Star"
+    },
+    {
+      "id": "alcor",
+      "catalogueEntry": "80 Ursae Majoris",
+      "familiarName": "Alcor",
+      "altNames": [
+        "g UMa",
+        "80 UMa"
+      ],
+      "type": "Bright Star",
+      "constellation": "Ursa Major",
+      "ra": "13 25 13.57",
+      "dec": "+54 55 31.2",
+      "magnitude": 3.99,
+      "group": "Star"
+    },
+    {
+      "id": "etaaquilae",
+      "catalogueEntry": "eta Aquilae",
+      "familiarName": "Bezek",
+      "altNames": [
+        "Eta Aql",
+        "60 Aql"
+      ],
+      "type": "Bright Star",
+      "constellation": "Aquila",
+      "ra": "19 52 28.36",
+      "dec": "+01 04 22.8",
+      "magnitude": 3.48,
+      "group": "Star"
+    },
+    {
+      "id": "alhakim",
+      "catalogueEntry": "epsilon Centauri",
+      "familiarName": "Alhakim",
+      "altNames": [
+        "Epsilon Cen"
+      ],
+      "type": "Bright Star",
+      "constellation": "Centaurus",
+      "ra": "14 36 00.10",
+      "dec": "-53 30 18.0",
+      "magnitude": 2.29,
+      "group": "Star"
+    },
+    {
+      "id": "deltaorionis-mintaka",
+      "catalogueEntry": "delta Orionis",
+      "familiarName": "Mintaka",
+      "altNames": [
+        "Delta Ori"
+      ],
+      "type": "Bright Star",
+      "constellation": "Orion",
+      "ra": "05 32 00.40",
+      "dec": "-00 17 56.7",
+      "magnitude": 2.23,
+      "group": "Star"
+    },
+    {
+      "id": "zeta-pup",
+      "catalogueEntry": "zeta Puppis",
+      "familiarName": "Naos",
+      "altNames": [
+        "Zeta Pup"
+      ],
+      "type": "Bright Star",
+      "constellation": "Puppis",
+      "ra": "08 03 35.15",
+      "dec": "-40 00 11.2",
+      "magnitude": 2.21,
+      "group": "Star"
+    },
+    {
+      "id": "sualocin",
+      "catalogueEntry": "alpha Delphini",
+      "familiarName": "Sualocin",
+      "altNames": [
+        "Alpha Del"
+      ],
+      "type": "Bright Star",
+      "constellation": "Delphinus",
+      "ra": "20 37 32.88",
+      "dec": "+15 50 16.6",
+      "magnitude": 3.77,
+      "group": "Star"
+    },
+    {
+      "id": "rodelphini",
+      "catalogueEntry": "rho Delphini",
+      "familiarName": null,
+      "altNames": [
+        "Rho Del"
+      ],
+      "type": "Bright Star",
+      "constellation": "Delphinus",
+      "ra": "20 50 13.91",
+      "dec": "+10 50 31.9",
+      "magnitude": 4.03,
+      "group": "Star"
+    },
+    {
+      "id": "skat",
+      "catalogueEntry": "delta Aquarii",
+      "familiarName": "Skat",
+      "altNames": [
+        "Delta Aqr"
+      ],
+      "type": "Bright Star",
+      "constellation": "Aquarius",
+      "ra": "22 54 39.88",
+      "dec": "-16 26 27.6",
+      "magnitude": 3.27,
+      "group": "Star"
+    },
+    {
+      "id": "algedi",
+      "catalogueEntry": "alpha Capricorni",
+      "familiarName": "Algedi",
+      "altNames": [
+        "Alpha Cap"
+      ],
+      "type": "Bright Star",
+      "constellation": "Capricornus",
+      "ra": "20 17 38.60",
+      "dec": "-12 30 50.0",
+      "magnitude": 3.58,
+      "group": "Star"
+    },
+    {
+      "id": "kappa-sco",
+      "catalogueEntry": "kappa Scorpii",
+      "familiarName": "Girtab",
+      "altNames": [
+        "Kappa Sco"
+      ],
+      "type": "Bright Star",
+      "constellation": "Scorpius",
+      "ra": "16 07 43.14",
+      "dec": "-39 03 35.8",
+      "magnitude": 2.39,
+      "group": "Star"
+    },
+    {
+      "id": "iota-carinae",
+      "catalogueEntry": "iota Carinae",
+      "familiarName": "Aspidiske",
+      "altNames": [
+        "Iota Car"
+      ],
+      "type": "Bright Star",
+      "constellation": "Carina",
+      "ra": "09 17 48.16",
+      "dec": "-59 16 31.9",
+      "magnitude": 2.21,
+      "group": "Star"
+    },
+    {
+      "id": "alpha-trianguliaustralis",
+      "catalogueEntry": "alpha Trianguli Aust.",
+      "familiarName": "Atria",
+      "altNames": [
+        "Alpha TrA"
+      ],
+      "type": "Bright Star",
+      "constellation": "Triangulum Australe",
+      "ra": "16 48 39.87",
+      "dec": "-69 01 39.5",
+      "magnitude": 1.91,
+      "group": "Star"
+    }
+  ]
+}

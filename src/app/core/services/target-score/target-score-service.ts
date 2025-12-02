@@ -257,9 +257,9 @@ export class TargetScoreService {
     }
 
     // -----------------------------------------------
-    // 7. Ajustes para planetas e objetos brilhantes
+    // 7. Ajustes para planetas
     // -----------------------------------------------
-    if (target.type === 'Bright Star' || ['venus', 'jupiter', 'saturn'].includes(target.id)) {
+    if (['venus', 'jupiter', 'saturn'].includes(target.id)) {
       moonFactor = 1;
     }
 
