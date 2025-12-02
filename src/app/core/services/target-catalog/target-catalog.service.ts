@@ -4,11 +4,16 @@ import { DeepSkyCatalog, DeepSkyObject } from '../../models/deep-sky-object.mode
 import { TargetScoreService } from '../target-score/target-score-service';
 import { LocationService } from '../location/location.service';
 import { LikedTargetsService } from '../liked-targets/liked-targets.service';
+import { forkJoin } from 'rxjs';
+
 
 @Injectable({ providedIn: 'root' })
 export class TargetCatalogService {
-  private readonly CATALOG_URL = 'assets/catalog/deep-sky-catalog.json';
-
+  private readonly CATALOG_URLS = [
+    'assets/catalog/deep-sky-catalog.json',
+    'assets/catalog/planet-catalog.json',
+    //'assets/catalog/bright-star-catalog.json'
+  ];
   private readonly catalogSignal = signal<DeepSkyCatalog | null>(null);
 
   readonly objects = computed<DeepSkyObject[]>(() => {
@@ -35,16 +40,31 @@ export class TargetCatalogService {
   }
 
   private loadLocalCatalog(): void {
-    this.http.get<DeepSkyCatalog>(this.CATALOG_URL).subscribe({
-      next: (catalog) => {
-        const objectsWithLikes = this.likedTargetsService.applyLikesToTargets(catalog.objects);
+    const requests = this.CATALOG_URLS.map(url =>
+      this.http.get<DeepSkyCatalog>(url)
+    );
 
-        const catalogWithLikes: DeepSkyCatalog = {
-          ...catalog,
+    forkJoin(requests).subscribe({
+      next: (catalogs: DeepSkyCatalog[]) => {
+        const mergedObjects = catalogs.reduce<DeepSkyObject[]>((acc, catalog) => {
+          if (catalog.objects && catalog.objects.length) {
+            acc.push(...catalog.objects);
+          }
+          return acc;
+        }, []);
+
+        const objectsWithLikes = this.likedTargetsService.applyLikesToTargets(mergedObjects);
+
+        const mergedCatalog: DeepSkyCatalog = {
+          version: catalogs.reduce(
+            (max, c) => Math.max(max, c.version ?? 1),
+            1
+          ),
+          source: 'merged-local',
           objects: objectsWithLikes
         };
 
-        this.catalogSignal.set(catalogWithLikes);
+        this.catalogSignal.set(mergedCatalog);
 
         this.locationService.getCurrentLocation().then(location => {
           const lat = +location.latitude.toFixed(1);
@@ -53,7 +73,7 @@ export class TargetCatalogService {
         });
       },
       error: (err) => {
-        console.error('Error loading local catalog', err);
+        console.error('Error loading local catalogs', err);
         this.catalogSignal.set({ version: 1, source: 'empty', objects: [] });
       }
     });
