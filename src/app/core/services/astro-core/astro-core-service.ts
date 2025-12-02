@@ -11,6 +11,7 @@ import {
   Refraction,
   SearchRiseSet,
 } from 'astronomy-engine';
+import { DeepSkyObject } from '../../models/deep-sky-object.model';
 
 // ---------------------------------------------------------------------
 // Interfaces
@@ -242,6 +243,21 @@ export class AstroCoreService {
       date: startOfDay,
       moon,
       sun,
+    };
+  }
+
+  // -------------------------------------------------------------------
+  // Utils
+  // -------------------------------------------------------------------
+
+  mapDsoToTargetEquatorial(dso: DeepSkyObject): TargetEquatorial {
+    const [raH, raM, raS] = dso.ra.split(' ').map(Number);
+    const [decD, decM, decS] = dso.dec.split(' ').map(Number);
+
+    return {
+      name: dso.familiarName,
+      raHours: this.raHmsToHours(raH, raM, raS),
+      decDegrees: this.decDmsToDegrees(decD, decM, decS)
     };
   }
 }

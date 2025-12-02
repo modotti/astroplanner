@@ -57,24 +57,13 @@ export class TargetDetailsPage implements OnInit {
       this.target = this.targetCatalogService.getById(targetId);
 
       if (this.target) {
-        const object = this.mapDsoToTargetEquatorial(this.target);
+        const object = this.astroCoreService.mapDsoToTargetEquatorial(this.target);
         this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
           minAltitudeDeg: 30,
           stepMinutes: 10,
         });
       }
     }
-  }
-
-  private mapDsoToTargetEquatorial(dso: DeepSkyObject): TargetEquatorial {
-    const [raH, raM, raS] = dso.ra.split(' ').map(Number);
-    const [decD, decM, decS] = dso.dec.split(' ').map(Number);
-
-    return {
-      name: dso.familiarName,
-      raHours: this.astroCoreService.raHmsToHours(raH, raM, raS),
-      decDegrees: this.astroCoreService.decDmsToDegrees(decD, decM, decS)
-    };
   }
 
   async openLinks(target: DeepSkyObject | undefined) {

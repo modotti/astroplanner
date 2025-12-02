@@ -796,14 +796,14 @@
       "familiarName": "Sombrero Galaxy",
       "altNames": [
         "NGC 4594",
-        "MCG -02-32-020",
+        "MCG-02-32-020",
         "PGC 42407",
         "UGCA 293",
         "HD 110124",
         "IRAS 12373-1121",
         "IRAS F12374-1120",
-        "MCG -2-32-20",
-        "MCG -2-32-20"
+        "MCG-2-32-20",
+        "MCG-2-32-20"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Virgo",
@@ -1091,7 +1091,7 @@
       "catalogueEntry": "NGC 253",
       "familiarName": "Sculptor Galaxy",
       "altNames": [
-        "MCG -04-03-009",
+        "MCG-04-03-009",
         "PGC 2789",
         "UGCA 13",
         "ESO 474-29",
@@ -1099,11 +1099,11 @@
         "IRAS 00450-2533",
         "IRAS F00450-2533",
         "C 65",
-        "MCG -4-3-09",
-        "MCG -4-3-9",
-        "MCG -4-3-09",
-        "MCG -4-3-9",
-        "MCG -4-3-9"
+        "MCG-4-3-09",
+        "MCG-4-3-9",
+        "MCG-4-3-09",
+        "MCG-4-3-9",
+        "MCG-4-3-9"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Sculptor",
@@ -1312,7 +1312,7 @@
       "familiarName": "Southern Pinwheel Galaxy",
       "altNames": [
         "NGC 5236",
-        "MCG -05-32-050",
+        "MCG-05-32-050",
         "PGC 48082",
         "UGCA 366",
         "HD 118366",
@@ -1320,8 +1320,8 @@
         "ESO-LV 444-0810",
         "IRAS 13341-2936",
         "IRAS F13341-2936",
-        "MCG -5-32-50",
-        "MCG -5-32-50"
+        "MCG-5-32-50",
+        "MCG-5-32-50"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Hydra",
@@ -1519,7 +1519,7 @@
       "familiarName": "Centaurus A",
       "altNames": [
         "APG 153",
-        "MCG -07-28-001",
+        "MCG-07-28-001",
         "PGC 46957",
         "ESO 270-9",
         "H 1322-427",
@@ -1527,11 +1527,11 @@
         "IRAS 13225-4245",
         "IRAS F13225-4245",
         "C 77",
-        "MCG -7-28-01",
-        "MCG -7-28-1",
-        "MCG -7-28-01",
-        "MCG -7-28-1",
-        "MCG -7-28-1"
+        "MCG-7-28-01",
+        "MCG-7-28-1",
+        "MCG-7-28-01",
+        "MCG-7-28-1",
+        "MCG-7-28-1"
       ],
       "type": "Peculiar Galaxy",
       "constellation": "Centaurus",
@@ -1843,15 +1843,15 @@
       "familiarName": "Barnard's Galaxy",
       "altNames": [
         "IC 4895",
-        "MCG -02-50-006",
+        "MCG-02-50-006",
         "PGC 63616",
         "IRAS 19421-1455",
         "C 57",
-        "MCG -2-50-06",
-        "MCG -2-50-6",
-        "MCG -2-50-06",
-        "MCG -2-50-6",
-        "MCG -2-50-6"
+        "MCG-2-50-06",
+        "MCG-2-50-6",
+        "MCG-2-50-06",
+        "MCG-2-50-6",
+        "MCG-2-50-6"
       ],
       "type": "Irregular Galaxy",
       "constellation": "Sagittarius",
@@ -2384,15 +2384,15 @@
       "familiarName": "NGC 4039",
       "altNames": [
         "VV 245A",
-        "MCG -03-31-015",
+        "MCG-03-31-015",
         "PGC 37969",
         "UGCA 265",
         "ESO 572-48",
         "ESO-LV 572-0471",
         "ESO-LV 572-0480",
         "C 61",
-        "MCG -3-31-15",
-        "MCG -3-31-15"
+        "MCG-3-31-15",
+        "MCG-3-31-15"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Corvus",
@@ -2464,18 +2464,18 @@
       "catalogueEntry": "NGC 3621",
       "familiarName": "NGC 3621",
       "altNames": [
-        "MCG -05-27-008",
+        "MCG-05-27-008",
         "PGC 34554",
         "UGCA 232",
         "ESO 377-37",
         "ESO-LV 377-0370",
         "IRAS 11158-3232",
         "IRAS F11158-3232",
-        "MCG -5-27-08",
-        "MCG -5-27-8",
-        "MCG -5-27-08",
-        "MCG -5-27-8",
-        "MCG -5-27-8"
+        "MCG-5-27-08",
+        "MCG-5-27-8",
+        "MCG-5-27-08",
+        "MCG-5-27-8",
+        "MCG-5-27-8"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Hydra",
@@ -2656,17 +2656,17 @@
       "catalogueEntry": "NGC 7793",
       "familiarName": "NGC 7793",
       "altNames": [
-        "MCG -06-01-009",
+        "MCG-06-01-009",
         "PGC 73049",
         "ESO 349-12",
         "ESO-LV 349-0120",
         "IRAS 23552-3252",
         "IRAS F23552-3252",
-        "MCG -6-1-09",
-        "MCG -6-1-9",
-        "MCG -6-1-09",
-        "MCG -6-1-9",
-        "MCG -6-1-9"
+        "MCG-6-1-09",
+        "MCG-6-1-9",
+        "MCG-6-1-09",
+        "MCG-6-1-9",
+        "MCG-6-1-9"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Sculptor",
@@ -2920,17 +2920,17 @@
       "familiarName": "NGC 1269",
       "altNames": [
         "NGC 1291",
-        "MCG -07-07-008",
+        "MCG-07-07-008",
         "PGC 12209",
         "ESO 301-2",
         "ESO-LV 301-0020",
         "IRAS 03154-4117",
         "IRAS F03154-4117",
-        "MCG -7-7-08",
-        "MCG -7-7-8",
-        "MCG -7-7-08",
-        "MCG -7-7-8",
-        "MCG -7-7-8"
+        "MCG-7-7-08",
+        "MCG-7-7-8",
+        "MCG-7-7-08",
+        "MCG-7-7-8",
+        "MCG-7-7-8"
       ],
       "type": "Lenticular Galaxy",
       "constellation": "Eridanus",
@@ -2998,16 +2998,16 @@
       "catalogueEntry": "NGC 1532",
       "familiarName": "NGC 1532",
       "altNames": [
-        "MCG -05-11-002",
+        "MCG-05-11-002",
         "PGC 14638",
         "ESO 359-27",
         "ESO-LV 359-0270",
         "IRAS F04101-3300",
-        "MCG -5-11-02",
-        "MCG -5-11-2",
-        "MCG -5-11-02",
-        "MCG -5-11-2",
-        "MCG -5-11-2"
+        "MCG-5-11-02",
+        "MCG-5-11-2",
+        "MCG-5-11-02",
+        "MCG-5-11-2",
+        "MCG-5-11-2"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Eridanus",
@@ -3128,13 +3128,13 @@
       "catalogueEntry": "NGC 2997",
       "familiarName": "NGC 2997",
       "altNames": [
-        "MCG -05-23-012",
+        "MCG-05-23-012",
         "PGC 27978",
         "UGCA 181",
         "ESO 434-35",
         "ESO-LV 434-0350",
-        "MCG -5-23-12",
-        "MCG -5-23-12"
+        "MCG-5-23-12",
+        "MCG-5-23-12"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Antlia",
@@ -4030,15 +4030,15 @@
       "catalogueEntry": "NGC 1300",
       "familiarName": "NGC 1300",
       "altNames": [
-        "MCG -03-09-018",
+        "MCG-03-09-018",
         "PGC 12412",
         "UGCA 66",
         "ESO 547-31",
         "ESO-LV 547-0310",
         "IRAS 03174-1935",
         "IRAS F03174-1935",
-        "MCG -3-9-18",
-        "MCG -3-9-18"
+        "MCG-3-9-18",
+        "MCG-3-9-18"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Eridanus",
@@ -4955,13 +4955,13 @@
         "APG 248B",
         "VV 35",
         "VV 35B",
-        "MCG -01-30-033",
+        "MCG-01-30-033",
         "PGC 36733",
         "Z 1144.2-0333",
         "IRAS 11441-0334",
         "IRAS F11441-0334",
-        "MCG -1-30-33",
-        "MCG -1-30-33"
+        "MCG-1-30-33",
+        "MCG-1-30-33"
       ],
       "type": "Emission Line Galaxy",
       "constellation": "Virgo",
@@ -5580,12 +5580,12 @@
       "catalogueEntry": "NGC 3115",
       "familiarName": "NGC 3115",
       "altNames": [
-        "MCG -01-26-018",
+        "MCG-01-26-018",
         "PGC 29265",
         "UGCA 199",
         "C 53",
-        "MCG -1-26-18",
-        "MCG -1-26-18"
+        "MCG-1-26-18",
+        "MCG-1-26-18"
       ],
       "type": "Lenticular Galaxy",
       "constellation": "Sextans",
@@ -5931,13 +5931,13 @@
       "familiarName": "NGC 1232",
       "altNames": [
         "APG 41",
-        "MCG -04-08-032",
+        "MCG-04-08-032",
         "PGC 11819",
         "ESO 547-14",
         "ESO-LV 547-0140",
         "IRAS F03075-2045",
-        "MCG -4-8-32",
-        "MCG -4-8-32"
+        "MCG-4-8-32",
+        "MCG-4-8-32"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Eridanus",
@@ -7474,14 +7474,14 @@
       "familiarName": "Atoms For Peace Galaxy",
       "altNames": [
         "APG 226",
-        "MCG -04-52-036",
+        "MCG-04-52-036",
         "PGC 68612",
         "ESO 533-15",
         "ESO-LV 533-0150",
         "IRAS 22179-2455",
         "IRAS F22179-2455",
-        "MCG -4-52-36",
-        "MCG -4-52-36"
+        "MCG-4-52-36",
+        "MCG-4-52-36"
       ],
       "type": "Lenticular Galaxy",
       "constellation": "Aquarius",
@@ -8404,7 +8404,7 @@
       "familiarName": "NGC 1097",
       "altNames": [
         "APG 77",
-        "MCG -05-07-024",
+        "MCG-05-07-024",
         "PGC 10488",
         "UGCA 41",
         "ESO 416-20",
@@ -8412,8 +8412,8 @@
         "IRAS 02441-3029",
         "IRAS F02441-3029",
         "C 67",
-        "MCG -5-7-24",
-        "MCG -5-7-24"
+        "MCG-5-7-24",
+        "MCG-5-7-24"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Fornax",
@@ -8973,15 +8973,15 @@
       "familiarName": "NGC 4038",
       "altNames": [
         "VV 245B",
-        "MCG -03-31-014",
+        "MCG-03-31-014",
         "PGC 37967",
         "UGCA 264",
         "ESO 572-47",
         "ESO-LV 572-0470",
         "ESO-LV 572-0481",
         "C 60",
-        "MCG -3-31-14",
-        "MCG -3-31-14"
+        "MCG-3-31-14",
+        "MCG-3-31-14"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Corvus",
@@ -9329,17 +9329,17 @@
       "catalogueEntry": "NGC 300",
       "familiarName": "NGC 300",
       "altNames": [
-        "MCG -06-03-005",
+        "MCG-06-03-005",
         "PGC 3238",
         "ESO 295-20",
         "ESO-LV 295-0200",
         "IRAS 00525-3757",
         "C 70",
-        "MCG -6-3-05",
-        "MCG -6-3-5",
-        "MCG -6-3-05",
-        "MCG -6-3-5",
-        "MCG -6-3-5"
+        "MCG-6-3-05",
+        "MCG-6-3-5",
+        "MCG-6-3-05",
+        "MCG-6-3-5",
+        "MCG-6-3-5"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Sculptor",
@@ -9672,7 +9672,7 @@
       "catalogueEntry": "NGC 247",
       "familiarName": "NGC 247",
       "altNames": [
-        "MCG -04-03-005",
+        "MCG-04-03-005",
         "PGC 2758",
         "UGCA 11",
         "ESO 540-22",
@@ -9680,11 +9680,11 @@
         "IRAS 00446-2101",
         "IRAS F00446-2101",
         "C 62",
-        "MCG -4-3-05",
-        "MCG -4-3-5",
-        "MCG -4-3-05",
-        "MCG -4-3-5",
-        "MCG -4-3-5"
+        "MCG-4-3-05",
+        "MCG-4-3-5",
+        "MCG-4-3-05",
+        "MCG-4-3-5",
+        "MCG-4-3-5"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Cetus",
@@ -9990,15 +9990,15 @@
     },
     {
       "id": "mcg0603015",
-      "catalogueEntry": "MCG -06-03-015",
+      "catalogueEntry": "MCG-06-03-015",
       "familiarName": "Sculptor Dwarf",
       "altNames": [
         "PGC 3589",
         "ESO 351-30",
         "ESO-LV 351-0300",
         "IRAS F00574-3400",
-        "MCG -6-3-15",
-        "MCG -6-3-15"
+        "MCG-6-3-15",
+        "MCG-6-3-15"
       ],
       "type": "Galaxy",
       "constellation": "Sculptor",
@@ -10014,15 +10014,15 @@
       "catalogueEntry": "NGC 55",
       "familiarName": "NGC 55",
       "altNames": [
-        "MCG -07-01-013",
+        "MCG-07-01-013",
         "PGC 1014",
         "ESO 293-50",
         "ESO-LV 293-0500",
         "IRAS 00125-3928",
         "IRAS F00124-3929",
         "C 72",
-        "MCG -7-1-13",
-        "MCG -7-1-13"
+        "MCG-7-1-13",
+        "MCG-7-1-13"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Sculptor",
@@ -13249,18 +13249,18 @@
     },
     {
       "id": "mcg0607001",
-      "catalogueEntry": "MCG -06-07-001",
+      "catalogueEntry": "MCG-06-07-001",
       "familiarName": "Fornax Dwarf Galaxy",
       "altNames": [
         "PGC 10074",
         "PGC 10093",
         "ESO 356-4",
         "ESO-LV 356-0040",
-        "MCG -6-7-01",
-        "MCG -6-7-1",
-        "MCG -6-7-01",
-        "MCG -6-7-1",
-        "MCG -6-7-1"
+        "MCG-6-7-01",
+        "MCG-6-7-1",
+        "MCG-6-7-01",
+        "MCG-6-7-1",
+        "MCG-6-7-1"
       ],
       "type": "Galaxy",
       "constellation": "Fornax",
@@ -15620,14 +15620,14 @@
       "familiarName": "Great Barred Spiral Galaxy",
       "altNames": [
         "VV 825",
-        "MCG -06-08-026",
+        "MCG-06-08-026",
         "PGC 13179",
         "ESO 358-17",
         "ESO-LV 358-0170",
         "IRAS 03317-3618",
         "IRAS F03316-3618",
-        "MCG -6-8-26",
-        "MCG -6-8-26"
+        "MCG-6-8-26",
+        "MCG-6-8-26"
       ],
       "type": "Spiral Galaxy",
       "constellation": "Fornax",
@@ -16867,17 +16867,17 @@
       "familiarName": "Fornax A",
       "altNames": [
         "APG 154",
-        "MCG -06-08-005",
+        "MCG-06-08-005",
         "PGC 12651",
         "ESO 357-22",
         "ESO-LV 357-0220",
         "IRAS 03208-3723",
         "IRAS F03207-3723",
-        "MCG -6-8-05",
-        "MCG -6-8-5",
-        "MCG -6-8-05",
-        "MCG -6-8-5",
-        "MCG -6-8-5"
+        "MCG-6-8-05",
+        "MCG-6-8-5",
+        "MCG-6-8-05",
+        "MCG-6-8-5",
+        "MCG-6-8-5"
       ],
       "type": "Lenticular Galaxy",
       "constellation": "Fornax",

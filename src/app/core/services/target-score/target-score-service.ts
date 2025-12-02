@@ -124,13 +124,8 @@ export class TargetScoreService {
     // -----------------------------------------------
     // 2. Converte RA/Dec do catálogo
     // -----------------------------------------------
-    const [raH, raM, raS] = target.ra.split(' ').map(Number);
-    const [dD, dM, dS] = target.dec.split(' ').map(Number);
 
-    const targetEq = {
-      raHours: this.astro.raHmsToHours(raH, raM, raS),
-      decDegrees: this.astro.decDmsToDegrees(dD, dM, dS)
-    };
+    const targetEq = this.astro.mapDsoToTargetEquatorial(target)
 
     // -----------------------------------------------
     // 3. Curva de altitude da noite
