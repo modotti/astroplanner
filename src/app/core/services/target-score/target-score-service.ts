@@ -62,6 +62,7 @@ export class TargetScoreService {
 
     // Recalcula tudo
     const dateObj = new Date();
+
     const scores: Record<string, number> = {};
 
     for (const t of targets) {
@@ -169,19 +170,71 @@ export class TargetScoreService {
     // 5. Lua (iluminação + presença na janela útil)
     // -----------------------------------------------
     const illum = dailyToday.moon.illuminationPercent / 100;
-    const moonrise = dailyToday.moon.moonrise;
-    const moonset = dailyToday.moon.moonset;
+
+    const moonToday = dailyToday.moon;
+    const moonTomorrow = dailyTomorrow.moon;
+
+    // Vamos montar intervalos [start, end] onde a Lua está acima do horizonte
+    const moonIntervals: [number, number][] = [];
+
+    const nightStartMs = nightStart.getTime();
+    const nightEndMs = nightEnd.getTime();
+
+    const addInterval = (rise?: Date | null, set?: Date | null) => {
+      if (!rise && !set) return;
+
+      if (rise && set) {
+        let start = rise.getTime();
+        let end = set.getTime();
+
+        // Caso especial: quando o "set" é depois da meia-noite
+        // (ou seja, end < start em termos de data civil)
+        if (end < start) {
+          // divide em dois intervalos: antes e depois da meia-noite
+          // mas sempre recortando na janela da noite
+          moonIntervals.push([
+            Math.max(start, nightStartMs),
+            nightEndMs
+          ]);
+          moonIntervals.push([
+            nightStartMs,
+            Math.min(end, nightEndMs)
+          ]);
+        } else {
+          moonIntervals.push([
+            Math.max(start, nightStartMs),
+            Math.min(end, nightEndMs)
+          ]);
+        }
+      } else if (rise && !set) {
+        // Levanta e não se põe nesse dia
+        moonIntervals.push([
+          Math.max(rise.getTime(), nightStartMs),
+          nightEndMs
+        ]);
+      } else if (!rise && set) {
+        // Já está acima no início do dia e se põe depois
+        moonIntervals.push([
+          nightStartMs,
+          Math.min(set.getTime(), nightEndMs)
+        ]);
+      }
+    };
+
+    // Eventos da Lua para o "dia civil" de hoje e de amanhã
+    addInterval(moonToday.moonrise, moonToday.moonset);
+    addInterval(moonTomorrow.moonrise, moonTomorrow.moonset);
+
+    const isMoonAboveAt = (timeMs: number): boolean => {
+      return moonIntervals.some(([start, end]) => timeMs >= start && timeMs <= end);
+    };
 
     let moonOverlap = 0;
 
     for (const s of visibleSamples) {
-      const t = s.time.getTime();
-      const moonAbove =
-        (moonrise && moonset && t >= moonrise.getTime() && t <= moonset.getTime()) ||
-        (moonrise && !moonset && t >= moonrise.getTime()) ||
-        (!moonrise && moonset && t <= moonset.getTime());
-
-      if (moonAbove) moonOverlap++;
+      if (isMoonAboveAt(s.time.getTime())) {
+        moonOverlap++;
+      }
     }
 
     const fractionMoonOverlap =
