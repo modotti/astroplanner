@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { DeepSkyCatalog, DeepSkyObject } from '../../models/deep-sky-object.model';
 import { TargetScoreService } from '../target-score/target-score-service';
 import { LocationService } from '../location/location.service';
+import { LikedTargetsService } from '../liked-targets/liked-targets.service';
 
 @Injectable({ providedIn: 'root' })
 export class TargetCatalogService {
@@ -27,7 +28,8 @@ export class TargetCatalogService {
   constructor(
     private http: HttpClient,
     private locationService: LocationService,
-    private targetScoreService: TargetScoreService
+    private targetScoreService: TargetScoreService,
+    private likedTargetsService: LikedTargetsService
   ) {
     this.loadLocalCatalog();
   }
@@ -35,11 +37,19 @@ export class TargetCatalogService {
   private loadLocalCatalog(): void {
     this.http.get<DeepSkyCatalog>(this.CATALOG_URL).subscribe({
       next: (catalog) => {
-        this.catalogSignal.set(catalog);
+        const objectsWithLikes = this.likedTargetsService.applyLikesToTargets(catalog.objects);
+
+        const catalogWithLikes: DeepSkyCatalog = {
+          ...catalog,
+          objects: objectsWithLikes
+        };
+
+        this.catalogSignal.set(catalogWithLikes);
+
         this.locationService.getCurrentLocation().then(location => {
           const lat = +location.latitude.toFixed(1);
           const lon = +location.longitude.toFixed(1);
-          this.targetScoreService.initScoresForToday(catalog.objects, lat, lon);
+          this.targetScoreService.initScoresForToday(objectsWithLikes, lat, lon);
         });
       },
       error: (err) => {
@@ -64,5 +74,19 @@ export class TargetCatalogService {
       o.familiarName?.toLowerCase().includes(lower) ||
       o.altNames.some((alt) => alt.toLowerCase().includes(lower))
     );
+  }
+
+  toggleLike(targetId: string): void {
+    const current = this.catalogSignal();
+    if (!current) return;
+
+    this.likedTargetsService.toggleLike(targetId);
+
+    const updatedObjects = this.likedTargetsService.applyLikesToTargets(current.objects);
+
+    this.catalogSignal.set({
+      ...current,
+      objects: updatedObjects
+    });
   }
 }

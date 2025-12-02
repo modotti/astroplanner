@@ -12,11 +12,12 @@ import {
   NavController,
   IonSelect,
   IonSelectOption,
-  IonButton
+  IonButton,
 } from '@ionic/angular/standalone';
 import { DeepSkyObject } from 'src/app/core/models/deep-sky-object.model';
 import { TargetCatalogService } from 'src/app/core/services/target-catalog/target-catalog.service';
 import { TargetIconPipe } from '../pipes/target-icon.pipe';
+import { TargetCardComponent } from 'src/app/shared/components/target-card/target-card.component';
 
 @Component({
   selector: 'app-targets',
@@ -35,7 +36,8 @@ import { TargetIconPipe } from '../pipes/target-icon.pipe';
     TargetIconPipe,
     IonSelect,
     IonSelectOption,
-    IonButton
+    IonButton,
+    TargetCardComponent
   ]
 })
 export class TargetsPage {
@@ -48,6 +50,8 @@ export class TargetsPage {
   searchTerm = signal('');
   selectedGroups = signal<string[]>([]);
   visibleCount = signal(this.PAGE_SIZE);
+
+  private opened: DeepSkyObject | undefined;
 
   targetGroups = computed(() => {
     const groups = new Set<string>();
@@ -103,6 +107,18 @@ export class TargetsPage {
     this.allTargets.set(this.catalogService.getAll());
   }
 
+  ionViewWillEnter(): void {
+    if (this.opened) {
+      const updatedTarget = this.catalogService.getById(this.opened.id);
+      if (!updatedTarget) return;
+
+      this.allTargets.update(list =>
+        list.map(t => t.id === updatedTarget.id ? updatedTarget : t)
+      );
+      this.opened = undefined;
+    }
+  }
+
   onSearch(event: any) {
     // ion-searchbar costuma mandar o valor em event.detail.value
     const value = event.detail?.value ?? event.target?.value ?? '';
@@ -123,6 +139,12 @@ export class TargetsPage {
   }
 
   openTarget(target: DeepSkyObject) {
+    this.opened = target;
     this.navCtrl.navigateForward(['/main/target-details', target.id]);
+  }
+
+  likeTarget(target: DeepSkyObject) {
+    target.liked = !target.liked;
+    this.catalogService.toggleLike(target.id);
   }
 }

@@ -31,14 +31,8 @@
 
     <!-- Lista de resultados (paginada) -->
     <ion-list *ngIf="visibleTargets().length; else noResults" class="result">
-      <ion-item *ngFor="let t of visibleTargets()" button detail="true" (click)="openTarget(t)">
-        <img [src]="t.group | targetIcon" alt="{{ t.type }}" class="icon">
-
-        <ion-label>
-          <h2>{{ t.familiarName || t.catalogueEntry }}</h2>
-          <p>{{ t.catalogueEntry }} • {{ t.type }} • [{{ t.score }}]</p>
-        </ion-label>
-      </ion-item>
+      <app-target-card *ngFor="let t of visibleTargets()" [target]="t" (targetSelected)="openTarget($event)"
+        (targetLiked)="likeTarget($event)" />
     </ion-list>
 
     <!-- Botão "Show more" -->

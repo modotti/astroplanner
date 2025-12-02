@@ -63,8 +63,6 @@ export class TargetDetailsPage implements OnInit {
           minAltitudeDeg: 30,
           stepMinutes: 10,
         });
-
-        console.log(this.plan)
       }
     }
   }
@@ -90,10 +88,10 @@ export class TargetDetailsPage implements OnInit {
     const stellariumTerm = target.id;
 
     const actionSheet = await this.actionSheetCtrl.create({
-      header: `Links para ${name}`,
+      header: `Links for ${name}`,
       buttons: [
         {
-          text: 'Buscar no Google',
+          text: 'Search on Google',
           handler: () => {
             window.open(
               `https://www.google.com/search?q=${googleSearchQuery}`,
@@ -102,7 +100,7 @@ export class TargetDetailsPage implements OnInit {
           },
         },
         {
-          text: 'Imagens no Google',
+          text: 'Images on Google',
           handler: () => {
             window.open(
               `https://www.google.com/search?tbm=isch&q=${googleSearchQuery}`,
@@ -136,5 +134,10 @@ export class TargetDetailsPage implements OnInit {
     });
 
     await actionSheet.present();
+  }
+
+  likeTarget(target: DeepSkyObject) {
+    target.liked = !target.liked;
+    this.targetCatalogService.toggleLike(target.id);
   }
 }

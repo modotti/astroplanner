@@ -18,7 +18,7 @@
 
   <div class="target-details">
     <app-date-location-widget />
-    <app-target-title [target]="target" />
+    <app-target-title [target]="target" (targetLiked)="likeTarget($event)" />
     <div class="info-row">
       <div>
         <app-target-data [target]="target" />

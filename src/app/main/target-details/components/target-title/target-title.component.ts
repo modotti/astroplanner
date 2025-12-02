@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { DeepSkyObject } from 'src/app/core/models/deep-sky-object.model';
 import { TARGET_ICON_MAP } from 'src/app/main/constants/target-icon-map';
 import { TargetIconPipe } from 'src/app/main/pipes/target-icon.pipe';
@@ -11,6 +11,7 @@ import { TargetIconPipe } from 'src/app/main/pipes/target-icon.pipe';
 })
 export class TargetTileComponent {
   @Input('target') target: DeepSkyObject | undefined;
+  @Output() targetLiked = new EventEmitter<DeepSkyObject>();
 
   constructor() { }
 
@@ -28,5 +29,11 @@ export class TargetTileComponent {
 
   get group(): string {
     return this.target?.group || '';
+  }
+
+  likeTarget(target: DeepSkyObject | undefined): void {
+    if (target) {
+      this.targetLiked.emit(target);
+    }
   }
 }

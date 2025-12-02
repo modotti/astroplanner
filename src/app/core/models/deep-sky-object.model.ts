@@ -12,6 +12,7 @@ export interface DeepSkyObject {
   size: string; // ex: "1.1º x 1.1º"
   surfaceBrightness: number | null;
   score?: number;
+  liked?: boolean;
 }
 
 export interface DeepSkyCatalog {

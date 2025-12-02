@@ -1,0 +1,28 @@
+@import "src/theme/variables.scss";
+
+.target-card {
+  .icon {
+    width: 3rem;
+    margin-right: 0.25rem;
+  }
+
+  .score {
+    font-weight: 900;
+    font-size: 1.75rem;
+    position: relative;
+    top: -0.35rem;
+  }
+
+  .score-col {
+    max-width: 2.5rem;
+  }
+
+  .like-col {
+    max-width: 1.5rem;
+    color: #333;
+  }
+
+  .liked {
+    color: var(--ion-color-primary);
+  }
+}
