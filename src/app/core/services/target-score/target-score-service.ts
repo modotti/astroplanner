@@ -125,7 +125,7 @@ export class TargetScoreService {
     // 2. Converte RA/Dec do catálogo
     // -----------------------------------------------
 
-    const targetEq = this.astro.mapDsoToTargetEquatorial(target)
+    const targetEq = this.astro.mapDsoToTargetEquatorial(target, location)
 
     // -----------------------------------------------
     // 3. Curva de altitude da noite
@@ -238,7 +238,7 @@ export class TargetScoreService {
         : 0;
 
     const moonFactorRaw = 1 - (fractionMoonOverlap * illum);
-    const moonFactor = this.clamp(moonFactorRaw, 0, 1);
+    let moonFactor = this.clamp(moonFactorRaw, 0, 1);
 
     // -----------------------------------------------
     // 6. Janela dentro da noite (mid-night factor)
@@ -257,7 +257,14 @@ export class TargetScoreService {
     }
 
     // -----------------------------------------------
-    // 7. Score final
+    // 7. Ajustes para planetas
+    // -----------------------------------------------
+    if (['venus', 'jupiter', 'saturn'].includes(target.id)) {
+      moonFactor = 1;
+    }
+
+    // -----------------------------------------------
+    // 8. Score final
     // -----------------------------------------------
 
     const score0to1 =

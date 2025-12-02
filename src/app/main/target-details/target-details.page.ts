@@ -13,12 +13,14 @@ import { CapturePlan, PlanningService } from 'src/app/core/services/planning/pla
 import { AstroCoreService, TargetEquatorial } from 'src/app/core/services/astro-core/astro-core-service';
 import { MoonImpactComponent } from './components/moon-impact/moon-impact.component';
 import { VisibilityWindowComponent } from './components/visibility-window/visibility-window.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-target-details',
   templateUrl: 'target-details.page.html',
   styleUrls: ['target-details.page.scss'],
   imports: [
+    CommonModule,
     IonHeader,
     IonToolbar,
     IonTitle,
@@ -57,7 +59,7 @@ export class TargetDetailsPage implements OnInit {
       this.target = this.targetCatalogService.getById(targetId);
 
       if (this.target) {
-        const object = this.astroCoreService.mapDsoToTargetEquatorial(this.target);
+        const object = this.astroCoreService.mapDsoToTargetEquatorial(this.target, this.location);
         this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
           minAltitudeDeg: 30,
           stepMinutes: 10,
@@ -75,50 +77,62 @@ export class TargetDetailsPage implements OnInit {
     const telescopiusTerm = target.catalogueEntry.replace(/\s+/g, '-');
     const stellariumTerm = target.id;
 
+    const searchGoogleButton = {
+      text: 'Search on Google',
+      handler: () => {
+        window.open(
+          `https://www.google.com/search?q=${googleSearchQuery}`,
+          '_blank'
+        );
+      },
+    };
+
+    const imageGoogleButton = {
+      text: 'Images on Google',
+      handler: () => {
+        window.open(
+          `https://www.google.com/search?tbm=isch&q=${googleSearchQuery}`,
+          '_blank'
+        );
+      },
+    };
+
+    const telescopiusButton = {
+      text: 'Telescopius',
+      handler: () => {
+        window.open(
+          `https://telescopius.com/deep-sky-objects/${telescopiusTerm}/`,
+          '_blank'
+        );
+      },
+    };
+
+    const stellariumButton = {
+      text: 'Stellarium',
+      handler: () => {
+        window.open(
+          `https://stellarium-web.org/skysource/${stellariumTerm}`,
+          '_blank'
+        );
+      },
+    };
+
+    const cancelButton = {
+      text: 'Cancelar',
+      role: 'cancel',
+      handler: () => { }
+    };
+
+    let buttons = [searchGoogleButton, imageGoogleButton];
+    if (target.group !== 'Planet') {
+      buttons.push(telescopiusButton);
+    }
+    buttons.push(stellariumButton);
+    buttons.push(cancelButton);
+
     const actionSheet = await this.actionSheetCtrl.create({
       header: `Links for ${name}`,
-      buttons: [
-        {
-          text: 'Search on Google',
-          handler: () => {
-            window.open(
-              `https://www.google.com/search?q=${googleSearchQuery}`,
-              '_blank'
-            );
-          },
-        },
-        {
-          text: 'Images on Google',
-          handler: () => {
-            window.open(
-              `https://www.google.com/search?tbm=isch&q=${googleSearchQuery}`,
-              '_blank'
-            );
-          },
-        },
-        {
-          text: 'Telescopius',
-          handler: () => {
-            window.open(
-              `https://telescopius.com/deep-sky-objects/${telescopiusTerm}/`,
-              '_blank'
-            );
-          },
-        },
-        {
-          text: 'Stellarium',
-          handler: () => {
-            window.open(
-              `https://stellarium-web.org/skysource/${stellariumTerm}`,
-              '_blank'
-            );
-          },
-        },
-        {
-          text: 'Cancelar',
-          role: 'cancel',
-        },
-      ],
+      buttons,
     });
 
     await actionSheet.present();
@@ -127,5 +141,12 @@ export class TargetDetailsPage implements OnInit {
   likeTarget(target: DeepSkyObject) {
     target.liked = !target.liked;
     this.targetCatalogService.toggleLike(target.id);
+  }
+
+  get isBrightObject(): boolean {
+    if (this.target) {
+      return this.target.type === 'Bright Star' || ['venus', 'jupiter', 'saturn'].includes(this.target.id);
+    }
+    return false;
   }
 }

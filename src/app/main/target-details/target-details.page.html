@@ -27,7 +27,7 @@
         <app-moon-status [sky]="plan?.sky" />
       </div>
     </div>
-    <div class="info-row">
+    <div class="info-row" *ngIf="!isBrightObject">
       <app-moon-impact [impact]="plan?.moonImpact" />
     </div>
     <div class="info-row">

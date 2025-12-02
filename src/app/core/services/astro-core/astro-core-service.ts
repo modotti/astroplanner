@@ -12,6 +12,7 @@ import {
   SearchRiseSet,
 } from 'astronomy-engine';
 import { DeepSkyObject } from '../../models/deep-sky-object.model';
+import { UserLocation } from '../../models/location.model';
 
 // ---------------------------------------------------------------------
 // Interfaces
@@ -250,14 +251,63 @@ export class AstroCoreService {
   // Utils
   // -------------------------------------------------------------------
 
-  mapDsoToTargetEquatorial(dso: DeepSkyObject): TargetEquatorial {
-    const [raH, raM, raS] = dso.ra.split(' ').map(Number);
-    const [decD, decM, decS] = dso.dec.split(' ').map(Number);
+  mapDsoToTargetEquatorial(object: DeepSkyObject, location: UserLocation): TargetEquatorial {
+    const name = object.familiarName || object.catalogueEntry || object.id;
+
+    // -------------------------
+    // Planetas: usar Astronomy-Engine
+    // -------------------------
+    if (object.group?.toLowerCase() === 'planet') {
+      const body = this.getPlanetBodyFromObject(object);
+      const time = new AstroTime(new Date());
+
+      // Equatorial "of date" (coordenadas aparentes para o momento atual)
+      const equ = Equator(body, time, this.toObserver(location), true, true);
+
+      return {
+        name,
+        raHours: equ.ra,      // já vem em horas
+        decDegrees: equ.dec   // já vem em graus
+      };
+    }
+
+    // -------------------------
+    // Demais objetos: usar RA/DEC fixos do catálogo
+    // -------------------------
+    if (!object.ra || !object.dec) {
+      throw new Error(`RA/DEC ausentes para o objeto não-planetário: ${object.id}`);
+    }
+
+    const [raH, raM, raS] = object.ra.trim().split(/\s+/).map(Number);
+    const [decD, decM, decS] = object.dec.trim().split(/\s+/).map(Number);
 
     return {
-      name: dso.familiarName,
+      name,
       raHours: this.raHmsToHours(raH, raM, raS),
       decDegrees: this.decDmsToDegrees(decD, decM, decS)
     };
+  }
+
+  private getPlanetBodyFromObject(object: DeepSkyObject): Body {
+    const raw =
+      (object.familiarName || object.catalogueEntry || object.id || '')
+        .trim()
+        .toLowerCase();
+
+    if (raw.includes('mercury')) return Body.Mercury;
+    if (raw.includes('venus')) return Body.Venus;
+    if (raw.includes('earth')) return Body.Earth;
+    if (raw.includes('mars')) return Body.Mars;
+    if (raw.includes('jupiter')) return Body.Jupiter;
+    if (raw.includes('saturn')) return Body.Saturn;
+    if (raw.includes('uranus')) return Body.Uranus;
+    if (raw.includes('neptune')) return Body.Neptune;
+    if (raw.includes('pluto')) return Body.Pluto;
+
+    // Se você também tiver Sol ou Lua como "planet"
+    if (raw.includes('sun') || raw.includes('sol')) return Body.Sun;
+    if (raw.includes('moon') || raw.includes('lua')) return Body.Moon;
+
+    throw new Error(`Planeta não suportado ou não reconhecido: "${raw}"`);
   }
 }
