@@ -1,9 +1,17 @@
 @import "src/theme/variables.scss";
 
 .target-card {
+  border: solid 1px #333;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+
+  h2 {
+    font-weight: 900;
+  }
+
   .icon {
     width: 3rem;
-    margin-right: 0.25rem;
+    margin-right: 0.5rem;
   }
 
   .score {

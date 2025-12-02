@@ -33,9 +33,9 @@ export class AppComponent {
 
   private initializeApp(): void {
     this.platform.ready().then(() => {
-      App.addListener('backButton', ({ canGoBack }) => {
+      this.platform.backButton.subscribeWithPriority(10, () => {
         if (this.routerOutlet && this.routerOutlet.canGoBack()) {
-          this.navCtrl.back();
+          this.routerOutlet.pop();
         }
       });
     });

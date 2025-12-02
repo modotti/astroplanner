@@ -30,7 +30,7 @@
     </ion-item>
 
     <!-- Lista de resultados (paginada) -->
-    <ion-list *ngIf="visibleTargets().length; else noResults" class="result">
+    <ion-list lines="none" *ngIf="visibleTargets().length; else noResults" class="result">
       <app-target-card *ngFor="let t of visibleTargets()" [target]="t" (targetSelected)="openTarget($event)"
         (targetLiked)="likeTarget($event)" />
     </ion-list>

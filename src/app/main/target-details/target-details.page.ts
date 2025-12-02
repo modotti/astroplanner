@@ -36,7 +36,6 @@ import { VisibilityWindowComponent } from './components/visibility-window/visibi
   ]
 })
 export class TargetDetailsPage implements OnInit {
-
   public target: DeepSkyObject | undefined;
   public date: Date = new Date(Date.now());
   public location: UserLocation | undefined;
