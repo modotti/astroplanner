@@ -10,8 +10,8 @@ export class LocationService {
   async getCurrentLocation(): Promise<UserLocation> {
     //TODO: Implementar busca dinamica de localização
     return {
-      latitude: -22.7767097,
-      longitude: -50.2119874
+      latitude: -22.651401,
+      longitude: -50.416037
     }
   }
 }
