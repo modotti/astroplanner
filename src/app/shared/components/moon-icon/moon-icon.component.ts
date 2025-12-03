@@ -27,7 +27,10 @@ export class MoonIconComponent {
   /** posição X do centro da sombra */
   get shadowCx(): number {
     const r = this.radius;
-    const i = Math.min(Math.max(this.illumination, 0), 1); // clamp 0–1
+    let i = Math.min(Math.max(this.illumination, 0), 1); // clamp 0–1
+
+    if (i < 0.98) i = i * 0.875;
+    else if (i < 0.99) i = i * 0.95;
 
     // deslocamento entre centros dos círculos (0 = nova, r = meia-lua, 2r = cheia)
     const d = 2 * r * i;
