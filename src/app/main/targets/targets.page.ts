@@ -145,7 +145,7 @@ export class TargetsPage {
 
   openTarget(target: DeepSkyObject) {
     this.opened = target;
-    this.navCtrl.navigateForward(['/main/target-details', target.id]);
+    this.navCtrl.navigateForward(['/main/targets/details', target.id]);
   }
 
   likeTarget(target: DeepSkyObject) {

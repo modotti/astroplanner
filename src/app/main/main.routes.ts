@@ -13,13 +13,8 @@ export const routes: Routes = [
       },
       {
         path: 'targets',
-        loadComponent: () =>
-          import('../main/targets/targets.page').then((m) => m.TargetsPage),
-      },
-      {
-        path: 'target-details/:id',
-        loadComponent: () =>
-          import('../main/target-details/target-details.page').then((m) => m.TargetDetailsPage),
+        loadChildren: () =>
+          import('../main/targets/targets.routes').then((m) => m.TARGETS_ROUTES),
       },
       {
         path: 'plans',
