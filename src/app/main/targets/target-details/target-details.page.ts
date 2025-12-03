@@ -72,8 +72,6 @@ export class TargetDetailsPage {
   ) { }
 
   ionViewWillEnter(): void {
-    this.dateService.resetDate();
-
     const targetId = this.route.snapshot.paramMap.get('id');
     if (targetId) {
       this.target = this.targetCatalogService.getById(targetId);
