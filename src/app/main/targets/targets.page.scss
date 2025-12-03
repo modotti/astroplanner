@@ -1,3 +1,5 @@
+@import "src/theme/variables.scss";
+
 .target-page {
   margin: 1rem 1rem;
 
@@ -13,5 +15,13 @@
   .no-targets {
     text-align: center;
     margin: 2rem;
+  }
+
+  .like-filter {
+    color: gray;
+
+    .selected {
+      color: var(--ion-color-primary);
+    }
   }
 }

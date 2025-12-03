@@ -20,7 +20,7 @@
       "magnitude": 4.0,
       "size": "1.1º x 1.1º",
       "surfaceBrightness": 22.0,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m31",
@@ -66,7 +66,7 @@
       "magnitude": 5.0,
       "size": "2º x 1.7º",
       "surfaceBrightness": 23.8,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m45",
@@ -150,7 +150,7 @@
       "magnitude": null,
       "size": "1º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1396",
@@ -170,7 +170,7 @@
       "magnitude": null,
       "size": "2.4º x 2.4º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m51",
@@ -214,7 +214,7 @@
       "magnitude": 9.0,
       "size": "1.3º",
       "surfaceBrightness": 27.09,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m43",
@@ -230,7 +230,7 @@
       "magnitude": 9.0,
       "size": "20' x 15'",
       "surfaceBrightness": 23.8,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic5070",
@@ -248,7 +248,7 @@
       "magnitude": null,
       "size": "1º x 50'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6960",
@@ -375,7 +375,7 @@
       "magnitude": null,
       "size": "18' x 13'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m8",
@@ -394,7 +394,7 @@
       "magnitude": 6.0,
       "size": "45' x 30'",
       "surfaceBrightness": 22.5,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m16",
@@ -416,7 +416,7 @@
       "magnitude": 6.0,
       "size": "5.1' x 5.1'",
       "surfaceBrightness": 18.9,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6992",
@@ -453,7 +453,7 @@
       "magnitude": 6.3,
       "size": "28' x 28'",
       "surfaceBrightness": 22.2,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1499",
@@ -471,7 +471,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc281",
@@ -495,7 +495,7 @@
       "magnitude": null,
       "size": "35' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1848",
@@ -535,7 +535,7 @@
       "magnitude": null,
       "size": "15' x 8'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2024",
@@ -549,7 +549,7 @@
       "magnitude": null,
       "size": "30' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "veilnebula",
@@ -582,7 +582,7 @@
       "magnitude": null,
       "size": "30' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m1",
@@ -629,7 +629,7 @@
       "magnitude": null,
       "size": "55' x 45'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic443",
@@ -848,7 +848,7 @@
       "magnitude": null,
       "size": "8.2' x 8.2'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m94",
@@ -896,7 +896,7 @@
       "magnitude": 6.0,
       "size": "1.6' x 1.6'",
       "surfaceBrightness": 19.8,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m64",
@@ -1017,7 +1017,7 @@
       "magnitude": null,
       "size": "30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m74",
@@ -1151,7 +1151,7 @@
       "magnitude": 11.5,
       "size": "6' x 4'",
       "surfaceBrightness": 23.6,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2101",
@@ -1169,7 +1169,7 @@
       "magnitude": null,
       "size": "20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1318",
@@ -1183,7 +1183,7 @@
       "magnitude": null,
       "size": "50' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3372",
@@ -1201,7 +1201,7 @@
       "magnitude": null,
       "size": "2º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m97",
@@ -1283,7 +1283,7 @@
       "magnitude": null,
       "size": "3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic2177",
@@ -1304,7 +1304,7 @@
       "magnitude": null,
       "size": "20' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m83",
@@ -1388,7 +1388,7 @@
       "magnitude": null,
       "size": "20º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2129",
@@ -1402,7 +1402,7 @@
       "magnitude": null,
       "size": "2.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m44",
@@ -1448,7 +1448,7 @@
       "magnitude": null,
       "size": "6.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m77",
@@ -1494,7 +1494,7 @@
       "magnitude": null,
       "size": "5.3' x 3.6'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1990",
@@ -1511,7 +1511,7 @@
       "magnitude": 4.1,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc5128",
@@ -1572,7 +1572,7 @@
       "magnitude": null,
       "size": "10º x 8º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4604",
@@ -1727,7 +1727,7 @@
       "magnitude": null,
       "size": "40' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2308",
@@ -1751,7 +1751,7 @@
       "magnitude": 6.9,
       "size": "35'",
       "surfaceBrightness": 23.25,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "pk164311",
@@ -1801,7 +1801,7 @@
       "magnitude": null,
       "size": "10' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6334",
@@ -1821,7 +1821,7 @@
       "magnitude": null,
       "size": "18' x 18'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gammacassiopeiaenebula",
@@ -2015,7 +2015,7 @@
       "magnitude": null,
       "size": "45'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn846",
@@ -2076,7 +2076,7 @@
       "magnitude": null,
       "size": "3.3º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn179",
@@ -2092,7 +2092,7 @@
       "magnitude": null,
       "size": "25' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2052",
@@ -2106,7 +2106,7 @@
       "magnitude": null,
       "size": "18' x 12'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn1119",
@@ -2122,7 +2122,7 @@
       "magnitude": null,
       "size": "2.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh226",
@@ -2136,7 +2136,7 @@
       "magnitude": null,
       "size": "20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn316",
@@ -2152,7 +2152,7 @@
       "magnitude": null,
       "size": "2.7º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2216",
@@ -2186,7 +2186,7 @@
       "magnitude": null,
       "size": "2º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1696",
@@ -2216,7 +2216,7 @@
       "magnitude": null,
       "size": "22' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1687",
@@ -2247,7 +2247,7 @@
       "magnitude": null,
       "size": "2.7º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder106",
@@ -2341,7 +2341,7 @@
       "magnitude": null,
       "size": "2º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn404",
@@ -2357,7 +2357,7 @@
       "magnitude": null,
       "size": "1.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m93",
@@ -2557,7 +2557,7 @@
       "magnitude": null,
       "size": "1.3º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn932",
@@ -2573,7 +2573,7 @@
       "magnitude": null,
       "size": "55' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6087",
@@ -2691,7 +2691,7 @@
       "magnitude": null,
       "size": "45' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1216",
@@ -2724,7 +2724,7 @@
       "magnitude": null,
       "size": "6' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "wr145",
@@ -2771,7 +2771,7 @@
       "magnitude": null,
       "size": "6º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn749",
@@ -2787,7 +2787,7 @@
       "magnitude": null,
       "size": "2.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn177",
@@ -2803,7 +2803,7 @@
       "magnitude": null,
       "size": "20' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lha120n154",
@@ -2817,7 +2817,7 @@
       "magnitude": null,
       "size": "18' x 12'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "cldolidze10",
@@ -2866,7 +2866,7 @@
       "magnitude": null,
       "size": "4º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2149",
@@ -2898,7 +2898,7 @@
       "magnitude": null,
       "size": "2.2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder428",
@@ -3077,7 +3077,7 @@
       "magnitude": null,
       "size": "3º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1564",
@@ -3105,7 +3105,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn705",
@@ -3121,7 +3121,7 @@
       "magnitude": null,
       "size": "25' x 25'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2997",
@@ -3159,7 +3159,7 @@
       "magnitude": null,
       "size": "1.4º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc7026",
@@ -3227,7 +3227,7 @@
       "magnitude": null,
       "size": "2º x 3'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg2861011",
@@ -3299,7 +3299,7 @@
       "magnitude": null,
       "size": "1.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn170",
@@ -3315,7 +3315,7 @@
       "magnitude": null,
       "size": "1º x 50'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2284",
@@ -3332,7 +3332,7 @@
       "magnitude": null,
       "size": "1.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2202",
@@ -3349,7 +3349,7 @@
       "magnitude": null,
       "size": "2.8º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4437",
@@ -3462,7 +3462,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1566",
@@ -3573,7 +3573,7 @@
       "magnitude": null,
       "size": "3º x 1.2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4214",
@@ -3632,7 +3632,7 @@
       "magnitude": null,
       "size": "3.5º x 2.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn884",
@@ -3729,7 +3729,7 @@
       "magnitude": null,
       "size": "4.5º x 4º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2170",
@@ -3746,7 +3746,7 @@
       "magnitude": null,
       "size": "20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gum64c",
@@ -3760,7 +3760,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3582",
@@ -3774,7 +3774,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3247",
@@ -3924,7 +3924,7 @@
       "magnitude": null,
       "size": "1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn857",
@@ -3993,7 +3993,7 @@
       "magnitude": null,
       "size": "9º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn307",
@@ -4009,7 +4009,7 @@
       "magnitude": null,
       "size": "3.8º x 1.2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clstock8",
@@ -4063,7 +4063,7 @@
       "magnitude": null,
       "size": "1º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn261",
@@ -4079,7 +4079,7 @@
       "magnitude": null,
       "size": "25' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2078",
@@ -4096,7 +4096,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2083",
@@ -4112,7 +4112,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "wr134",
@@ -4246,7 +4246,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "barnard45",
@@ -4276,7 +4276,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn779",
@@ -4292,7 +4292,7 @@
       "magnitude": null,
       "size": "2.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic2118a",
@@ -4324,7 +4324,7 @@
       "magnitude": null,
       "size": "1.7º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic2118b",
@@ -4424,7 +4424,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6712",
@@ -4457,7 +4457,7 @@
       "magnitude": null,
       "size": "3º x 3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn226",
@@ -4473,7 +4473,7 @@
       "magnitude": null,
       "size": "1.8º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg1800017",
@@ -4553,7 +4553,7 @@
       "magnitude": null,
       "size": "1º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic5133",
@@ -4567,7 +4567,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2290",
@@ -4602,7 +4602,7 @@
       "magnitude": null,
       "size": "1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn243",
@@ -4632,7 +4632,7 @@
       "magnitude": null,
       "size": "40' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3581",
@@ -4646,7 +4646,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg2865012",
@@ -4674,7 +4674,7 @@
       "magnitude": null,
       "size": "20' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3584",
@@ -4688,7 +4688,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn401",
@@ -4704,7 +4704,7 @@
       "magnitude": null,
       "size": "1.7º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "vdb15",
@@ -4808,7 +4808,7 @@
       "magnitude": null,
       "size": "2.2º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn315",
@@ -4824,7 +4824,7 @@
       "magnitude": null,
       "size": "1.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3586",
@@ -4838,7 +4838,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "barnard38",
@@ -4882,7 +4882,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic10",
@@ -5024,7 +5024,7 @@
       "magnitude": null,
       "size": "5º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh291",
@@ -5041,7 +5041,7 @@
       "magnitude": null,
       "size": "2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1681",
@@ -5120,7 +5120,7 @@
       "magnitude": null,
       "size": "2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lha120n166",
@@ -5134,7 +5134,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1690",
@@ -5354,7 +5354,7 @@
       "magnitude": null,
       "size": "1º x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3953",
@@ -5408,7 +5408,7 @@
       "magnitude": null,
       "size": "3.7º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc147",
@@ -5452,7 +5452,7 @@
       "magnitude": null,
       "size": "3.8' x 2.4'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1795",
@@ -5470,7 +5470,7 @@
       "magnitude": null,
       "size": "3.1' x 3.1'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn1118",
@@ -5486,7 +5486,7 @@
       "magnitude": null,
       "size": "5º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1269",
@@ -5516,7 +5516,7 @@
       "magnitude": null,
       "size": "40' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn964",
@@ -5532,7 +5532,7 @@
       "magnitude": null,
       "size": "1.8º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc7479",
@@ -5610,7 +5610,7 @@
       "magnitude": null,
       "size": "9º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn303",
@@ -5642,7 +5642,7 @@
       "magnitude": null,
       "size": "3º x 1.7º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn862",
@@ -5728,7 +5728,7 @@
       "magnitude": null,
       "size": "8' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc185",
@@ -5769,7 +5769,7 @@
       "magnitude": null,
       "size": "20' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sandqvist182",
@@ -5833,7 +5833,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6991",
@@ -5879,7 +5879,7 @@
       "magnitude": null,
       "size": "2.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn227",
@@ -5895,7 +5895,7 @@
       "magnitude": null,
       "size": "1.7º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lha120n164",
@@ -5909,7 +5909,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gum82",
@@ -5923,7 +5923,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1232",
@@ -5962,7 +5962,7 @@
       "magnitude": null,
       "size": "55' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn380",
@@ -6027,7 +6027,7 @@
       "magnitude": null,
       "size": "3º x 2.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1675",
@@ -6071,7 +6071,7 @@
       "magnitude": null,
       "size": "30' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2067",
@@ -6105,7 +6105,7 @@
       "magnitude": null,
       "size": "58\"\" x 58\"\"",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lha120s133",
@@ -6138,7 +6138,7 @@
       "magnitude": null,
       "size": "30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4605",
@@ -6190,7 +6190,7 @@
       "magnitude": null,
       "size": "30' x 2'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1456",
@@ -6223,7 +6223,7 @@
       "magnitude": null,
       "size": "8º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "aco2151",
@@ -6321,7 +6321,7 @@
       "magnitude": null,
       "size": "1.3º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m68",
@@ -6355,7 +6355,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn877",
@@ -6424,7 +6424,7 @@
       "magnitude": null,
       "size": "8º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m79",
@@ -6456,7 +6456,7 @@
       "magnitude": null,
       "size": "15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6823",
@@ -6719,7 +6719,7 @@
       "magnitude": null,
       "size": "4º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "aco31",
@@ -6752,7 +6752,7 @@
       "magnitude": null,
       "size": "1.5º x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn915",
@@ -6830,7 +6830,7 @@
       "magnitude": null,
       "size": "30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "barnard205",
@@ -6916,7 +6916,7 @@
       "magnitude": null,
       "size": "2.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn315",
@@ -6958,7 +6958,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6605",
@@ -6989,7 +6989,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn909",
@@ -7020,7 +7020,7 @@
       "magnitude": null,
       "size": "9'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh234",
@@ -7037,7 +7037,7 @@
       "magnitude": null,
       "size": "1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn899",
@@ -7053,7 +7053,7 @@
       "magnitude": null,
       "size": "30' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn453",
@@ -7069,7 +7069,7 @@
       "magnitude": null,
       "size": "1.7º x 13'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "copelandseptet",
@@ -7127,7 +7127,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh286",
@@ -7145,7 +7145,7 @@
       "magnitude": null,
       "size": "40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1613",
@@ -7175,7 +7175,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m46",
@@ -7210,7 +7210,7 @@
       "magnitude": null,
       "size": "1º x 50'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1973",
@@ -7226,7 +7226,7 @@
       "magnitude": null,
       "size": "5' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn845",
@@ -7259,7 +7259,7 @@
       "magnitude": null,
       "size": "3.3º x 1.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn248",
@@ -7275,7 +7275,7 @@
       "magnitude": null,
       "size": "30' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "vv784",
@@ -7337,7 +7337,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc660",
@@ -7407,7 +7407,7 @@
       "magnitude": null,
       "size": "50' x 8'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn209",
@@ -7423,7 +7423,7 @@
       "magnitude": null,
       "size": "30' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc7027",
@@ -7506,7 +7506,7 @@
       "magnitude": null,
       "size": "1.3º x 50'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clczernik43",
@@ -7568,7 +7568,7 @@
       "magnitude": null,
       "size": "3º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m55",
@@ -7602,7 +7602,7 @@
       "magnitude": null,
       "size": "3º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "min267",
@@ -7671,7 +7671,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2069",
@@ -7687,7 +7687,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m30",
@@ -7808,7 +7808,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn380",
@@ -7824,7 +7824,7 @@
       "magnitude": null,
       "size": "2.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m91",
@@ -7922,7 +7922,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1218",
@@ -7986,7 +7986,7 @@
       "magnitude": null,
       "size": "2.7º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4216",
@@ -8058,7 +8058,7 @@
       "magnitude": null,
       "size": "30\"\" x 30\"\"",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m47",
@@ -8106,7 +8106,7 @@
       "magnitude": null,
       "size": "1.3º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn841",
@@ -8154,7 +8154,7 @@
       "magnitude": null,
       "size": "4º x 3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder234",
@@ -8186,7 +8186,7 @@
       "magnitude": null,
       "size": "1º x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder232",
@@ -8216,7 +8216,7 @@
       "magnitude": null,
       "size": "25' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gum53",
@@ -8232,7 +8232,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4406",
@@ -8287,7 +8287,7 @@
       "magnitude": null,
       "size": "1.7º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4945",
@@ -8324,7 +8324,7 @@
       "magnitude": null,
       "size": "1.3º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc925",
@@ -8396,7 +8396,7 @@
       "magnitude": null,
       "size": "2.7º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1097",
@@ -8438,7 +8438,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6781",
@@ -8476,7 +8476,7 @@
       "magnitude": null,
       "size": "9' x 6'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m9",
@@ -8556,7 +8556,7 @@
       "magnitude": null,
       "size": "4º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4559",
@@ -8595,7 +8595,7 @@
       "magnitude": null,
       "size": "2.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gum32",
@@ -8611,7 +8611,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn253",
@@ -8627,7 +8627,7 @@
       "magnitude": null,
       "size": "20' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6939",
@@ -8659,7 +8659,7 @@
       "magnitude": null,
       "size": "3º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn864",
@@ -8690,7 +8690,7 @@
       "magnitude": null,
       "size": "13' x 13'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1568",
@@ -8737,7 +8737,7 @@
       "magnitude": null,
       "size": "1º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn916",
@@ -8767,7 +8767,7 @@
       "magnitude": null,
       "size": "3º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m84",
@@ -8810,7 +8810,7 @@
       "magnitude": null,
       "size": "40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn233",
@@ -8826,7 +8826,7 @@
       "magnitude": null,
       "size": "2.7º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "hcg44",
@@ -8856,7 +8856,7 @@
       "magnitude": null,
       "size": "27' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn171",
@@ -8872,7 +8872,7 @@
       "magnitude": null,
       "size": "20' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic354",
@@ -8888,7 +8888,7 @@
       "magnitude": null,
       "size": "2.2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1627",
@@ -8919,7 +8919,7 @@
       "magnitude": null,
       "size": "50' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic2391",
@@ -8965,7 +8965,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4038",
@@ -9020,7 +9020,7 @@
       "magnitude": null,
       "size": "3º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "thebox",
@@ -9064,7 +9064,7 @@
       "magnitude": null,
       "size": "30' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn310",
@@ -9080,7 +9080,7 @@
       "magnitude": null,
       "size": "6º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh29",
@@ -9217,7 +9217,7 @@
       "magnitude": null,
       "size": "4º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "min271",
@@ -9364,7 +9364,7 @@
       "magnitude": null,
       "size": "7º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2683",
@@ -9428,7 +9428,7 @@
       "magnitude": null,
       "size": "15' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2360",
@@ -9539,7 +9539,7 @@
       "magnitude": null,
       "size": "3º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m60",
@@ -9583,7 +9583,7 @@
       "magnitude": null,
       "size": "2º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn182",
@@ -9599,7 +9599,7 @@
       "magnitude": null,
       "size": "1.5º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn646",
@@ -9615,7 +9615,7 @@
       "magnitude": null,
       "size": "13' x 8'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1565",
@@ -9646,7 +9646,7 @@
       "magnitude": null,
       "size": "1.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2071",
@@ -9709,7 +9709,7 @@
       "magnitude": null,
       "size": "1.2º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1491",
@@ -9731,7 +9731,7 @@
       "magnitude": null,
       "size": "4.8' x 4.8'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4603",
@@ -9782,7 +9782,7 @@
       "magnitude": null,
       "size": "1.2º x 1.2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1554",
@@ -9897,7 +9897,7 @@
       "magnitude": null,
       "size": "1.3º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1231",
@@ -10063,7 +10063,7 @@
       "magnitude": null,
       "size": "14' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn367",
@@ -10080,7 +10080,7 @@
       "magnitude": null,
       "size": "2.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clvdbh99",
@@ -10110,7 +10110,7 @@
       "magnitude": null,
       "size": "2º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn239",
@@ -10126,7 +10126,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2296",
@@ -10143,7 +10143,7 @@
       "magnitude": null,
       "size": "3.3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6744",
@@ -10199,7 +10199,7 @@
       "magnitude": null,
       "size": "2.5º x 1.8º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc5033",
@@ -10268,7 +10268,7 @@
       "magnitude": null,
       "size": "50'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced89d",
@@ -10332,7 +10332,7 @@
       "magnitude": null,
       "size": "5' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2191",
@@ -10368,7 +10368,7 @@
       "magnitude": null,
       "size": "1.5º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc7814",
@@ -10489,7 +10489,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2170",
@@ -10521,7 +10521,7 @@
       "magnitude": null,
       "size": "5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m96",
@@ -10565,7 +10565,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic5068",
@@ -10582,7 +10582,7 @@
       "magnitude": null,
       "size": "40' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1270",
@@ -10612,7 +10612,7 @@
       "magnitude": null,
       "size": "5º x 2.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg0053010",
@@ -10647,7 +10647,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn752",
@@ -10663,7 +10663,7 @@
       "magnitude": null,
       "size": "5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn257",
@@ -10679,7 +10679,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4593",
@@ -10745,7 +10745,7 @@
       "magnitude": null,
       "size": "20' x 3'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m10",
@@ -10808,7 +10808,7 @@
       "magnitude": null,
       "size": "3º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m108",
@@ -10895,7 +10895,7 @@
       "magnitude": null,
       "size": "1.3º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2174",
@@ -10909,7 +10909,7 @@
       "magnitude": null,
       "size": "3.5' x 2'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn776",
@@ -10925,7 +10925,7 @@
       "magnitude": null,
       "size": "3.3º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg0782021",
@@ -10986,7 +10986,7 @@
       "magnitude": null,
       "size": "1º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2109",
@@ -11000,7 +11000,7 @@
       "magnitude": null,
       "size": "18º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder107",
@@ -11031,7 +11031,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn940",
@@ -11096,7 +11096,7 @@
       "magnitude": null,
       "size": "2.7º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn889",
@@ -11162,7 +11162,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1893",
@@ -11210,7 +11210,7 @@
       "magnitude": null,
       "size": "25' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1625",
@@ -11358,7 +11358,7 @@
       "magnitude": null,
       "size": "1.5º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn332",
@@ -11374,7 +11374,7 @@
       "magnitude": null,
       "size": "40' x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1266",
@@ -11438,7 +11438,7 @@
       "magnitude": null,
       "size": "2.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4681",
@@ -11456,7 +11456,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "barnard85",
@@ -11518,7 +11518,7 @@
       "magnitude": 7.1,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "barnard160",
@@ -11581,7 +11581,7 @@
       "magnitude": null,
       "size": "3º x 2.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1590",
@@ -11595,7 +11595,7 @@
       "magnitude": null,
       "size": "6.6' x 6.6'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2537",
@@ -11637,7 +11637,7 @@
       "magnitude": null,
       "size": "1.5º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced67c",
@@ -11665,7 +11665,7 @@
       "magnitude": null,
       "size": "20' x 12'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2161",
@@ -11679,7 +11679,7 @@
       "magnitude": null,
       "size": "55'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1641",
@@ -11710,7 +11710,7 @@
       "magnitude": null,
       "size": "10' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "min192",
@@ -11764,7 +11764,7 @@
       "magnitude": null,
       "size": "9'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn536",
@@ -11780,7 +11780,7 @@
       "magnitude": null,
       "size": "1.3º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn388",
@@ -11796,7 +11796,7 @@
       "magnitude": null,
       "size": "4º x 2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m90",
@@ -11906,7 +11906,7 @@
       "magnitude": null,
       "size": "2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic348",
@@ -11943,7 +11943,7 @@
       "magnitude": null,
       "size": "1.7º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic468",
@@ -11960,7 +11960,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "min195",
@@ -12108,7 +12108,7 @@
       "magnitude": null,
       "size": "3º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn625",
@@ -12124,7 +12124,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn937",
@@ -12154,7 +12154,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m21",
@@ -12206,7 +12206,7 @@
       "magnitude": null,
       "size": "2.3º x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1090",
@@ -12296,7 +12296,7 @@
       "magnitude": null,
       "size": "1.5º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh228",
@@ -12310,7 +12310,7 @@
       "magnitude": null,
       "size": "40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "grusquartet",
@@ -12342,7 +12342,7 @@
       "magnitude": null,
       "size": "3º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2169",
@@ -12387,7 +12387,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1085",
@@ -12417,7 +12417,7 @@
       "magnitude": null,
       "size": "1.5º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced9c",
@@ -12462,7 +12462,7 @@
       "magnitude": null,
       "size": "1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg0070001",
@@ -12506,7 +12506,7 @@
       "magnitude": null,
       "size": "1.2º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn673",
@@ -12522,7 +12522,7 @@
       "magnitude": null,
       "size": "25' x 7'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2362",
@@ -12637,7 +12637,7 @@
       "magnitude": null,
       "size": "1.7º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m100",
@@ -12706,7 +12706,7 @@
       "magnitude": null,
       "size": "1.3º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic63",
@@ -12724,7 +12724,7 @@
       "magnitude": null,
       "size": "10' x 3'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1103",
@@ -12766,7 +12766,7 @@
       "magnitude": null,
       "size": "10' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1871",
@@ -12783,7 +12783,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "siamesetwins",
@@ -12944,7 +12944,7 @@
       "magnitude": null,
       "size": "1.4º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn206",
@@ -12960,7 +12960,7 @@
       "magnitude": null,
       "size": "50' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn329",
@@ -12976,7 +12976,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced53",
@@ -13023,7 +13023,7 @@
       "magnitude": null,
       "size": "20' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6894",
@@ -13114,7 +13114,7 @@
       "magnitude": null,
       "size": "25' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1098",
@@ -13144,7 +13144,7 @@
       "magnitude": null,
       "size": "45' x 25'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn941",
@@ -13160,7 +13160,7 @@
       "magnitude": null,
       "size": "18' x 8'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn670",
@@ -13176,7 +13176,7 @@
       "magnitude": null,
       "size": "25' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m109",
@@ -13217,7 +13217,7 @@
       "magnitude": null,
       "size": "1.7º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6526",
@@ -13231,7 +13231,7 @@
       "magnitude": null,
       "size": "6' x 3'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1831",
@@ -13245,7 +13245,7 @@
       "magnitude": null,
       "size": "2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "mcg0607001",
@@ -13304,7 +13304,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m4",
@@ -13339,7 +13339,7 @@
       "magnitude": null,
       "size": "45' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced73",
@@ -13510,7 +13510,7 @@
       "magnitude": null,
       "size": "48' x 38'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn249",
@@ -13526,7 +13526,7 @@
       "magnitude": null,
       "size": "50' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg0729090",
@@ -13557,7 +13557,7 @@
       "magnitude": null,
       "size": "55'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2516",
@@ -13607,7 +13607,7 @@
       "magnitude": null,
       "size": "4º x 4º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced84b",
@@ -13637,7 +13637,7 @@
       "magnitude": null,
       "size": "40' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6885",
@@ -13710,7 +13710,7 @@
       "magnitude": null,
       "size": "1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gum81a",
@@ -13724,7 +13724,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6751",
@@ -13776,7 +13776,7 @@
       "magnitude": null,
       "size": "3º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1375",
@@ -13836,7 +13836,7 @@
       "magnitude": null,
       "size": "35' x 35'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2175",
@@ -13856,7 +13856,7 @@
       "magnitude": null,
       "size": "40' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced55o",
@@ -13991,7 +13991,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1373",
@@ -14043,7 +14043,7 @@
       "magnitude": null,
       "size": "40' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced19k",
@@ -14090,7 +14090,7 @@
       "magnitude": null,
       "size": "1.2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn962",
@@ -14106,7 +14106,7 @@
       "magnitude": null,
       "size": "50' x 6'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "mcg1025008",
@@ -14165,7 +14165,7 @@
       "magnitude": null,
       "size": "40' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m3",
@@ -14199,7 +14199,7 @@
       "magnitude": null,
       "size": "2.5º x 2.2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6533",
@@ -14213,7 +14213,7 @@
       "magnitude": null,
       "size": "45' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2403",
@@ -14257,7 +14257,7 @@
       "magnitude": null,
       "size": "2.8º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clmelotte111",
@@ -14318,7 +14318,7 @@
       "magnitude": null,
       "size": "1.5º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn656",
@@ -14334,7 +14334,7 @@
       "magnitude": null,
       "size": "55' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn650",
@@ -14350,7 +14350,7 @@
       "magnitude": null,
       "size": "35' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m65",
@@ -14404,7 +14404,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6523",
@@ -14420,7 +14420,7 @@
       "magnitude": null,
       "size": "45' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc4755",
@@ -14454,7 +14454,7 @@
       "magnitude": null,
       "size": "30' x 9'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "gum72",
@@ -14468,7 +14468,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced152a",
@@ -14484,7 +14484,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1110",
@@ -14528,7 +14528,7 @@
       "magnitude": null,
       "size": "1.2º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "c99",
@@ -14558,7 +14558,7 @@
       "magnitude": null,
       "size": "1.5º x 40'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced6b",
@@ -14658,7 +14658,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder69",
@@ -14754,7 +14754,7 @@
       "magnitude": null,
       "size": "21'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "snrg0743084",
@@ -14785,7 +14785,7 @@
       "magnitude": null,
       "size": "14' x 2'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2685",
@@ -14826,7 +14826,7 @@
       "magnitude": null,
       "size": "1.7º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn363",
@@ -14842,7 +14842,7 @@
       "magnitude": null,
       "size": "2.3º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m78",
@@ -14875,7 +14875,7 @@
       "magnitude": null,
       "size": "1º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn672",
@@ -14891,7 +14891,7 @@
       "magnitude": null,
       "size": "2º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6752",
@@ -14940,7 +14940,7 @@
       "magnitude": null,
       "size": "2º x 1.7º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn68",
@@ -14956,7 +14956,7 @@
       "magnitude": null,
       "size": "35' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "barnard88",
@@ -15141,7 +15141,7 @@
       "magnitude": null,
       "size": "1º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn647",
@@ -15157,7 +15157,7 @@
       "magnitude": null,
       "size": "20' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic4756",
@@ -15192,7 +15192,7 @@
       "magnitude": null,
       "size": "10' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn615",
@@ -15208,7 +15208,7 @@
       "magnitude": null,
       "size": "23' x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh230",
@@ -15222,7 +15222,7 @@
       "magnitude": null,
       "size": "20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "hen31843",
@@ -15254,7 +15254,7 @@
       "magnitude": null,
       "size": "2º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh249",
@@ -15270,7 +15270,7 @@
       "magnitude": null,
       "size": "1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1975",
@@ -15284,7 +15284,7 @@
       "magnitude": null,
       "size": "10' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ic1396b",
@@ -15301,7 +15301,7 @@
       "magnitude": null,
       "size": "12' x 4'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "mcg0226027",
@@ -15361,7 +15361,7 @@
       "magnitude": null,
       "size": "40' x 15'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced19l",
@@ -15471,7 +15471,7 @@
       "magnitude": null,
       "size": "55'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "hh222",
@@ -15518,7 +15518,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc7129",
@@ -15536,7 +15536,7 @@
       "magnitude": null,
       "size": "5' x 5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m11",
@@ -15574,7 +15574,7 @@
       "magnitude": 7.1,
       "size": "1.5º x 1º",
       "surfaceBrightness": 25.06,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2392",
@@ -15772,7 +15772,7 @@
       "magnitude": 10.1,
       "size": "13' x 13'",
       "surfaceBrightness": 24.3,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "sh2281",
@@ -15786,7 +15786,7 @@
       "magnitude": null,
       "size": "1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m38",
@@ -15836,7 +15836,7 @@
       "magnitude": null,
       "size": "3.5' x 3.5'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc457",
@@ -15873,7 +15873,7 @@
       "magnitude": null,
       "size": "3.3' x 1.7'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3324",
@@ -15890,7 +15890,7 @@
       "magnitude": null,
       "size": "11' x 11'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "stephansquintet",
@@ -16070,7 +16070,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc292",
@@ -16123,7 +16123,7 @@
       "magnitude": null,
       "size": "6.2' x 6.2'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2237",
@@ -16139,7 +16139,7 @@
       "magnitude": null,
       "size": "1.3º x 50'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m36",
@@ -16185,7 +16185,7 @@
       "magnitude": null,
       "size": "1.3º x 1º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3242",
@@ -16303,7 +16303,7 @@
       "magnitude": null,
       "size": "30' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m6",
@@ -16338,7 +16338,7 @@
       "magnitude": null,
       "size": "25' x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6572",
@@ -16390,7 +16390,7 @@
       "magnitude": null,
       "size": "1.5º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc6979",
@@ -16441,7 +16441,7 @@
       "magnitude": null,
       "size": "2º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn935",
@@ -16501,7 +16501,7 @@
       "magnitude": null,
       "size": "14' x 14'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced55n",
@@ -16545,7 +16545,7 @@
       "magnitude": null,
       "size": "1º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m110",
@@ -16589,7 +16589,7 @@
       "magnitude": null,
       "size": "1.7º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ldn1773",
@@ -16659,7 +16659,7 @@
       "magnitude": null,
       "size": "1º x 10'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m50",
@@ -16742,7 +16742,7 @@
       "magnitude": null,
       "size": "3' x 3'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc1501",
@@ -16779,7 +16779,7 @@
       "magnitude": 9.0,
       "size": "3' x 1'",
       "surfaceBrightness": 18.8,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn770",
@@ -16796,7 +16796,7 @@
       "magnitude": null,
       "size": "1.5º x 1.5º",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc3532",
@@ -16829,7 +16829,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced55p",
@@ -16903,7 +16903,7 @@
       "magnitude": null,
       "size": "9'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn356",
@@ -16919,7 +16919,7 @@
       "magnitude": null,
       "size": "50' x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "lbn655",
@@ -16935,7 +16935,7 @@
       "magnitude": null,
       "size": "1.3º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "clcollinder399",
@@ -17114,7 +17114,7 @@
       "magnitude": null,
       "size": null,
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced19j",
@@ -17144,7 +17144,7 @@
       "magnitude": null,
       "size": "30' x 25'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ced19h",
@@ -17174,7 +17174,7 @@
       "magnitude": null,
       "size": "2º x 20'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "ngc2419",
@@ -17220,7 +17220,7 @@
       "magnitude": null,
       "size": "1º x 30'",
       "surfaceBrightness": null,
-      "group": "HII Region"
+      "group": "Nebula"
     },
     {
       "id": "m66",

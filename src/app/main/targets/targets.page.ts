@@ -51,6 +51,9 @@ export class TargetsPage {
   selectedGroups = signal<string[]>([]);
   visibleCount = signal(this.PAGE_SIZE);
 
+  // Filtro para exibir apenas favoritos (liked = true)
+  showOnlyLiked = signal(false);
+
   private opened: DeepSkyObject | undefined;
 
   targetGroups = computed(() => {
@@ -69,10 +72,11 @@ export class TargetsPage {
     });
   });
 
-  // Lista já filtrada automaticamente (texto + tipos)
+  // Lista já filtrada automaticamente (texto + grupos + liked)
   filteredTargets = computed(() => {
     const term = this.searchTerm().trim().toLowerCase();
     const groups = this.selectedGroups();
+    const likedOnly = this.showOnlyLiked();
     const list = this.allTargets();
 
     return list.filter(t => {
@@ -87,7 +91,10 @@ export class TargetsPage {
       const matchesGroup =
         !groups.length || groups.includes(t.group);
 
-      return matchesText && matchesGroup;
+      const matchesLiked =
+        !likedOnly || !!t.liked;
+
+      return matchesText && matchesGroup && matchesLiked;
     });
   });
 
@@ -120,10 +127,8 @@ export class TargetsPage {
   }
 
   onSearch(event: any) {
-    // ion-searchbar costuma mandar o valor em event.detail.value
     const value = event.detail?.value ?? event.target?.value ?? '';
     this.searchTerm.set(value);
-    // sempre que muda a busca, reseta a quantidade visível
     this.visibleCount.set(this.PAGE_SIZE);
   }
 
@@ -146,5 +151,14 @@ export class TargetsPage {
   likeTarget(target: DeepSkyObject) {
     target.liked = !target.liked;
     this.catalogService.toggleLike(target.id);
+    // opcional: se quiser refletir na lista de forma imutável:
+    this.allTargets.update(list =>
+      list.map(t => t.id === target.id ? { ...t, liked: target.liked } : t)
+    );
+  }
+
+  toggleLikedFilter(): void {
+    this.showOnlyLiked.update(v => !v);
+    this.visibleCount.set(this.PAGE_SIZE);
   }
 }

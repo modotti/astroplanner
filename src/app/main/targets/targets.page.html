@@ -20,14 +20,20 @@
     </ion-searchbar>
 
     <!-- Filtro por tipo -->
-    <ion-item>
-      <ion-select label="Filter by type" multiple="true" interface="popover" placeholder="All types"
-        [value]="selectedGroups()" (ionChange)="onGroupsChange($event)">
-        <ion-select-option *ngFor="let g of targetGroups()" [value]="g">
-          {{ g }}
-        </ion-select-option>
-      </ion-select>
-    </ion-item>
+    <div style="display: flex; justify-content: space-between;">
+      <ion-item>
+        <ion-select label="Filter by type" interface="popover" placeholder="All types"
+          [value]="selectedGroups()" (ionChange)="onGroupsChange($event)">
+          <ion-select-option [value]="[]">All types</ion-select-option>
+          <ion-select-option *ngFor="let g of targetGroups()" [value]="g">
+            {{ g }}
+          </ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item lines="none" class="like-filter" (click)="toggleLikedFilter()">
+        <i class="fas fa-heart fa-lg" [class.selected]="showOnlyLiked()"></i>
+      </ion-item>
+    </div>
 
     <!-- Lista de resultados (paginada) -->
     <ion-list lines="none" *ngIf="visibleTargets().length; else noResults" class="result">
