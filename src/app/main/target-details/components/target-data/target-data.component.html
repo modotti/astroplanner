@@ -1,8 +1,8 @@
 <div class="target-data">
   <div style="white-space: nowrap;">
     <div class="scoreText">Score: <span>{{ score }}</span></div>
-    <div>Constalation: {{ constellation }}</div>
-    <div class="text-sm">RA: {{ ra }} DEC: {{ dec }}</div>
+    <div *ngIf="constellation">Constalation: {{ constellation }}</div>
+    <div *ngIf="ra && dec" class="text-sm">RA: {{ ra }} DEC: {{ dec }}</div>
     <div *ngIf="magnitude" >Magnitude: {{ magnitude }}</div>
     <div *ngIf="size">Size: {{ size }}</div>
     <div *ngIf="surfaceBrightness">Surface Brightness: {{ surfaceBrightness }}</div>

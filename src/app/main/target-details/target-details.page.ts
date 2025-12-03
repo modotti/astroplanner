@@ -79,6 +79,7 @@ export class TargetDetailsPage {
 
     if (this.target && this.location) {
       const object = this.astroCoreService.mapObjectToTargetEquatorial(this.target, this.location);
+
       this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
         minAltitudeDeg: 30,
         stepMinutes: 10,

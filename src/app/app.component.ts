@@ -14,11 +14,9 @@ export class AppComponent {
   @ViewChild(IonRouterOutlet, { static: true })
   routerOutlet!: IonRouterOutlet;
 
-
   constructor(
     targetCatalogService: TargetCatalogService,
     private platform: Platform,
-    private navCtrl: NavController
   ) {
     document.body.classList.add('dark');
 
@@ -35,7 +33,7 @@ export class AppComponent {
     this.platform.ready().then(() => {
       this.platform.backButton.subscribeWithPriority(10, () => {
         if (this.routerOutlet && this.routerOutlet.canGoBack()) {
-          this.routerOutlet.pop();
+          this.routerOutlet.pop(); 
         }
       });
     });
