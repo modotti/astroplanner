@@ -1,0 +1,126 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      {{ isEditing ? 'Edit Plan' : 'New Plan' }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="user-capture-plan">
+  <div class="page-container">
+
+    <div class="target-summary" *ngIf="capturePlan">
+      <div>
+        <img [src]="target?.group | targetIcon" alt="{{ target?.type }}" class="icon">
+      </div>
+      <div>
+        <h2>{{ target?.catalogueEntry }}</h2>
+        <p>{{ target?.familiarName }}</p>
+        <p>{{ target?.type }}</p>
+      </div>
+    </div>
+
+    <form [formGroup]="form" (ngSubmit)="onSave()">
+      <ion-list>
+
+        <!-- Data (read-only) -->
+        <ion-item>
+          <i class="icon-date fas fa-calendar-alt fa-md"></i>
+          <span class="label">
+            <b>{{ sessionDate | date:'dd' }} {{ (sessionDate | date:'MMM') | lowercase }}</b>
+          </span>
+        </ion-item>
+
+        <!-- Notas -->
+        <ion-item>
+          <ion-label position="stacked">Notes</ion-label>
+          <ion-textarea formControlName="notes" autoGrow="true"
+            placeholder="Session notes, framing, conditions..."></ion-textarea>
+        </ion-item>
+
+        <!-- Exposição -->
+        <ion-item>
+          <ion-label position="stacked">Exposure time (s)</ion-label>
+          <ion-input type="number" formControlName="exposureSeconds" inputmode="decimal"></ion-input>
+        </ion-item>
+
+        <!-- ISO / Gain -->
+        <ion-item>
+          <ion-label position="stacked">ISO / Gain</ion-label>
+          <ion-input type="number" formControlName="isoGain" inputmode="numeric"></ion-input>
+        </ion-item>
+
+        <!-- Filtros -->
+        <ion-item>
+          <ion-label position="stacked">Filters</ion-label>
+          <ion-input formControlName="filters" placeholder="CLS, Hα, OIII, no filter..."></ion-input>
+        </ion-item>
+
+        <!-- Bortle -->
+        <ion-item>
+          <ion-label position="stacked">Bortle (1–9)</ion-label>
+          <ion-input type="number" formControlName="bortle" inputmode="numeric" min="1" max="9"></ion-input>
+        </ion-item>
+
+        <!-- Lights -->
+        <ion-item>
+          <ion-label position="stacked">Lights</ion-label>
+          <ion-input type="number" formControlName="lights" inputmode="numeric"></ion-input>
+        </ion-item>
+
+        <!-- Darks -->
+        <ion-item>
+          <ion-label position="stacked">Darks</ion-label>
+          <ion-input type="number" formControlName="darks" inputmode="numeric"></ion-input>
+        </ion-item>
+
+        <!-- Flats -->
+        <ion-item>
+          <ion-label position="stacked">Flats</ion-label>
+          <ion-input type="number" formControlName="flats" inputmode="numeric"></ion-input>
+        </ion-item>
+
+        <!-- Biases -->
+        <ion-item>
+          <ion-label position="stacked">Biases</ion-label>
+          <ion-input type="number" formControlName="biases" inputmode="numeric"></ion-input>
+        </ion-item>
+
+        <!-- Dark Flats -->
+        <ion-item>
+          <ion-label position="stacked">Dark Flats</ion-label>
+          <ion-input type="number" formControlName="darkFlats" inputmode="numeric"></ion-input>
+        </ion-item>
+      </ion-list>
+
+      <!-- Bloco com os cálculos automáticos -->
+      <div class="summary-box">
+        <h3>Session helpers</h3>
+
+        <div class="summary-row">
+          <span>Total integration (lights):</span>
+          <strong>{{ totalIntegrationLabel }}</strong>
+        </div>
+
+        <div class="summary-row">
+          <span>Estimated session duration:</span>
+          <strong>{{ estimatedSessionLabel }}</strong>
+        </div>
+
+        <ion-note>
+          Estimate: lights and darks use your exposure time; flats, dark flats and
+          biases assume shorter typical exposures + 30 min setup.
+        </ion-note>
+      </div>
+
+      <!-- Botão salvar -->
+      <div class="actions-row">
+        <ion-button expand="block" type="submit" [disabled]="form.invalid">
+          <i class="fas fa-save"></i>
+          <span>Save plan</span>
+        </ion-button>
+      </div>
+
+    </form>
+  </div>
+</ion-content>

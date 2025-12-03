@@ -40,9 +40,13 @@
   <ion-toolbar class="target-details">
     <div class="actions-row">
       <div>
-        <ion-button>
+        <ion-button *ngIf="!hasPlanForSession" (click)="createNewPlan()">
           <i class="fas fa-thumbtack"></i>
           <span>Create Plan</span>
+        </ion-button>
+        <ion-button *ngIf="hasPlanForSession" (click)="openPlan()">
+          <i class="fas fa-eye"></i>
+          <span>View Plan</span>
         </ion-button>
       </div>
       <div>

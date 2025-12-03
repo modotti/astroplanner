@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter, IonModal, ActionSheetController } from '@ionic/angular/standalone';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DateLocationWidgetComponent } from 'src/app/shared/components/date-location-widget/date-location-widget.component';
 import { TargetTileComponent } from './components/target-title/target-title.component';
 import { TargetDataComponent } from './components/target-data/target-data.component';
@@ -17,6 +17,8 @@ import { CommonModule } from '@angular/common';
 import { DateService } from 'src/app/core/services/date-service/date.service';
 import { WeekDatePickerComponent } from 'src/app/shared/components/week-date-picker/week-date-picker.component';
 import { TargetScoreService } from 'src/app/core/services/target-score/target-score-service';
+import { CapturePlanContextService } from 'src/app/core/services/capture-plan-context/capture-plan-context.service';
+import { UserCapturePlanService } from 'src/app/core/services/user-capture-plan/user-capture-plan.service';
 
 @Component({
   selector: 'app-target-details',
@@ -52,15 +54,21 @@ export class TargetDetailsPage {
 
   isDateModalOpen = false;
 
+  hasPlanForSession = false;
+  planIdForSession?: string;
+
   constructor(
     private route: ActivatedRoute,
+    private router: Router,
     private actionSheetCtrl: ActionSheetController,
     private dateService: DateService,
     private targetCatalogService: TargetCatalogService,
     private locationService: LocationService,
     private planningService: PlanningService,
     private astroCoreService: AstroCoreService,
-    private targetScoreService: TargetScoreService
+    private targetScoreService: TargetScoreService,
+    private capturePlanContext: CapturePlanContextService,
+    private userCapturePlanService: UserCapturePlanService,
   ) { }
 
   ionViewWillEnter(): void {
@@ -87,6 +95,8 @@ export class TargetDetailsPage {
 
       this.updatedScore = this.targetScoreService.computeScoreForTarget(this.target, this.date, this.location.latitude, this.location.longitude);
     }
+
+    this.checkExistingPlanForSession();
   }
 
   async openLinks(target: DeepSkyObject | undefined) {
@@ -187,5 +197,32 @@ export class TargetDetailsPage {
     this.dateService.setDate(date.toDateString());
     this.loadPlan();
     this.isDateModalOpen = false;
+  }
+
+  createNewPlan() {
+    if (this.plan) {
+      this.capturePlanContext.setPlan(this.plan);
+      this.router.navigate(['/main/plans/new']);
+    }
+  }
+
+  openPlan() {
+    if (this.plan) {
+      this.capturePlanContext.setPlan(this.plan);
+      this.router.navigate([`/main/plans/${this.planIdForSession}`]);
+    }
+  }
+
+  checkExistingPlanForSession() {
+    if (this.plan?.targetId && this.location) {
+      const existing = this.userCapturePlanService.findForSession(
+        this.plan.targetId,
+        this.date,
+        this.location
+      );
+
+      this.hasPlanForSession = !!existing;
+      this.planIdForSession = existing?.id;
+    }
   }
 }

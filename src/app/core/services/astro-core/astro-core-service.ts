@@ -252,7 +252,8 @@ export class AstroCoreService {
   // -------------------------------------------------------------------
 
   mapObjectToTargetEquatorial(object: DeepSkyObject, location: UserLocation): TargetEquatorial {
-    const name = object.familiarName || object.catalogueEntry || object.id;
+    const name = object.familiarName || object.catalogueEntry;
+    const id = object.id;
 
     // -------------------------
     // Planetas: usar Astronomy-Engine
@@ -265,6 +266,7 @@ export class AstroCoreService {
       const equ = Equator(body, time, this.toObserver(location), true, true);
 
       return {
+        id,
         name,
         raHours: equ.ra,      // já vem em horas
         decDegrees: equ.dec   // já vem em graus
@@ -282,6 +284,7 @@ export class AstroCoreService {
     const [decD, decM, decS] = object.dec.trim().split(/\s+/).map(Number);
 
     return {
+      id,
       name,
       raHours: this.raHmsToHours(raH, raM, raS),
       decDegrees: this.decDmsToDegrees(decD, decM, decS)
