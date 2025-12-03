@@ -97,7 +97,7 @@ export class TargetScoreService {
   // Score calculation core
   // ---------------------------------------------------------------------------
 
-  private computeScoreForTarget(
+  computeScoreForTarget(
     target: DeepSkyObject,
     date: Date,
     lat: number,

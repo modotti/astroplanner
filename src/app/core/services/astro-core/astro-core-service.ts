@@ -91,7 +91,7 @@ export class AstroCoreService {
     return sign * (Math.abs(deg) + min / 60 + sec / 3600);
   }
 
-  private toObserver(loc: ObserverLocation): Observer {
+  toObserver(loc: ObserverLocation): Observer {
     return new Observer(
       loc.latitude,
       loc.longitude,

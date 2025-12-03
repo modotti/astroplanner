@@ -1,0 +1,130 @@
+@import "src/theme/variables.scss";
+
+.ap-date-picker {
+  padding: 1rem;
+  background: #111;
+  color: #fff;
+  font-family: inherit;
+}
+
+.ap-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.ap-week-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 6px 10px;
+  opacity: 0.8;
+
+  &:disabled {
+    opacity: 0.25;
+  }
+}
+
+/* LISTA DE DIAS */
+.ap-day-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* CADA LINHA (DIA) */
+.ap-day-row {
+  width: 100%;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: left;
+
+  transition: background 0.15s ease, transform 0.12s ease, opacity 0.15s ease;
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  &.disabled {
+    opacity: 0.25;
+    cursor: default;
+  }
+
+  &.today {
+    outline: 1px solid var(--ion-color-primary);
+    ;
+  }
+
+  &.selected {
+    background: #5b0720;
+  }
+}
+
+.icon-col {
+  margin: 0 0.5rem;
+}
+
+.date-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem;
+  width: 2rem;
+
+  .day-number {
+    font-size: 1.75rem;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+
+  .day-month {
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+}
+
+.weekday-col {
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.85;
+  margin: 0 0.5rem;
+  width: 2rem;
+}
+
+.info-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.2;
+  padding-left: 0.5rem;
+
+  .percent {
+    font-size: 1.25rem;
+    font-weight: 900;
+  }
+}
+
+.rise-set {
+  margin-right: 1rem;
+  opacity: 0.6;
+}

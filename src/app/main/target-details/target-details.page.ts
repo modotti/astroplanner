@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter, ActionSheetController } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter, IonModal, ActionSheetController } from '@ionic/angular/standalone';
 import { ActivatedRoute } from '@angular/router';
 import { DateLocationWidgetComponent } from 'src/app/shared/components/date-location-widget/date-location-widget.component';
 import { TargetTileComponent } from './components/target-title/target-title.component';
@@ -10,10 +10,13 @@ import { DeepSkyObject } from 'src/app/core/models/deep-sky-object.model';
 import { UserLocation } from 'src/app/core/models/location.model';
 import { LocationService } from 'src/app/core/services/location/location.service';
 import { CapturePlan, PlanningService } from 'src/app/core/services/planning/planning-service';
-import { AstroCoreService, TargetEquatorial } from 'src/app/core/services/astro-core/astro-core-service';
+import { AstroCoreService } from 'src/app/core/services/astro-core/astro-core-service';
 import { MoonImpactComponent } from './components/moon-impact/moon-impact.component';
 import { VisibilityWindowComponent } from './components/visibility-window/visibility-window.component';
 import { CommonModule } from '@angular/common';
+import { DateService } from 'src/app/core/services/date-service/date.service';
+import { WeekDatePickerComponent } from 'src/app/shared/components/week-date-picker/week-date-picker.component';
+import { TargetScoreService } from 'src/app/core/services/target-score/target-score-service';
 
 @Component({
   selector: 'app-target-details',
@@ -29,42 +32,59 @@ import { CommonModule } from '@angular/common';
     IonButtons,
     IonBackButton,
     IonFooter,
+    IonModal,
     DateLocationWidgetComponent,
     TargetTileComponent,
     TargetDataComponent,
     MoonStatusComponent,
     MoonImpactComponent,
-    VisibilityWindowComponent
+    VisibilityWindowComponent,
+    WeekDatePickerComponent
   ]
 })
-export class TargetDetailsPage implements OnInit {
+export class TargetDetailsPage {
   public target: DeepSkyObject | undefined;
   public date: Date = new Date(Date.now());
   public location: UserLocation | undefined;
   public plan: CapturePlan | undefined;
 
+  public updatedScore: number = 0;
+
+  isDateModalOpen = false;
+
   constructor(
     private route: ActivatedRoute,
     private actionSheetCtrl: ActionSheetController,
+    private dateService: DateService,
     private targetCatalogService: TargetCatalogService,
     private locationService: LocationService,
     private planningService: PlanningService,
-    private astroCoreService: AstroCoreService) { }
+    private astroCoreService: AstroCoreService,
+    private targetScoreService: TargetScoreService
+  ) { }
 
-  async ngOnInit(): Promise<void> {
+  ionViewWillEnter(): void {
+    this.dateService.resetDate();
+
     const targetId = this.route.snapshot.paramMap.get('id');
-    this.location = await this.locationService.getCurrentLocation();
-
     if (targetId) {
       this.target = this.targetCatalogService.getById(targetId);
+      this.loadPlan();
+    }
+  }
 
-      if (this.target) {
-        const object = this.astroCoreService.mapObjectToTargetEquatorial(this.target, this.location);
-        this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
-          minAltitudeDeg: 30,
-          stepMinutes: 10,
-        });
-      }
+  async loadPlan(): Promise<void> {
+    this.location = await this.locationService.getCurrentLocation();
+    this.date = new Date(this.dateService.getDate());
+
+    if (this.target && this.location) {
+      const object = this.astroCoreService.mapObjectToTargetEquatorial(this.target, this.location);
+      this.plan = this.planningService.getCapturePlan(this.date, object, this.location, {
+        minAltitudeDeg: 30,
+        stepMinutes: 10,
+      });
+
+      this.updatedScore = this.targetScoreService.computeScoreForTarget(this.target, this.date, this.location.latitude, this.location.longitude);
     }
   }
 
@@ -152,5 +172,19 @@ export class TargetDetailsPage implements OnInit {
       return this.target.type === 'Bright Star' || ['venus', 'jupiter', 'saturn'].includes(this.target.id);
     }
     return false;
+  }
+
+  openDatePicker(): void {
+    this.isDateModalOpen = true;
+  }
+
+  closeDatePicker(): void {
+    this.isDateModalOpen = false;
+  }
+
+  onDatePicked(date: Date): void {
+    this.dateService.setDate(date.toDateString());
+    this.loadPlan();
+    this.isDateModalOpen = false;
   }
 }

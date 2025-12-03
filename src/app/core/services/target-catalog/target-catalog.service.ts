@@ -66,8 +66,6 @@ export class TargetCatalogService {
 
         this.catalogSignal.set(mergedCatalog);
 
-        console.log(mergedCatalog.objects.length)
-
         this.locationService.getCurrentLocation().then(location => {
           const lat = +location.latitude.toFixed(1);
           const lon = +location.longitude.toFixed(1);

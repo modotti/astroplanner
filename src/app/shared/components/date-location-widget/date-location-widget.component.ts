@@ -1,5 +1,5 @@
 import { DatePipe, DecimalPipe, LowerCasePipe } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { UserLocation } from 'src/app/core/models/location.model';
 import { LocationService } from 'src/app/core/services/location/location.service';
 
@@ -10,8 +10,9 @@ import { LocationService } from 'src/app/core/services/location/location.service
   imports: [DecimalPipe, DatePipe, LowerCasePipe]
 })
 export class DateLocationWidgetComponent implements OnInit {
+  @Input() date = new Date();
+
   location: UserLocation | null = null;
-  targetDate = Date.now();
 
   constructor(private locationService: LocationService) { }
 

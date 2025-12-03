@@ -1,0 +1,67 @@
+<div class="ap-date-picker">
+
+  <!-- Cabeçalho com semana e navegação -->
+  <div class="ap-header">
+    <button type="button" class="nav-btn" (click)="prevWeek()" [disabled]="!canGoPrevWeek()">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    <div class="ap-week-label">
+      {{ weekLabel }}
+    </div>
+    <button type="button" class="nav-btn" (click)="nextWeek()">
+      <i class="fas fa-chevron-right"></i>
+    </button>
+  </div>
+
+  <!-- Lista de dias (uma linha por dia) -->
+  <div class="ap-day-list">
+    <button class="ap-day-row" *ngFor="let day of weekDays" (click)="onSelect(day)" [disabled]="day.disabled"
+      [class.today]="day.isToday" [class.selected]="day.isSelected" [class.disabled]="day.disabled">
+
+      <!-- Coluna: Número + mês -->
+      <div class="date-col">
+        <div class="day-number">
+          {{ day.date | date:'dd' }}
+        </div>
+        <div class="day-month">
+          {{ day.date | date:'MMM' }}
+        </div>
+      </div>
+
+      <!-- Coluna: Dia da semana -->
+      <div class="weekday-col">
+        {{ day.date | date:'EEE' }}
+      </div>
+
+      <!-- Ícone da Lua -->
+      <div class="icon-col">
+        <app-moon-icon [illumination]="day.moonIllumination" [waxing]="day.waxingMoon" [size]="40">
+        </app-moon-icon>
+      </div>
+
+      <!-- Iluminação da Lua -->
+      <div class="info-col">
+        <div class="percent">
+          {{ day.moonIlluminationPercent | number:'1.0-0' }}%
+        </div>
+        <div>
+          {{ day.moonPhaseName }}
+        </div>
+      </div>
+
+      <!-- Rise/Set da Lua -->
+      <div class="rise-set" *ngIf="day.moonrise || day.moonset">
+        <ng-container *ngIf="day.moonrise">
+          <i class="fas fa-arrow-up fa-xs"></i>
+          {{ day.moonrise | date:'HH:mm' }}
+        </ng-container>
+        <br />
+        <ng-container *ngIf="day.moonset">
+          <i class="fas fa-arrow-down fa-xs"></i>
+          {{ day.moonset | date:'HH:mm' }}
+        </ng-container>
+      </div>
+
+    </button>
+  </div>
+</div>

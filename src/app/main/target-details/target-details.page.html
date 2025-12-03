@@ -17,11 +17,11 @@
   </ion-header>
 
   <div class="target-details">
-    <app-date-location-widget />
+    <app-date-location-widget [date]="date" (click)="openDatePicker()"/>
     <app-target-title [target]="target" (targetLiked)="likeTarget($event)" />
     <div class="info-row">
       <div>
-        <app-target-data [target]="target" />
+        <app-target-data [target]="target" [score]="updatedScore"/>
       </div>
       <div style="flex: 0 0;">
         <app-moon-status [sky]="plan?.sky" />
@@ -42,15 +42,34 @@
       <div>
         <ion-button>
           <i class="fas fa-thumbtack"></i>
-          <span style="margin-left: 0.5rem;">Create Plan</span>
+          <span>Create Plan</span>
         </ion-button>
       </div>
       <div>
         <ion-button fill="outline" (click)="openLinks(target)">
           <i class="fas fa-link"></i>
-          <span style="margin-left: 0.5rem;">Links</span>
+          <span>Links</span>
         </ion-button>
       </div>
     </div>
   </ion-toolbar>
 </ion-footer>
+
+<!-- Modal com o date picker -->
+<ion-modal [isOpen]="isDateModalOpen" (didDismiss)="closeDatePicker()">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Select date</ion-title>
+        <ion-buttons slot="end">
+          <ion-button (click)="closeDatePicker()">Close</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <app-week-date-picker [initialDate]="date" (dateSelected)="onDatePicked($event)">
+      </app-week-date-picker>
+    </ion-content>
+  </ng-template>
+</ion-modal>
