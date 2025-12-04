@@ -23,8 +23,8 @@
     <div style="display: flex; justify-content: space-between;">
       <ion-item>
         <ion-select label="Filter by type" interface="popover" placeholder="All types"
-          [value]="selectedGroups()" (ionChange)="onGroupsChange($event)">
-          <ion-select-option [value]="[]">All types</ion-select-option>
+          [value]="selectedGroup()" (ionChange)="onGroupsChange($event)">
+          <ion-select-option [value]="null">All types</ion-select-option>
           <ion-select-option *ngFor="let g of targetGroups()" [value]="g">
             {{ g }}
           </ion-select-option>

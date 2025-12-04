@@ -45,10 +45,13 @@ export class TargetsPage {
   // Quantidade de itens exibidos por "página"
   private readonly PAGE_SIZE = 60;
 
+  // Chave do localStorage para filtros
+  private readonly FILTER_STORAGE_KEY = 'ap_targets_filter';
+
   // Signals
   private allTargets = signal<DeepSkyObject[]>([]);
   searchTerm = signal('');
-  selectedGroups = signal<string[]>([]);
+  selectedGroup = signal('');
   visibleCount = signal(this.PAGE_SIZE);
 
   // Filtro para exibir apenas favoritos (liked = true)
@@ -56,6 +59,7 @@ export class TargetsPage {
 
   private opened: DeepSkyObject | undefined;
 
+  // Grupos disponíveis
   targetGroups = computed(() => {
     const groups = new Set<string>();
 
@@ -75,7 +79,7 @@ export class TargetsPage {
   // Lista já filtrada automaticamente (texto + grupos + liked)
   filteredTargets = computed(() => {
     const term = this.searchTerm().trim().toLowerCase();
-    const groups = this.selectedGroups();
+    const groups = this.selectedGroup();
     const likedOnly = this.showOnlyLiked();
     const list = this.allTargets();
 
@@ -109,9 +113,16 @@ export class TargetsPage {
     private navCtrl: NavController
   ) { }
 
+  // -------------------------------------------------------
+  // Lifecycle
+  // -------------------------------------------------------
+
   ngOnInit(): void {
     // Carregar catálogo
     this.allTargets.set(this.catalogService.getAll());
+
+    // Restaurar filtros do localStorage
+    this.loadFiltersFromStorage();
   }
 
   ionViewWillEnter(): void {
@@ -126,6 +137,10 @@ export class TargetsPage {
     }
   }
 
+  // -------------------------------------------------------
+  // Handlers
+  // -------------------------------------------------------
+
   onSearch(event: any) {
     const value = event.detail?.value ?? event.target?.value ?? '';
     this.searchTerm.set(value);
@@ -133,8 +148,15 @@ export class TargetsPage {
   }
 
   onGroupsChange(event: any) {
-    this.selectedGroups.set(event.detail?.value ?? []);
+    this.selectedGroup.set(event.detail?.value ?? []);
     this.visibleCount.set(this.PAGE_SIZE);
+    this.saveFiltersToStorage();
+  }
+
+  toggleLikedFilter(): void {
+    this.showOnlyLiked.update(v => !v);
+    this.visibleCount.set(this.PAGE_SIZE);
+    this.saveFiltersToStorage();
   }
 
   loadMore(): void {
@@ -151,14 +173,51 @@ export class TargetsPage {
   likeTarget(target: DeepSkyObject) {
     target.liked = !target.liked;
     this.catalogService.toggleLike(target.id);
-    // opcional: se quiser refletir na lista de forma imutável:
+
+    // refletir na lista de forma imutável
     this.allTargets.update(list =>
       list.map(t => t.id === target.id ? { ...t, liked: target.liked } : t)
     );
   }
 
-  toggleLikedFilter(): void {
-    this.showOnlyLiked.update(v => !v);
-    this.visibleCount.set(this.PAGE_SIZE);
+  // -------------------------------------------------------
+  // Persistência de filtros
+  // -------------------------------------------------------
+
+  private saveFiltersToStorage(): void {
+    try {
+      const data = {
+        group: this.selectedGroup(),
+        likedOnly: this.showOnlyLiked()
+      };
+      localStorage.setItem(this.FILTER_STORAGE_KEY, JSON.stringify(data));
+    } catch (err) {
+      console.warn('Erro ao salvar filtros de targets no localStorage', err);
+    }
+  }
+
+  private loadFiltersFromStorage(): void {
+    try {
+      const raw = localStorage.getItem(this.FILTER_STORAGE_KEY);
+      if (!raw) return;
+
+      const parsed = JSON.parse(raw) as {
+        group?: string;
+        likedOnly?: boolean;
+      };
+
+      if (parsed.group) {
+        this.selectedGroup.set(parsed.group);
+      }
+
+      if (typeof parsed.likedOnly === 'boolean') {
+        this.showOnlyLiked.set(parsed.likedOnly);
+      }
+
+      // sempre que mudamos filtros, faz sentido resetar a paginação
+      this.visibleCount.set(this.PAGE_SIZE);
+    } catch (err) {
+      console.warn('Erro ao restaurar filtros de targets do localStorage', err);
+    }
   }
 }
