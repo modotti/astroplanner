@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, OnInit, signal } from '@angular/core';
 import { Router } from '@angular/router';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonButton } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonButton, IonAlert, AlertController } from '@ionic/angular/standalone';
 import { DeepSkyObject } from 'src/app/core/models/deep-sky-object.model';
 import { UserCapturePlan } from 'src/app/core/models/user-capture-plan.model';
 import { AstroCoreService } from 'src/app/core/services/astro-core/astro-core-service';
@@ -20,7 +20,7 @@ interface PlanListItem {
   selector: 'app-plans',
   templateUrl: 'plans.page.html',
   styleUrls: ['plans.page.scss'],
-  imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonButton, PlanCardComponent]
+  imports: [CommonModule, IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem, IonLabel, IonButton, IonAlert, PlanCardComponent]
 })
 export class PlansPage implements OnInit {
 
@@ -39,6 +39,7 @@ export class PlansPage implements OnInit {
     private astroCoreService: AstroCoreService,
     private planningService: PlanningService,
     private capturePlanContextService: CapturePlanContextService,
+    private alertController: AlertController
   ) { }
 
   ngOnInit(): void { }
@@ -89,8 +90,27 @@ export class PlansPage implements OnInit {
     });
   }
 
-  deleteUserCapturePlan(userPlan: UserCapturePlan): void {
-    this.planService.delete(userPlan.id);
-    this.loadUserPlans();
+  async deleteUserCapturePlan(userPlan: UserCapturePlan): Promise<void> {
+    const alert = await this.alertController.create({
+      header: 'Confirm Plan Deletion',
+      message: 'Do you really want to delete this capture plan? All information for this plan will be permanently removed.',
+      buttons: [
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          handler: () => { },
+        },
+        {
+          text: 'Yes',
+          role: 'confirm',
+          handler: (plan: any) => {
+            this.planService.delete(userPlan.id);
+            this.loadUserPlans();
+          },
+        },
+      ],
+    });
+
+    await alert.present();
   }
 }

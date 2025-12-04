@@ -17,14 +17,7 @@
       Notes: {{ userPlan?.notes }}
     </div>
   </ion-label>
-  <ion-button id="delete-button" fill="clear" color="primary">
+  <ion-button id="delete-button" fill="clear" color="primary" (click)="deletePlan()">
     <i class="fas fa-trash-alt fa-lg"></i>
   </ion-button>
 </ion-item>
-
-<ion-alert
-  trigger="delete-button"
-  header="Confirm Plan Deletion"
-  message="Do you really want to delete this capture plan? All information for this plan will be permanently removed."
-  [buttons]="confirmDeleteButtons"
-></ion-alert>
