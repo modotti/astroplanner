@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter, IonModal, ActionSheetController } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonButton, IonButtons, IonBackButton, IonFooter, IonModal, ActionSheetController, NavController } from '@ionic/angular/standalone';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DateLocationWidgetComponent } from 'src/app/shared/components/date-location-widget/date-location-widget.component';
 import { TargetTileComponent } from './components/target-title/target-title.component';
@@ -67,7 +67,7 @@ export class TargetDetailsPage {
     private planningService: PlanningService,
     private astroCoreService: AstroCoreService,
     private targetScoreService: TargetScoreService,
-    private capturePlanContext: CapturePlanContextService,
+    private capturePlanContextService: CapturePlanContextService,
     private userCapturePlanService: UserCapturePlanService,
   ) { }
 
@@ -199,14 +199,14 @@ export class TargetDetailsPage {
 
   createNewPlan() {
     if (this.plan) {
-      this.capturePlanContext.setPlan(this.plan);
+      this.capturePlanContextService.setPlan(this.plan);
       this.router.navigate(['/main/plans/new']);
     }
   }
 
   openPlan() {
     if (this.plan) {
-      this.capturePlanContext.setPlan(this.plan);
+      this.capturePlanContextService.setPlan(this.plan);
       this.router.navigate([`/main/plans/${this.planIdForSession}`]);
     }
   }
@@ -222,5 +222,9 @@ export class TargetDetailsPage {
       this.hasPlanForSession = !!existing;
       this.planIdForSession = existing?.id;
     }
+  }
+
+  goBack() {
+    this.router.navigate(['/main/targets']);
   }
 }

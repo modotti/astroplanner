@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Plans
-    </ion-title>
+    <ion-title>Plans</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,5 +11,25 @@
     </ion-toolbar>
   </ion-header>
 
-  Plans
+  <div class="plans-page">
+    <div class="session-label">
+      <div>
+        <i class="fas fa-thumbtack fa-lg"></i>
+      </div>
+      <div>
+        Manage your capture plans and prepare for your next night of observation. Your saved plans are listed below.
+      </div>
+    </div>
+
+    <ion-list lines="none" *ngIf="planItems().length; else empty">
+      <app-plan-card *ngFor="let item of planItems()" [target]="item.target" [userPlan]="item.plan"
+        (userPlanSelect)="openUserCapturePlan($event)" (userPlanDelete)="deleteUserCapturePlan($event)" />
+    </ion-list>
+
+    <ng-template #empty>
+      <div class="empty-container">
+        <p>No plans saved yet.</p>
+      </div>
+    </ng-template>
+  </div>
 </ion-content>

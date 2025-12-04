@@ -1,0 +1,30 @@
+<ion-item class="plan-card">
+  <img [src]="target?.group | targetIcon" alt="{{ target?.type }}" class="icon" (click)="selectPlan()">
+  <ion-label (click)="selectPlan()">
+    <h2>{{ target?.familiarName || target?.catalogueEntry }}</h2>
+    <p>{{ target?.catalogueEntry }} • {{ target?.type }}</p>
+
+    <div class="info-row">
+      <i class="icon-date fas fa-calendar-alt fa-md"></i>
+      <span class="label">
+        <b>{{ userPlan?.date | date:'dd' }} {{ (userPlan?.date | date:'MMM') | lowercase }}</b>
+      </span>
+      <span *ngIf="userPlan?.lights && userPlan?.exposureSeconds">
+         • {{ userPlan?.lights }} lights x {{ userPlan?.exposureSeconds }}s
+      </span>
+    </div>
+    <div class="info-row">
+      Notes: {{ userPlan?.notes }}
+    </div>
+  </ion-label>
+  <ion-button id="delete-button" fill="clear" color="primary">
+    <i class="fas fa-trash-alt fa-lg"></i>
+  </ion-button>
+</ion-item>
+
+<ion-alert
+  trigger="delete-button"
+  header="Confirm Plan Deletion"
+  message="Do you really want to delete this capture plan? All information for this plan will be permanently removed."
+  [buttons]="confirmDeleteButtons"
+></ion-alert>

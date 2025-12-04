@@ -2,7 +2,7 @@
   <img [src]="target?.group | targetIcon" alt="{{ target?.type }}" class="icon" (click)="selectTarget(target)">
   <ion-label (click)="selectTarget(target)">
     <h2>{{ target?.familiarName || target?.catalogueEntry }}</h2>
-    <p>{{ target?.catalogueEntry }}</p>
+    <p>{{ target?.catalogueEntry }}
     <p>{{ target?.type }}</p>
   </ion-label>
   <ion-label class="score-col" (click)="selectTarget(target)">

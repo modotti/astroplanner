@@ -17,7 +17,10 @@ import {
   IonInput,
   IonTextarea,
   IonButton,
+  IonButtons,
+  IonBackButton,
   IonNote,
+  IonIcon,
   IonFooter
 } from '@ionic/angular/standalone';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -50,7 +53,10 @@ import { TargetIconPipe } from '../../pipes/target-icon.pipe';
     IonInput,
     IonTextarea,
     IonButton,
+    IonButtons,
+    IonBackButton,
     IonNote,
+    IonIcon,
     IonFooter,
     TargetIconPipe
   ],
@@ -285,5 +291,9 @@ export class UserCapturePlanPage implements OnInit {
 
   private generateId(): string {
     return 'plan_' + Date.now() + '_' + Math.random().toString(36).slice(2, 9);
+  }
+
+  goBack() {
+    this.nav.back();
   }
 }

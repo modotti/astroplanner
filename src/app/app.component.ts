@@ -3,7 +3,6 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 import { Platform, NavController } from '@ionic/angular';
 import { TargetCatalogService } from './core/services/target-catalog/target-catalog.service';
 import { StatusBar, Style } from '@capacitor/status-bar';
-import { App } from '@capacitor/app';
 
 @Component({
   selector: 'app-root',

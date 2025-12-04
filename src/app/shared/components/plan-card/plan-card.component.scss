@@ -1,0 +1,30 @@
+@import "src/theme/variables.scss";
+
+.plan-card {
+  border: solid 1px #333;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+
+  h2 {
+    font-weight: 900;
+    font-size: 1.25rem;
+  }
+
+  p {
+    line-height: 1;
+  }
+
+  .info-row {
+    margin: 0.5rem 0;
+  }
+
+  .icon {
+    width: 3rem;
+    margin-right: 0.75rem;
+  }
+
+  .icon-date {
+    color: var(--ion-color-primary);
+    margin-right: 0.5rem;
+  }
+}

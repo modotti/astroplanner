@@ -1,7 +1,16 @@
 @import "src/theme/variables.scss";
 
 .target-page {
-  margin: 1rem 1rem;
+  margin: 1rem;
+
+  .session-label {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    font-size: 1.25rem;
+    align-items: center;
+    margin: 1rem;
+  }
 
   .icon {
     width: 3rem;
