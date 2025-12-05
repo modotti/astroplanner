@@ -16,6 +16,7 @@ import { TargetIconPipe } from "src/app/main/pipes/target-icon.pipe";
 export class PlanCardComponent {
   @Input() target: DeepSkyObject | undefined;
   @Input() userPlan: UserCapturePlan | undefined;
+  @Input() enableDeletion: boolean = false;
 
   @Output() userPlanSelect = new EventEmitter<UserCapturePlan>();
   @Output() userPlanDelete = new EventEmitter<UserCapturePlan>();

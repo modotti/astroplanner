@@ -1,4 +1,4 @@
-<ion-item class="target-card">
+<ion-item lines="none" class="target-card">
   <img [src]="target?.group | targetIcon" alt="{{ target?.type }}" class="icon" (click)="selectTarget(target)">
   <ion-label (click)="selectTarget(target)">
     <h2>{{ target?.familiarName || target?.catalogueEntry }}</h2>

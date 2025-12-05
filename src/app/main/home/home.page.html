@@ -1,18 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Home
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Home</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-location-widget />
+  <div style="margin-top: 2rem;">
+    <app-location-widget />
+  </div>
   <app-today-widget />
+  <div class="home">
+    <div class="row" *ngIf="nextPlan">
+      <h3>Your next Capture Plan:</h3>
+      <app-plan-card [target]="nextPlan?.target" [userPlan]="nextPlan?.plan"
+        (userPlanSelect)="openUserCapturePlan($event)" />
+    </div>
+    <div class="row" *ngIf="!nextPlan">
+      <p><b>Atention!</b><br /> You haven’t created any capture plans yet. Explore the targets, choose the best date,
+        and start preparing your capture plans for the nights ahead.</p>
+    </div>
+    <div class="row">
+      <h3>Your top targets for today:</h3>
+      <app-target-card *ngFor="let t of topTargets" [target]="t" (targetSelected)="openTarget($event)" />
+    </div>
+    <div class="actions-row">
+      <div>
+        <ion-button fill="outline" (click)="goSkyConditions()">
+          <i class="fas fa-cloud-moon"></i>
+          <span>See sky conditions</span>
+        </ion-button>
+        <div class="clearoutside">by clearoutside.com</div>
+      </div>
+    </div>
+  </div>
 </ion-content>

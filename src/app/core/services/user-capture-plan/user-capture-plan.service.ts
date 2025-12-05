@@ -35,6 +35,10 @@ export class UserCapturePlanService {
     return this.loadPlans().find(p => p.id === id);
   }
 
+  getNext(): UserCapturePlan | undefined {
+    return this.loadPlans()[0];
+  }
+
   save(plan: UserCapturePlan): UserCapturePlan {
     const plans = this.loadPlans();
     const idx = plans.findIndex(p => p.id === plan.id);

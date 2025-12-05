@@ -18,6 +18,7 @@ import { DeepSkyObject } from 'src/app/core/models/deep-sky-object.model';
 import { TargetCatalogService } from 'src/app/core/services/target-catalog/target-catalog.service';
 import { TargetIconPipe } from '../pipes/target-icon.pipe';
 import { TargetCardComponent } from 'src/app/shared/components/target-card/target-card.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-targets',
@@ -109,8 +110,8 @@ export class TargetsPage {
   });
 
   constructor(
+    private router: Router,
     private catalogService: TargetCatalogService,
-    private navCtrl: NavController
   ) { }
 
   // -------------------------------------------------------
@@ -167,7 +168,7 @@ export class TargetsPage {
 
   openTarget(target: DeepSkyObject) {
     this.opened = target;
-    this.navCtrl.navigateForward(['/main/targets/details', target.id]);
+    this.router.navigate(['/main/targets/details', target.id]);
   }
 
   likeTarget(target: DeepSkyObject) {

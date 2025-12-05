@@ -23,7 +23,8 @@
 
     <ion-list lines="none" *ngIf="planItems().length; else empty">
       <app-plan-card *ngFor="let item of planItems()" [target]="item.target" [userPlan]="item.plan"
-        (userPlanSelect)="openUserCapturePlan($event)" (userPlanDelete)="deleteUserCapturePlan($event)" />
+        (userPlanSelect)="openUserCapturePlan($event)" (userPlanDelete)="deleteUserCapturePlan($event)"
+        [enableDeletion]="true" />
     </ion-list>
 
     <ng-template #empty>

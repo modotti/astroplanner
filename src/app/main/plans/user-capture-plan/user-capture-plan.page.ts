@@ -21,7 +21,8 @@ import {
   IonBackButton,
   IonNote,
   IonIcon,
-  IonFooter
+  IonFooter,
+  ToastController
 } from '@ionic/angular/standalone';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NavController } from '@ionic/angular';
@@ -82,6 +83,7 @@ export class UserCapturePlanPage implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private nav: NavController,
+    private toastController: ToastController,
     private userPlanService: UserCapturePlanService,
     private targetCatalogService: TargetCatalogService,
     private capturePlanContext: CapturePlanContextService,
@@ -288,6 +290,7 @@ export class UserCapturePlanPage implements OnInit {
     };
 
     this.userPlanService.save(plan);
+    this.successToast();
     this.router.navigate(['/main/plans']);
   }
 
@@ -306,5 +309,15 @@ export class UserCapturePlanPage implements OnInit {
   seeDetails(): void {
     this.dateService.setDate(this.sessionDate.toISOString());
     this.router.navigate([`/main/targets/details/${this.capturePlan?.targetId}`]);
+  }
+
+  async successToast() {
+    const toast = await this.toastController.create({
+      message: 'Capture plan saved successfully!',
+      duration: 1500,
+      position: 'bottom',
+      color: 'primary'
+    });
+    await toast.present();
   }
 }

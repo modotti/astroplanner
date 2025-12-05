@@ -34,7 +34,7 @@ export class PlansPage implements OnInit {
 
   constructor(
     private router: Router,
-    private planService: UserCapturePlanService,
+    private userCapturePlanService: UserCapturePlanService,
     private catalogService: TargetCatalogService,
     private astroCoreService: AstroCoreService,
     private planningService: PlanningService,
@@ -49,7 +49,7 @@ export class PlansPage implements OnInit {
   }
 
   loadUserPlans(): void {
-    const loaded = this.planService.getAll().sort((a, b) => {
+    const loaded = this.userCapturePlanService.getAll().sort((a, b) => {
       return a.date.localeCompare(b.date);
     });
     this.plans.set(loaded);
@@ -104,7 +104,7 @@ export class PlansPage implements OnInit {
           text: 'Yes',
           role: 'confirm',
           handler: (plan: any) => {
-            this.planService.delete(userPlan.id);
+            this.userCapturePlanService.delete(userPlan.id);
             this.loadUserPlans();
           },
         },

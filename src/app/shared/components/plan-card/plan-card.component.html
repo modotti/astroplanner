@@ -1,4 +1,4 @@
-<ion-item class="plan-card">
+<ion-item lines="none" class="plan-card">
   <img [src]="target?.group | targetIcon" alt="{{ target?.type }}" class="icon" (click)="selectPlan()">
   <ion-label (click)="selectPlan()">
     <h2>{{ target?.familiarName || target?.catalogueEntry }}</h2>
@@ -17,7 +17,7 @@
       Notes: {{ userPlan?.notes }}
     </div>
   </ion-label>
-  <ion-button id="delete-button" fill="clear" color="primary" (click)="deletePlan()">
+  <ion-button id="delete-button" fill="clear" color="primary" (click)="deletePlan()" *ngIf="enableDeletion">
     <i class="fas fa-trash-alt fa-lg"></i>
   </ion-button>
 </ion-item>

@@ -1,0 +1,48 @@
+@import "src/theme/variables.scss";
+
+.home {
+  margin: 1rem;
+
+  .row {
+    p {
+      font-size: 1rem;
+      margin: 2rem;
+      text-align: center;
+
+      b {
+        color: var(--ion-color-primary);
+      }
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 900;
+      margin-left: 1rem;
+      line-height: 0.5;
+    }
+  }
+
+  .actions-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+
+    .clearoutside {
+      font-size: 0.75rem;
+      text-align: right;
+      color: gray;
+      line-height: 0.75;
+      margin-right: 0.25rem;
+    }
+  }
+
+  ion-button {
+    span {
+      font-weight: 900;
+      margin-left: 0.5rem;
+    }
+  }
+
+
+}
