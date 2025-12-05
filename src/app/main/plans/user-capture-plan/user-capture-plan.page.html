@@ -6,6 +6,9 @@
     <ion-title>
       {{ isEditing ? 'Edit Plan' : 'New Plan' }}
     </ion-title>
+    <ion-button slot="end" fill="clear" color="light" (click)="close()">
+      <i class="fas fa-times fa-lg"></i>
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
@@ -118,9 +121,13 @@
 
       <!-- Botão salvar -->
       <div class="actions-row">
-        <ion-button expand="block" type="submit" [disabled]="form.invalid">
+        <ion-button type="submit" [disabled]="form.invalid">
           <i class="fas fa-save"></i>
           <span>Save plan</span>
+        </ion-button>
+        <ion-button fill="outline" (click)="seeDetails()">
+          <i class="fas fa-eye"></i>
+          <span>See details</span>
         </ion-button>
       </div>
 

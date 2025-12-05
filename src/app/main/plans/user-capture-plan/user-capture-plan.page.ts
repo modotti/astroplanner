@@ -34,6 +34,7 @@ import { CapturePlanContextService } from 'src/app/core/services/capture-plan-co
 import { DeepSkyObject } from 'src/app/core/models/deep-sky-object.model';
 import { TargetCatalogService } from 'src/app/core/services/target-catalog/target-catalog.service';
 import { TargetIconPipe } from '../../pipes/target-icon.pipe';
+import { DateService } from 'src/app/core/services/date-service/date.service';
 
 @Component({
   selector: 'app-user-capture-plan-page',
@@ -83,7 +84,8 @@ export class UserCapturePlanPage implements OnInit {
     private nav: NavController,
     private userPlanService: UserCapturePlanService,
     private targetCatalogService: TargetCatalogService,
-    private capturePlanContext: CapturePlanContextService
+    private capturePlanContext: CapturePlanContextService,
+    private dateService: DateService,
   ) { }
 
   ngOnInit(): void {
@@ -295,5 +297,14 @@ export class UserCapturePlanPage implements OnInit {
 
   goBack() {
     this.nav.back();
+  }
+
+  close() {
+    this.router.navigate(['/main/plans']);
+  }
+
+  seeDetails(): void {
+    this.dateService.setDate(this.sessionDate.toISOString());
+    this.router.navigate([`/main/targets/details/${this.capturePlan?.targetId}`]);
   }
 }
