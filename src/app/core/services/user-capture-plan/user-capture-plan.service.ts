@@ -36,7 +36,10 @@ export class UserCapturePlanService {
   }
 
   getNext(): UserCapturePlan | undefined {
-    return this.loadPlans()[0];
+    const loaded = this.getAll().sort((a, b) => {
+      return a.date.localeCompare(b.date);
+    });
+    return loaded[0];
   }
 
   save(plan: UserCapturePlan): UserCapturePlan {
